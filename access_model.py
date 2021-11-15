@@ -113,6 +113,7 @@ def get_predictions_roberta(input_sents,model,tokenizer,k=5, bert=True):
     tok_probs = []
     for tokenized_text, mi, tokens_tensor in prep_input_roberta(input_sents,tokenizer):
         with torch.no_grad():
+          tokenized_text = tokenized_text.to('cuda')
           predictions = model(**tokenized_text)
           predictions = predictions.logits
         predicted_tokens = []
