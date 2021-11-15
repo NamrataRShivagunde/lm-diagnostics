@@ -6,18 +6,15 @@ import copy
 import numpy as np
 from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
 from pytorch_pretrained_bert import OpenAIGPTTokenizer, OpenAIGPTModel, OpenAIGPTLMHeadModel
-from transformers import RobertaTokenizer, RobertaModel, RobertaForMaskedLM
-from transformers import DistilBertTokenizer, DistilBertForMaskedLM
-from transformers import AlbertTokenizer, AlbertForMaskedLM
+import transformers
 
 def load_model(modeldir):
     tokenizer = BertTokenizer.from_pretrained(modeldir)
     # Load pre-trained model (weights)
     model = BertForMaskedLM.from_pretrained(modeldir)
     model.eval()
-    # model.to('cuda')
+    model.to('cuda')
     return model,tokenizer
-
 
 def prep_input(input_sents, tokenizer,bert=True):
     for sent in input_sents:
@@ -45,7 +42,7 @@ def get_predictions(input_sents,model,tokenizer,k=5,bert=True):
     tok_probs = []
 
     for tokens_tensor, mi, tokensized_text in prep_input(input_sents,tokenizer,bert=bert):
-        tokens_tensor = tokens_tensor#.to('cuda')
+        tokens_tensor = tokens_tensor.to('cuda')
 
         with torch.no_grad():
             predictions = model(tokens_tensor)
@@ -70,7 +67,7 @@ def get_predictions(input_sents,model,tokenizer,k=5,bert=True):
 def get_probabilities(input_sents,tgtlist,model,tokenizer,bert=True):
     token_probs = []
     for i,(tokens_tensor, mi,_) in enumerate(prep_input(input_sents,tokenizer,bert=bert)):
-        tokens_tensor = tokens_tensor#.to('cuda')
+        tokens_tensor = tokens_tensor.to('cuda')
 
         with torch.no_grad():
             predictions = model(tokens_tensor)
@@ -91,18 +88,11 @@ def get_probabilities(input_sents,tgtlist,model,tokenizer,bert=True):
 ################################# Roberta #######################################################
 
 def load_model_roberta(modeldir):
-      # Load pre-trained model tokenizer (vocabulary)
-    if modeldir=='distilbert-base-uncased':
-        tokenizer = DistilBertTokenizer.from_pretrained(modeldir)
-        model = DistilBertForMaskedLM.from_pretrained(modeldir)
-    elif modeldir == 'albert-large-v2':
-        tokenizer = AlbertTokenizer.from_pretrained(modeldir)
-        model = AlbertForMaskedLM.from_pretrained(modeldir)
-    else:
-        tokenizer = RobertaTokenizer.from_pretrained(modeldir)
-        model = RobertaForMaskedLM.from_pretrained(modeldir)
+    # Load pre-trained model tokenizer (vocabulary)
+    tokenizer = transformers.AutoTokenizer.from_pretrained(modeldir)
+    model = transformers.AutoModelWithLMHead.from_pretrained(modeldir)
     model.eval()
-    # model.to('cuda')
+    model.to('cuda')
     return model,tokenizer
 
 def prep_input_roberta(input_sents, tokenizer,bert=True):
@@ -144,7 +134,7 @@ def get_predictions_roberta(input_sents,model,tokenizer,k=5, bert=True):
 def get_probabilities_roberta(input_sents,tgtlist,model,tokenizer,bert=True):
     token_probs = []
     for i,(tokens_tensor, mi,_) in enumerate(prep_input_roberta(input_sents,tokenizer,bert=bert)):
-        tokens_tensor = tokens_tensor#.to('cuda')
+        tokens_tensor = tokens_tensor.to('cuda')
 
         with torch.no_grad():
             predictions = model(**tokens_tensor)
