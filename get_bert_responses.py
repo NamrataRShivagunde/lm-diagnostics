@@ -9,8 +9,6 @@ import scipy
 import scipy.stats
 from io import open
 
-
-
 def get_model_responses(inputlist,tgtlist,modeliname,model,tokenizer,k=5,bert=True):
     top_preds,top_probs = tp.get_predictions(inputlist,model,tokenizer,k=k,bert=bert)
     tgt_probs = tp.get_probabilities(inputlist,tgtlist,model,tokenizer,bert=bert)
@@ -30,22 +28,23 @@ if __name__ == "__main__":
     bert_base,tokenizer_base = tp.load_model(args.bertbase)
     bert_large,tokenizer_large = tp.load_model(args.bertlarge)
 
-
     k = 5
 
-    models = [('bert-base-uncased',bert_base,tokenizer_base),('bert-large-uncased',bert_large,tokenizer_large)]
+    models = [('bert-base-uncased',bert_base,tokenizer_base),
+    ('bert-large-uncased',bert_large,tokenizer_large)]
 
     for testname in testlist:
         inputlist = []
         tgtlist = []
+        print("1 check")
         with open(os.path.join(args.inputdir,testname+'-contextlist')) as cont:
             for line in cont: inputlist.append(line.strip())
         with open(os.path.join(args.inputdir,testname+'-targetlist')) as comp:
             for line in comp: tgtlist.append(line.strip())
-
+        print("2 check")
         for modelname,model,tokenizer in models:
+            print("3 check")
             top_preds,top_probs,tgt_probs = get_model_responses(inputlist,tgtlist,modelname,model,tokenizer,k=k)
-
             with open(args.inputdir+'/modelpreds-%s-%s'%(testname,modelname),'w') as pred_out:
                 for i,preds in enumerate(top_preds):
                     pred_out.write(' '.join(preds))

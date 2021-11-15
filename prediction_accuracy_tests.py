@@ -130,7 +130,8 @@ if __name__ == "__main__":
             for modelname in args.models:
                 out.write('\n\n***\nMODEL: %s\n***\n'%modelname)
                 word_preds_full = []
-                with open(os.path.join(args.preddir,'modelpreds-%s-%s'%(testname,modelname))) as predfile:
+                #added encoding='utf8' for albert-large-v2
+                with open(os.path.join(args.preddir,'modelpreds-%s-%s'%(testname,modelname)), encoding='utf8') as predfile:
                     for line in predfile: word_preds_full.append(line.strip().split())
                 for k in args.k_values:
                     out.write('\n--\nk = %s\n--\n'%k)

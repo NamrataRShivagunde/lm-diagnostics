@@ -1,5 +1,5 @@
 item	context_s1	context_s2	expected	within_category	between_category	constraint
-0	“Checkmate,” Rosaline announced with glee.	She was getting to be really good at	chess	monopoly	football	H
+0	"Checkmate," Rosaline announced with glee.	She was getting to be really good at	chess	monopoly	football	H
 1	Justin put a second house on Park Place.	He and his sister often spent hours playing	monopoly	chess	baseball	H
 2	He caught the pass and scored another touchdown.	There was nothing he enjoyed more than a good game of	football	baseball	monopoly	H
 3	Rich couldn’t count the number of Yankees games he had seen with his father.	They both shared a lifelong interest in	baseball	football	chess	H
@@ -31,5 +31,5 @@ item	context_s1	context_s2	expected	within_category	between_category	constraint
 29	After they unpacked the new refrigerator, they let Billy have his fun.	He played for days afterwards with the big	box	jar	button	L
 30	It seemed to catch every time she opened or closed her backpack.	She decided she would have to replace the	zipper	button	box	H
 31	One fell off her blouse and got lost, and she didn’t have any extras.	She ended up searching all over town to find a matching	button	zipper	jar	H
-32	“I’m an animal like Eeyore!” the child exclaimed.	His mother wondered why he was pretending to be a	donkey	zebra	greyhound	L
+32	“I’m an animal like Eeyore!" the child exclaimed.	His mother wondered why he was pretending to be a	donkey	zebra	greyhound	L
 33	At the zoo, my sister asked if they painted the black and white stripes on the animal.	I explained to her that they were natural features of a	zebra	donkey	chihuahua	H

@@ -626,19 +626,21 @@ if __name__ == "__main__":
     parser.add_argument("--resultsdir",default=None, type=str)
     parser.add_argument("--bertbase",default=None, type=str)
     parser.add_argument("--bertlarge",default=None, type=str)
+    parser.add_argument("--robertabase",default=None, type=str)
     parser.add_argument("--incl_perturb", action="store_true")
     args = parser.parse_args()
 
 
 
     print('LOADING MODELS')
-    bert_base,tokenizer_base = tp.load_model(args.bertbase)
-    bert_large,tokenizer_large = tp.load_model(args.bertlarge)
-
+    #bert_base,tokenizer_base = tp.load_model(args.bertbase)
+    #bert_large,tokenizer_large = tp.load_model(args.bertlarge)
+    roberta_base, roberta_tokenizer_base = tp.load_model_roberta(args.robertabase)
 
     klist = [1,5]
 
-    models = [('bert-base-uncased',bert_base,tokenizer_base),('bert-large-uncased',bert_large,tokenizer_large)]
+    #models = [('bert-base-uncased',bert_base,tokenizer_base),('bert-large-uncased',bert_large,tokenizer_large)]
+    models = [('roberta-base',roberta_base,roberta_tokenizer_base)]
 
     print('RUNNING EXPERIMENTS')
     if args.incl_perturb:

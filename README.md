@@ -25,6 +25,15 @@ python proc_datasets.py \
   --negsimp_stim datasets/NEG-88/NEG-88-SIMP.tsv \
   --cprag_stim datasets/CPRAG-34/CPRAG-34.tsv \
   --add_mask_tok
+
+python proc_datasets.py \
+  --outputdir output/ \
+  --role_stim datasets/ROLE-88/ROLE-88.tsv \
+  --negnat_stim datasets/NEG-88/NEG-88-NAT.tsv \
+  --negsimp_stim datasets/NEG-88/NEG-88-SIMP.tsv \
+  --cprag_stim datasets/CPRAG-34/CPRAG-34.tsv \
+  --add_mask_tok
+
 ```
 * `add_mask_tok` flag will append '[MASK]' to the contexts in `*-contextlist`, for use with BERT.
 * `<testname>` comes from the following list: *cprag*, *role*, *negsimp*, *negnat* for CPRAG-34, ROLE-88, NEG-88-SIMP and NEG-88-NAT, respectively.
@@ -32,6 +41,9 @@ python proc_datasets.py \
 ### Step 2: Get LM predictions/probabilities
 
 You will need to produce two files: one containing top word predictions conditioned on each context, and one containing the probabilities for each target word conditioned on its corresponding context.
+
+python get_bert_responses.py output/ --bertbase bert-base-uncased
+python get_roberta_responses.py output_roberta/ --robertabase roberta-base
 
 **Predictions**: Model word predictions should be written to a file with naming `modelpreds-<testname>-<modelname>`.  Each line of this file should contain the top word predictions conditioned on the context in the corresponding line in `*-contextlist`. Word predictions on a given line should be separated by whitespace. Number of predictions per line should be no less than the highest *k* that you want to use for accuracy tests.
 

@@ -10,6 +10,7 @@ def process_cprag(tsvfile,mask_tok=True):
     inputlist_shufnw = []
     tgtlist = []
     cleancsv = []
+    print("current file" + tsvfile)
     with open(tsvfile) as f:
         i = 0
         for line in f:
