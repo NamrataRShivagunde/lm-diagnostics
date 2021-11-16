@@ -1,0 +1,21 @@
+
+
+***
+MODEL: albert-large-v1
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.1875 (3/16)
+
+ITEMS PREDICTED CORRECTLY:
+
+Drinking tap water in developing countries is very
+   EXPECTED: dangerous | PREDICTED: expensive,dangerous,popular,common,difficult
+Most smokers find that quitting is very
+   EXPECTED: difficult | PREDICTED: difficult,dangerous,important,effective,risky
+Terrorist bomb attacks are really
+   EXPECTED: dangerous | PREDICTED: .,good,bad,serious,dangerous
