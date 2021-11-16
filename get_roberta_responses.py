@@ -46,7 +46,7 @@ if __name__ == "__main__":
             top_preds,top_probs,tgt_probs ,tokenizer= get_model_responses_roberta(inputlist,tgtlist,modelname,model,tokenizer,k=k)
         
             if modelname == "EleutherAI/gpt-neo-1.3B":
-               modelname = gpt-neo13
+               modelname = "gpt-neo13"
 
             with open(args.inputdir+'/modelpreds-%s-%s'%(testname,modelname),'w', encoding='utf8') as pred_out:  # add encoding='utf8' for distilbert
                 for i,preds in enumerate(top_preds):
