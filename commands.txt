@@ -1,4 +1,15 @@
-python get_roberta_responses.py output_large_models --modelname albert-xl
+albert-base-v2
+albert-large-v2
+albert-xlarge-v2
+albert-xxlarge-v2
+albert-base-v1
+albert-large-v1
+albert-xlarge-v1
+albert-xxlarge-v1
+
+
+
+python get_roberta_responses.py output_large_models --modelname albert-xlarge-v2
 
 
 create result directory mkdir 		results-albert-xl
@@ -6,8 +17,8 @@ also make dir 				result-albert-xl/sensitivity
 
 python prediction_accuracy_tests.py \
   --preddir output_large_models/  \
-  --resultsdir results/results-albert-xl \
-  --models albert-xl \
+  --resultsdir results/results-albert-base \
+  --models albert-xlarge-v2 \
   --k_values 5 \
   --role_stim datasets/ROLE-88/ROLE-88.tsv \
   --negnat_stim datasets/NEG-88/NEG-88-NAT.tsv \
@@ -16,8 +27,8 @@ python prediction_accuracy_tests.py \
 
 python sensitivity_tests.py \
   --probdir output_large_models/  \
-  --resultsdir  results/result-albert-xl/sensitivity \
-  --models albert-large-v2 \
+  --resultsdir  results/albert-xlarge-v2/sensitivity \
+  --models albert-base-v2 \
   --role_stim datasets/ROLE-88/ROLE-88.tsv \
   --negnat_stim datasets/NEG-88/NEG-88-NAT.tsv \
   --negsimp_stim datasets/NEG-88/NEG-88-SIMP.tsv \
