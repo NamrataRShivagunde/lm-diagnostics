@@ -108,8 +108,9 @@ def neg_sensitivity_test(dataset_ref,target_probs):
         for true_cond,false_cond,pol in [('TA','FA','aff'),('TN','FN','neg')]:
             true_prob,false_prob = (conddict[it][true_cond]['tgtprob'],conddict[it][false_cond]['tgtprob'])
             
+            pro = [true_prob, false_prob]
             file1 = open("MyFile.txt","a")
-            file1.writelines(true_prob, false_prob)
+            file1.writelines(pro)
             file1.close()
 
             if true_prob > false_prob:
