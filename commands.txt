@@ -1,3 +1,9 @@
+gpt2
+
+python get_roberta_responses.py output_large_models --modelname gpt2
+
+
+####################################################### 
 albert-base-v2
 albert-large-v2
 albert-xlarge-v2
@@ -18,8 +24,8 @@ mkdir results-albert-xlarge-v1/sensitivity
 
 python prediction_accuracy_tests.py \
   --preddir output_large_models/  \
-  --resultsdir results/results-albert-xlarge-v2 \
-  --models albert-xlarge-v1 \
+  --resultsdir results/results-gpt2 \
+  --models gpt2 \
   --k_values 5 \
   --role_stim datasets/ROLE-88/ROLE-88.tsv \
   --negnat_stim datasets/NEG-88/NEG-88-NAT.tsv \
@@ -28,8 +34,8 @@ python prediction_accuracy_tests.py \
 
 python sensitivity_tests.py \
   --probdir output_large_models/  \
-  --resultsdir  results/results-albert-xlarge-v1/sensitivity \
-  --models albert-xlarge-v1 \
+  --resultsdir  results/results-gpt2/sensitivity \
+  --models gpt2 \
   --role_stim datasets/ROLE-88/ROLE-88.tsv \
   --negnat_stim datasets/NEG-88/NEG-88-NAT.tsv \
   --negsimp_stim datasets/NEG-88/NEG-88-SIMP.tsv \

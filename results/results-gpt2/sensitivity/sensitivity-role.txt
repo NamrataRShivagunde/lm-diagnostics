@@ -1,0 +1,14 @@
+
+
+***
+MODEL: gpt2
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.3409090909090909 (15/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: -2.7114843755979027e-05
+AVG CLOZE DIFF: 0.23333333329545453
