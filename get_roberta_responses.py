@@ -9,7 +9,7 @@ import scipy
 import scipy.stats
 from io import open
 
-def get_model_responses_roberta(inputlist,tgtlist,modeliname,model,tokenizer,k=5,bert=False):
+def get_model_responses_roberta(inputlist,tgtlist,modelname,model,tokenizer,k=5,bert=False):
     top_preds,top_probs = tp.get_predictions_roberta(inputlist,model,tokenizer,k=k)
     tgt_probs = tp.get_probabilities_roberta(inputlist,tgtlist,model,tokenizer)
     return top_preds,top_probs,tgt_probs, tokenizer
@@ -29,24 +29,9 @@ if __name__ == "__main__":
     testlist = ['cprag','role', 'negsimp','negnat']
 
     print('LOADING MODELS')
-    #bert_base,tokenizer_base = tp.load_model(args.bertbase)
-    #bert_large,tokenizer_large = tp.load_model(args.bertlarge)
-    #roberta_base, roberta_tokenizer_base = tp.load_model_roberta(args.robertabase)
-    #roberta_large, roberta_tokenizer_large = tp.load_model_roberta(args.robertalarge)
-    #distilbert_base,distil_tokenizer_base = tp.load_model_roberta(args.distilbertbase)
-    #albert_large, albert_tokenizer_large = tp.load_model_roberta(args.albertlarge)
     model, tokenizer = tp.load_model_roberta(args.modelname)
 
     k = 5
-
-    # models = [('bert-base-uncased',bert_base,tokenizer_base),
-    # ('bert-large-uncased',bert_large,tokenizer_large),
-    # ('roberta-base',roberta_base,roberta_tokenizer_base)]
-
-    # models = [('roberta-base',roberta_base,roberta_tokenizer_base)]
-    # models = [('roberta-large',roberta_large,roberta_tokenizer_large)]
-    # models = [('distilbert-base-uncased',distilbert_base,distil_tokenizer_base)]
-    # models = [('albert-large-v2', albert_large, albert_tokenizer_large)]
 
     models = [(args.modelname, model, tokenizer)]
 
@@ -60,6 +45,9 @@ if __name__ == "__main__":
         for modelname,model,tokenizer in models:
             top_preds,top_probs,tgt_probs ,tokenizer= get_model_responses_roberta(inputlist,tgtlist,modelname,model,tokenizer,k=k)
         
+            if modelname == "EleutherAI/gpt-neo-1.3B":
+               modelname = gpt-neo13
+
             with open(args.inputdir+'/modelpreds-%s-%s'%(testname,modelname),'w', encoding='utf8') as pred_out:  # add encoding='utf8' for distilbert
                 for i,preds in enumerate(top_preds):
                     modified_pred = []

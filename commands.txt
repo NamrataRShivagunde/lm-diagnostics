@@ -1,4 +1,8 @@
 gpt2
+gpt2-medium
+gpt2-large
+gpt2-xl
+EleutherAI/gpt-neo-1.3B
 
 python get_roberta_responses.py output_large_models --modelname gpt2
 
@@ -16,16 +20,16 @@ albert-xxlarge-v1
 
 
 
-python get_roberta_responses.py output_large_models --modelname albert-xlarge-v1
+python get_roberta_responses.py output_large_models --modelname gpt2-xl
 
 
-mkdir results-albert-xlarge-v1
-mkdir results-albert-xlarge-v1/sensitivity 
+mkdir results/results-gpt2-xl
+mkdir results/results-gpt2-xl/sensitivity 
 
 python prediction_accuracy_tests.py \
   --preddir output_large_models/  \
-  --resultsdir results/results-gpt2 \
-  --models gpt2 \
+  --resultsdir results/results-gpt2-xl \
+  --models gpt2-xl \
   --k_values 5 \
   --role_stim datasets/ROLE-88/ROLE-88.tsv \
   --negnat_stim datasets/NEG-88/NEG-88-NAT.tsv \
@@ -34,8 +38,8 @@ python prediction_accuracy_tests.py \
 
 python sensitivity_tests.py \
   --probdir output_large_models/  \
-  --resultsdir  results/results-gpt2/sensitivity \
-  --models gpt2 \
+  --resultsdir  results/results-gpt2-xl/sensitivity \
+  --models gpt2-xl\
   --role_stim datasets/ROLE-88/ROLE-88.tsv \
   --negnat_stim datasets/NEG-88/NEG-88-NAT.tsv \
   --negsimp_stim datasets/NEG-88/NEG-88-SIMP.tsv \
