@@ -92,7 +92,7 @@ def load_model_roberta(modeldir):
     tokenizer = transformers.AutoTokenizer.from_pretrained(modeldir)
     model = transformers.AutoModelWithLMHead.from_pretrained(modeldir)
     model.eval()
-    model#.to('cuda')
+    model.to('cuda')
     return model,tokenizer
 
 def prep_input_roberta(input_sents, tokenizer,bert=True):
@@ -113,7 +113,7 @@ def get_predictions_roberta(input_sents,model,tokenizer,k=5, bert=True):
     tok_probs = []
     for tokenized_text, mi, tokens_tensor in prep_input_roberta(input_sents,tokenizer):
         with torch.no_grad():
-          tokenized_text = tokenized_text#.to('cuda')
+          tokenized_text = tokenized_text.to('cuda')
           predictions = model(**tokenized_text)
           predictions = predictions.logits
         predicted_tokens = []
@@ -135,7 +135,7 @@ def get_predictions_roberta(input_sents,model,tokenizer,k=5, bert=True):
 def get_probabilities_roberta(input_sents,tgtlist,model,tokenizer,bert=True):
     token_probs = []
     for i,(tokens_tensor, mi,_) in enumerate(prep_input_roberta(input_sents,tokenizer,bert=bert)):
-        tokens_tensor = tokens_tensor#.to('cuda')
+        tokens_tensor = tokens_tensor.to('cuda')
 
         with torch.no_grad():
             predictions = model(**tokens_tensor)
