@@ -107,10 +107,11 @@ def neg_sensitivity_test(dataset_ref,target_probs):
             lic = conddict[it]['TA']['licensing']
         for true_cond,false_cond,pol in [('TA','FA','aff'),('TN','FN','neg')]:
             true_prob,false_prob = (conddict[it][true_cond]['tgtprob'],conddict[it][false_cond]['tgtprob'])
-            true.append(true_prob)
-            false.append(false_prob)
-            print("true",true)
-            print("false",false)
+            
+            file1 = open("MyFile.txt","a")
+            file1.writelines(true_prob, false_prob)
+            file1.close()
+
             if true_prob > false_prob:
                 score = 1
             else:
