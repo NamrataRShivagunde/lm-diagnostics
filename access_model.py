@@ -99,16 +99,16 @@ def prep_input_roberta(input_sents, tokenizer,bert=True):
     for sent in input_sents:
         masked_index = None
         #sent = sent.replace('[MASK]','<mask>') uncomment for roberta
+        sent = sent.replace('[MASK]','')
         mask_id = tokenizer.convert_tokens_to_ids('[MASK]')
         tokenized_text = tokenizer(sent, return_tensors="pt")
         for i,tok in enumerate(tokenized_text['input_ids'].reshape(-1)):
           if tok == mask_id:
               masked_index = i
-        
         tokens_tensor = tokenizer.convert_ids_to_tokens(tokenized_text['input_ids'][0])
         yield tokenized_text, masked_index, tokens_tensor
 
-def get_predictions_roberta(input_sents,model,tokenizer,k=5, bert=True):
+def get_predictions_roberta(input_sents,model,tokenizer,k=5, bert=False):
     token_preds = []
     tok_probs = []
     for tokenized_text, mi, tokens_tensor in prep_input_roberta(input_sents,tokenizer):
@@ -116,23 +116,30 @@ def get_predictions_roberta(input_sents,model,tokenizer,k=5, bert=True):
           tokenized_text = tokenized_text.to('cuda')
           predictions = model(**tokenized_text)
           predictions = predictions.logits
+
         predicted_tokens = []
         predicted_token_probs = []
+
         if bert:
             softpred = torch.softmax(predictions[0,mi],0)
         else:
-            softpred = torch.softmax(predictions[0, mi, :],0)
+            # bert is false for gpt2 
+            softpred = torch.softmax(predictions[0, -1, :],0) # for gpt2
+
         top_inds = torch.argsort(softpred,descending=True)[:k].cpu().numpy()
         top_probs = [softpred[tgt_ind].item() for tgt_ind in top_inds]
+
         top_tok_preds = tokenizer.convert_ids_to_tokens(top_inds)
+
         if not bert:
             top_tok_preds = [re.sub('\<\/w\>','',e) for e in top_tok_preds]
 
         token_preds.append(top_tok_preds)
         tok_probs.append(top_probs)
+
     return token_preds,tok_probs
 
-def get_probabilities_roberta(input_sents,tgtlist,model,tokenizer,bert=True):
+def get_probabilities_roberta(input_sents,tgtlist,model,tokenizer,bert=False):
     token_probs = []
     for i,(tokens_tensor, mi,_) in enumerate(prep_input_roberta(input_sents,tokenizer,bert=bert)):
         tokens_tensor = tokens_tensor.to('cuda')
@@ -144,7 +151,8 @@ def get_probabilities_roberta(input_sents,tgtlist,model,tokenizer,bert=True):
         if bert:
             softpred = torch.softmax(predictions[0,mi],0)
         else:
-            softpred = torch.softmax(predictions[0, mi, :],0)
+            mi = predictions.shape[1]
+            softpred = torch.softmax(predictions[0, mi-1, :],0)
         try:
             tgt_ind = tokenizer.convert_tokens_to_ids([tgt])[0]
         except:
