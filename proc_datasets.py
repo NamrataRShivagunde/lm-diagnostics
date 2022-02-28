@@ -1,6 +1,7 @@
 import re
 import argparse
 from io import open
+import os
 
 def process_cprag(tsvfile,mask_tok=True):
     hldict = {}
@@ -168,6 +169,9 @@ if __name__ == "__main__":
     (args.negsimp_stim, process_negsimp,'negsimp'),
     (args.negnat_stim, process_negnat,'negnat')
     ]
+
+    if not os.path.exists(args.outputdir):
+        os.makedirs(args.outputdir)
 
     for stimfile,process_func,out_pref in testlist:
         if not stimfile: continue

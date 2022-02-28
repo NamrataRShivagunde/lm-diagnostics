@@ -36,20 +36,16 @@ if __name__ == "__main__":
     for testname in testlist:
         inputlist = []
         tgtlist = []
-        print("1 check")
         with open(os.path.join(args.inputdir,testname+'-contextlist')) as cont:
             for line in cont: inputlist.append(line.strip())
         with open(os.path.join(args.inputdir,testname+'-targetlist')) as comp:
             for line in comp: tgtlist.append(line.strip())
-        print("2 check")
         for modelname,model,tokenizer in models:
-            print("3 check")
             top_preds,top_probs,tgt_probs = get_model_responses(inputlist,tgtlist,modelname,model,tokenizer,k=k)
             with open(args.inputdir+'/modelpreds-%s-%s'%(testname,modelname),'w') as pred_out:
                 for i,preds in enumerate(top_preds):
                     pred_out.write(' '.join(preds))
                     pred_out.write('\n')
-
             with open(args.inputdir+'/modeltgtprobs-%s-%s'%(testname,modelname),'w') as prob_out:
                 for i,prob in enumerate(tgt_probs):
                     prob_out.write(str(prob))

@@ -164,6 +164,9 @@ if __name__ == "__main__":
     (args.negnat_stim, neg_sensitivity_test,'negnat',process_negnat)
     ]
 
+    if not os.path.exists(args.resultsdir):
+        os.makedirs(args.resultsdir)
+
     for stimfile,sens_test,testname,process_func in testlist:
         if not stimfile: continue
         inputlist,_,dataset_ref = process_func(stimfile,mask_tok=False)

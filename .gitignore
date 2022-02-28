@@ -1,1 +1,5 @@
 __pycache__
+/venv-lmdiag
+/processed_datasets
+/result-acc-sentivity
+/commands.txt
