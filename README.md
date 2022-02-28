@@ -1,20 +1,24 @@
-# LM diagnostics
+# To run all step 1, 2 and 3 for a model
 
-This repository contains the diagnostic datasets and experimental code for *What BERT is not: Lessons from a new suite of psycholinguistic diagnostics for language models*, by Allyson Ettinger.
+run 
 
-# Diagnostic test data
+    ```python run.py <modelname>```
 
-The `datasets` folder contains TSV files with data for each diagnostic test, along with explanatory README files for each dataset.
+for example
 
-# Code
+    ```python run.py bert-base-uncased```
 
-[All code now updated to be run with Python 3.]
+The script supports
+- BERT - `bert-base-uncased` , `bert-large-uncased`
+- RoBERTa -  `roberta-base` , `roberta-large`
+- AlBERT - `albert-base-v1`, `albert-large-v1`, `albert-xl-v1` ,`albert-xxl-v1`
 
-The code in this section can be used to process the diagnostic datasets for input to a language model, and then to run the diagnostic tests on that language model's predictions. The code should be used in three steps:
 
-### Step 1: Process datasets to produce inputs for LM
+For individual steps follow these steps.
 
-`proc_datasets.py` can be used to process the provided datasets into 1) `<testname>-contextlist` files containing contexts (one per line) on which the LM's predictions should be conditioned, and b) `<testname>-targetlist` files containing target words (one per line, aligned with the contexts in `*-contextlist`) for which you will need probabilities conditioned on the corresponding contexts. Repeats in `*-contextlist` are intentional, to align with the targets in `*-targetlist`.
+# Step 1: Process datasets to produce inputs for LM
+
+The datasets are in `datasets` folder. proc_datasets.py will take these datasets and convert into XXX-contextlist and XXX-targetlist files. For example - Role-88 dataset will be processed and saved as `role-contextlist` and `role-targetlist` in `output` folder.
 
 Basic usage:
 ```
@@ -26,8 +30,9 @@ python proc_datasets.py \
   --cprag_stim datasets/CPRAG-34/CPRAG-34.tsv \
   --add_mask_tok
 
+for example
 python proc_datasets.py \
-  --outputdir output/ \
+  --outputdir processed_datasets/ \
   --role_stim datasets/ROLE-88/ROLE-88.tsv \
   --negnat_stim datasets/NEG-88/NEG-88-NAT.tsv \
   --negsimp_stim datasets/NEG-88/NEG-88-SIMP.tsv \
@@ -35,74 +40,97 @@ python proc_datasets.py \
   --add_mask_tok
 
 ```
-* `add_mask_tok` flag will append '[MASK]' to the contexts in `*-contextlist`, for use with BERT.
-* `<testname>` comes from the following list: *cprag*, *role*, *negsimp*, *negnat* for CPRAG-34, ROLE-88, NEG-88-SIMP and NEG-88-NAT, respectively.
 
-### Step 2: Get LM predictions/probabilities
+After running this script, there will be eight files in the `processed_datasets` folder-
 
-You will need to produce two files: one containing top word predictions conditioned on each context, and one containing the probabilities for each target word conditioned on its corresponding context.
+For ROLE88 - `role-contextlist` , `role-targetlist`, 
 
-python get_bert_responses.py output/ --bertbase bert-base-uncased
-python get_roberta_responses.py output_roberta/ --robertabase roberta-base
+For NEG-88 -`negsimp-contextlist`, `negsimp-contextlist`,  `negnat-contextlist`, `negnat-contextlist`, 
 
-**Predictions**: Model word predictions should be written to a file with naming `modelpreds-<testname>-<modelname>`.  Each line of this file should contain the top word predictions conditioned on the context in the corresponding line in `*-contextlist`. Word predictions on a given line should be separated by whitespace. Number of predictions per line should be no less than the highest *k* that you want to use for accuracy tests.
+For CPRAG-34 - `cprag-contextlist`, `cprag-contextlist`, 
 
-**Probabilities** Model target probabilities should be written to a file with naming `modeltgtprobs-<testname>-<modelname>`. Each line of this file should contain the probability of the target word on the corresponding line of `*-targetlist`, conditioned on the context on the corresponding line of `*-contextlist`.
 
-* `<testname>` list is as above. `<modelname>` should be the name of the model that will be input to the code in Step 3.
+# Step 2: Get LM predictions/probabilities
 
-### Step 3: Run accuracy and sensitivity tests for each diagnostic
+Once the dataset is processed and stored in `processed_datasets`, it will be fed into different models to get the predictions and probabilities.
 
-`prediction_accuracy_tests.py` takes `modelpreds-<testname>-<modelname>` as input and runs word prediction accuracy tests.
+```
+python get_model_responses.py  --inputdir <location of folder with processed datasets> \
+--modelname <modelname> \
+--outputdir <location of folder for output>
+```
+ for example
+ ```
+ python get_model_reponses.py --inputdir processed_datasets/ \
+ --modelname bert-base-uncased  \
+ --outputdir outputs/bert-base
+ ```
 
-Basic usage:
+After running get_model_responses.py script, there will be eight files in the outputs folder here for examples its  `outputs/bert-base/`.Out of eight files four are for top k predictions and four files are probabilities.   
+
+The output prediction files will be (for example for bert-base-uncased model)
+
+        modelpreds-cprag-bert-base-uncased  
+        modelpreds-negnat-bert-base-uncased 
+        modelpreds-negsimp-bert-base-uncased 
+        modelpreds-role-bert-base-uncased 
+
+The output probabilities will be stored in 
+
+        modeltgtprobs-cprag-bert-base-uncased
+        modeltgtprobs-negnat-bert-base-uncased
+        modeltgtprobs-negsimp-bert-base-uncased
+        modeltgtprobs-role-bert-base-uncased
+
+ 
+
+# Step 3: Run accuracy and sensitivity tests for each diagnostic
 
 ```
 python prediction_accuracy_tests.py \
-  --preddir <location of modelpreds-<testname>-<modelname>> \
-  --resultsdir <location for results files> \
-  --models <names of models to be tested, e.g., bert-base-uncased bert-large-uncased> \
-  --k_values <list of k values to be tested, e.g., 1 5> \
+  --preddir <location of top k prediction and  probabilities output folder> \
+  --resultsdir <location of the result folder> \
+  --models <modelname> \
+  --k_values <k value> \
   --role_stim datasets/ROLE-88/ROLE-88.tsv \
   --negnat_stim datasets/NEG-88/NEG-88-NAT.tsv \
   --negsimp_stim datasets/NEG-88/NEG-88-SIMP.tsv \
   --cprag_stim datasets/CPRAG-34/CPRAG-34.tsv
-```
+  ```
+for example
 
-`sensitivity_tests.py` takes `modeltgtprobs-<testname>-<modelname>` as input and runs sensitivity tests.
-
-Basic usage:
 ```
-python sensitivity_tests.py \
-  --probdir <location of modelpreds-<testname>-<modelname>> \
-  --resultsdir <location for results files> \
-  --models <names of models to be tested, e.g., bert-base-uncased bert-large-uncased> \
+python prediction_accuracy_tests.py \
+  --preddir outputs/bert-base/ \
+  --resultsdir result-acc-sentivity/bert-base \
+  --models bert-base-uncased \
+  --k_values 5 \
   --role_stim datasets/ROLE-88/ROLE-88.tsv \
   --negnat_stim datasets/NEG-88/NEG-88-NAT.tsv \
   --negsimp_stim datasets/NEG-88/NEG-88-SIMP.tsv \
   --cprag_stim datasets/CPRAG-34/CPRAG-34.tsv
-```
+  ```
 
-## Experimental code
+  For sensitivity
 
-`run_diagnostics_bert.py` is the code that was used for the experiments on BERT<sub>BASE</sub> and BERT<sub>LARGE</sub> reported in the paper, including perturbations.
+   ```
+  python sensitivity_tests.py \
+    --probdir <location of top k prediction and  probabilities output folder> \
+    --resultsdir <location of the result folder> \
+    --models <modelname> \
+    --role_stim datasets/ROLE-88/ROLE-88.tsv \
+    --negnat_stim datasets/NEG-88/NEG-88-NAT.tsv \
+    --negsimp_stim datasets/NEG-88/NEG-88-SIMP.tsv \
+    --cprag_stim datasets/CPRAG-34/CPRAG-34.tsv
+  ``` 
 
-Example usage:
-```
-python run_diagnostics_bert.py \
-  --cprag_stim datasets/CPRAG-34/CPRAG-34.tsv \
-  --role_stim datasets/ROLE-88/ROLE-88.tsv \
-  --negnat_stim datasets/NEG-88/NEG-88-NAT.tsv \
-  --negsimp_stim datasets/NEG-88/NEG-88-SIMP.tsv \
-  --resultsdir <location for results files> \
-  --bertbase <BERT BASE location> \
-  --bertlarge <BERT LARGE location> \
-  --incl_perturb
-```
-
-* `bertbase` and `bertlarge` specify locations for PyTorch BERT<sub>BASE</sub> and BERT<sub>LARGE</sub> models -- each folder is expected to include `vocab.txt`, `bert_config.json`, and `pytorch_model.bin` for the corresponding [PyTorch BERT](https://github.com/huggingface/pytorch-transformers) model. (Note that experiments were run with the original pytorch-pretrained-bert version, so I can't guarantee identical results with the updated pytorch-transformers.)
-* `incl_perturb` runs experiments with all perturbations reported in the paper. Without this flag, only runs experiments without perturbations.
-
-
-
-
+ ```
+  python sensitivity_tests.py \
+    --probdir outputs/bert-base/ \
+    --resultsdir result-acc-sentivity/bert-base/sensitivity \
+    --models bert-base-uncased \
+    --role_stim datasets/ROLE-88/ROLE-88.tsv \
+    --negnat_stim datasets/NEG-88/NEG-88-NAT.tsv \
+    --negsimp_stim datasets/NEG-88/NEG-88-SIMP.tsv \
+    --cprag_stim datasets/CPRAG-34/CPRAG-34.tsv
+  ``` 
