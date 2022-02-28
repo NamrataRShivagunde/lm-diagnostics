@@ -8,7 +8,7 @@ salmon fish variety species variable
 salmon fish trout shark beaver
 expression object organ element example
 object example integer element indicator
-symbol quantity substance device letter
+symbol quantity substance device measure
 symbol letter sign noun tree
 insect organism animal individual egg
 insect animal organism owl egg
@@ -55,9 +55,9 @@ saw picture man thing shield
 saw thing device picture matter
 saw picture man thing shield
 car vehicle unit automobile device
-car vehicle truck tractor automobile
+car vehicle truck automobile tractor
 car vehicle unit automobile device
-car vehicle truck tractor automobile
+car vehicle truck automobile tractor
 truck vehicle pickup car tractor
 truck vehicle tractor pickup trailer
 truck vehicle pickup car tractor
