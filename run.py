@@ -7,6 +7,8 @@ args = parser.parse_args()
 
 modelname = args.modelname
 
+print("RUNNING EXPERIEMNTS FOR {}".format( modelname))
+
 if not os.path.exists('processed_datasets/'):
     print("Processing the datasets")
     os.system('python proc_datasets.py \
