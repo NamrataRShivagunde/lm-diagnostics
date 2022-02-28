@@ -1,0 +1,47 @@
+
+
+***
+MODEL: albert-large-v2
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED TARGET in TOP 5 predictions: 0.47058823529411764 (16/34)
+
+ITEMS PREDICTED CORRECTLY:
+
+He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
+   EXPECTED: football | PREDICTED: baseball,football,basketball,soccer,golf
+Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
+   EXPECTED: baseball | PREDICTED: baseball,sports,basketball,yankees,athletics
+Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
+   EXPECTED: ferry | PREDICTED: ferry,plane,boat,bus,ship
+Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
+   EXPECTED: plane | PREDICTED: plane,ship,train,flight,bus
+The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
+   EXPECTED: cake | PREDICTED: cake,preparations,decorations,recipe,frost
+She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
+   EXPECTED: necklace | PREDICTED: necklace,bracelet,scarf,shirt,card
+She wanted to make her eyelashes look really black and thick. So she asked to borrow her older friend’s
+   EXPECTED: mascara | PREDICTED: mascara,eyelashes,printer,hair,lipstick
+He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
+   EXPECTED: lipstick | PREDICTED: shirt,lipstick,thing,dress,outfit
+My aunt fixed my brother some cereal using her best china. Of course, the first thing he did was drop the
+   EXPECTED: bowl | PREDICTED: cereal,bowl,egg,rice,spoon
+Barb loved the feel of the waves on her feet, but she hated to walk barefoot. As a compromise, she usually wore a pair of
+   EXPECTED: sandals | PREDICTED: sandals,shoes,pumps,shorts,socks
+By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
+   EXPECTED: boots | PREDICTED: shoes,boots,sandals,sneakers,socks
+Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
+   EXPECTED: jeans | PREDICTED: jeans,trousers,shoes,glasses,pants
+As the afternoon progressed, it became hotter and hotter. Keith finally decided to put on a pair of
+   EXPECTED: shorts | PREDICTED: shorts,jeans,glasses,sunglasses,shoes
+Fred went to the pantry and got out the homemade jelly his grandmother had brought. Fifteen minutes later, however, he was still struggling to open the
+   EXPECTED: jar | PREDICTED: jar,pantry,refrigerator,fridge,container
+It seemed to catch every time she opened or closed her backpack. She decided she would have to replace the
+   EXPECTED: zipper | PREDICTED: backpack,zipper,strap,bag,battery
+At the zoo, my sister asked if they painted the black and white stripes on the animal. I explained to her that they were natural features of a
+   EXPECTED: zebra | PREDICTED: bird,mammal,zebra,zoo,dog

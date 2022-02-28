@@ -1,0 +1,41 @@
+
+
+***
+MODEL: albert-xxlarge-v1
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.7222222222222222 (13/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+A trout is a
+   EXPECTED: fish | PREDICTED: trout,fish,salmon,mussel,sturgeon
+A salmon is a
+   EXPECTED: fish | PREDICTED: salmon,fish,trout,whale,sturgeon
+An ant is an
+   EXPECTED: insect | PREDICTED: insect,grasshopper,assassin,hornet,elephant
+A bee is an
+   EXPECTED: insect | PREDICTED: insect,organism,animal,amphibian,assassin
+A robin is a
+   EXPECTED: bird | PREDICTED: robin,bird,seagull,woodpecker,magpie
+A sparrow is a
+   EXPECTED: bird | PREDICTED: bird,sparrow,magpie,woodpecker,parrot
+An oak is a
+   EXPECTED: tree | PREDICTED: tree,conifer,maple,hickory,twig
+A pine is a
+   EXPECTED: tree | PREDICTED: pine,tree,conifer,redwood,pear
+A rose is a
+   EXPECTED: flower | PREDICTED: rose,roses,flower,bouquet,strawberry
+A daisy is a
+   EXPECTED: flower | PREDICTED: daisy,flower,sunflower,lily,strawberry
+A carrot is a
+   EXPECTED: vegetable | PREDICTED: carrot,vegetable,potato,cucumber,pumpkin
+A saw is a
+   EXPECTED: tool | PREDICTED: tool,saw,knife,blade,wrench
+A car is a
+   EXPECTED: vehicle | PREDICTED: car,vehicle,bike,thing,truck

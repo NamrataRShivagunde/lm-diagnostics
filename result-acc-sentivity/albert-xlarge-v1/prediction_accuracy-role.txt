@@ -1,0 +1,79 @@
+
+
+***
+MODEL: albert-xlarge-v1
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED WORD in top 5 predictions: 0.3409090909090909 (30/88)
+  for cloze quartile 1: 0.32 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.2608695652173913 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.30434782608695654 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.5294117647058824 (0.766666667 upper, 17 items)
+
+ITEMS PREDICTED CORRECTLY:
+
+The librarian documented which journalist the celebrities had 
+   EXPECTED: avoided,hated,read,met | PREDICTED: contacted,interviewed,consulted,hired,met
+The librarian documented which celebrities the journalist had 
+   EXPECTED: interviewed | PREDICTED: interviewed,photographed,seen,contacted,mentioned
+the old widower remembered which ghost the villager had 
+   EXPECTED: seen | PREDICTED: been,seen,sent,brought,killed
+the historian documented which assassin the prince had 
+   EXPECTED: hired | PREDICTED: hired,employed,killed,been,chosen
+the historian documented which prince the assassin had 
+   EXPECTED: killed | PREDICTED: killed,been,murdered,slain,attacked
+the judo master recognized which defender the assailant had 
+   EXPECTED: attacked | PREDICTED: been,killed,attacked,targeted,encountered
+the naturalist observed which deer the predators had 
+   EXPECTED: eaten,killed | PREDICTED: killed,hunted,eaten,attacked,taken
+the nanny knew which housekeeper the billionaire had 
+   EXPECTED: hired | PREDICTED: hired,chosen,been,wanted,married
+Tracy announced which administrator the applicant had 
+   EXPECTED: interviewed with,seen | PREDICTED: contacted,approached,consulted,asked,interviewed
+Tracy announced which applicant the administrator had 
+   EXPECTED: chosen | PREDICTED: chosen,selected,interviewed,recommended,contacted
+the birthday boy saw which clown the friend had 
+   EXPECTED: hired | PREDICTED: been,killed,seen,hired,attacked
+the columnist publicized which celebrity the photographer had 
+   EXPECTED: photographed | PREDICTED: photographed,captured,pictured,seen,spotted
+the royal cook asked which chef the lord had 
+   EXPECTED: requested,chosen,hired | PREDICTED: chosen,hired,appointed,summoned,sent
+the aid worker realized which refugees the philanthropist had 
+   EXPECTED: helped | PREDICTED: saved,raised,helped,rescued,brought
+the camper reported which girl the bear had 
+   EXPECTED: eaten | PREDICTED: killed,bitten,kissed,eaten,kidnapped
+the bird watcher saw which hawk the photographer had 
+   EXPECTED: photographed | PREDICTED: taken,spotted,pictured,photographed,captured
+the undead king recognized which zombie the woman had 
+   EXPECTED: killed | PREDICTED: been,killed,murdered,married,kissed
+the undead king recognized which woman the zombie had 
+   EXPECTED: eaten | PREDICTED: killed,attacked,bitten,eaten,slain
+the broadcaster explained which contestant the judge had 
+   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,picked,nominated,recommended
+the opera composer revealed which singer the pirate had 
+   EXPECTED: kidnapped,murdered,killed | PREDICTED: been,kidnapped,killed,hired,captured
+the producer observed which viewers the acrobats had 
+   EXPECTED: impressed | PREDICTED: attracted,surprised,entertained,offended,impressed
+The ape researcher identified which poacher the chimpanzee had 
+   EXPECTED: attacked | PREDICTED: killed,been,attacked,eaten,bitten
+The ape researcher identified which chimpanzee the poacher had 
+   EXPECTED: killed | PREDICTED: killed,eaten,bitten,attacked,targeted
+the committee member guessed which president the advisors had 
+   EXPECTED: chosen | PREDICTED: chosen,mentioned,contacted,asked,named
+the committee member guessed which advisors the president had 
+   EXPECTED: appointed | PREDICTED: appointed,chosen,nominated,recommended,selected
+Teresa knew which parrot the neighbor had 
+   EXPECTED: bought | PREDICTED: eaten,taken,picked,bought,been
+Teresa knew which neighbor the parrot had 
+   EXPECTED: bitten,mimicked | PREDICTED: been,eaten,killed,attacked,bitten
+the art critic identified which model the artist had 
+   EXPECTED: painted | PREDICTED: created,chosen,painted,designed,drawn
+the farmhand recorded which goats the breeder had 
+   EXPECTED: bred | PREDICTED: bred,bought,purchased,picked,produced
+the four-year-old knew which hero the dragon had 
+   EXPECTED: slain | PREDICTED: chosen,been,killed,become,slain

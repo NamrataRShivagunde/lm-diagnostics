@@ -1,0 +1,27 @@
+
+
+***
+MODEL: albert-xxlarge-v2
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.375 (6/16)
+
+ITEMS PREDICTED CORRECTLY:
+
+With proper equipment, scuba-diving is very
+   EXPECTED: safe | PREDICTED: easy,enjoyable,safe,simple,relaxing
+Traveling in Baghdad is very
+   EXPECTED: dangerous | PREDICTED: risky,hazardous,dangerous,unsafe,difficult
+Drinking tap water in developing countries is very
+   EXPECTED: dangerous | PREDICTED: unsafe,risky,dangerous,hazardous,harmful
+Most smokers find that quitting is very
+   EXPECTED: difficult | PREDICTED: difficult,easy,challenging,hard,frustrating
+Keeping the door open for somebody is very
+   EXPECTED: polite | PREDICTED: important,polite,nice,honorable,comforting
+A baby bunny's fur is very
+   EXPECTED: soft | PREDICTED: soft,silky,fluffy,coarse,delicate

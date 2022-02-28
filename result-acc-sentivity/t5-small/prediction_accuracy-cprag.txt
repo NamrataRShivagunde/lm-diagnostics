@@ -1,0 +1,29 @@
+
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED TARGET in TOP 5 predictions: 0.20588235294117646 (7/34)
+
+ITEMS PREDICTED CORRECTLY:
+
+He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
+   EXPECTED: football | PREDICTED: football,game,play,games,action
+Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
+   EXPECTED: baseball | PREDICTED: baseball,Yankee,playing,Baseball,winning
+Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
+   EXPECTED: ferry | PREDICTED: ferry,boat,island,bus,board
+Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
+   EXPECTED: plane | PREDICTED: board,plane,ship,boat,ferry
+The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
+   EXPECTED: cake | PREDICTED: wedding,cake,kitchen,ceremony,recipe
+By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
+   EXPECTED: boots | PREDICTED: shoes,socks,hiking,boots,sunglasses
+Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
+   EXPECTED: jeans | PREDICTED: stone,shoes,stones,jeans,boots

@@ -1,0 +1,23 @@
+
+
+***
+MODEL: t5-3b
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.2222222222222222 (4/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+An ant is an
+   EXPECTED: insect | PREDICTED: .,insect,!,?,."
+A bee is an
+   EXPECTED: insect | PREDICTED: .,insect,animal,!,?
+A robin is a
+   EXPECTED: bird | PREDICTED: .,!,....,bird,?
+A hammer is a
+   EXPECTED: tool | PREDICTED: .,!,....,...",tool

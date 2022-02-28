@@ -1,0 +1,45 @@
+
+
+***
+MODEL: albert-large-v1
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.8333333333333334 (15/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+A trout is a
+   EXPECTED: fish | PREDICTED: fish,trout,variety,species,salmon
+A salmon is a
+   EXPECTED: fish | PREDICTED: salmon,fish,variety,species,variable
+A bee is an
+   EXPECTED: insect | PREDICTED: insect,organism,animal,individual,egg
+A robin is a
+   EXPECTED: bird | PREDICTED: robin,bird,figure,lion,person
+A sparrow is a
+   EXPECTED: bird | PREDICTED: sparrow,bird,hawk,butterfly,tree
+An oak is a
+   EXPECTED: tree | PREDICTED: tree,oak,forest,wood,maple
+A pine is a
+   EXPECTED: tree | PREDICTED: tree,pine,forest,conifer,shrub
+A rose is a
+   EXPECTED: flower | PREDICTED: rose,tree,wreath,star,flower
+A daisy is a
+   EXPECTED: flower | PREDICTED: daisy,tree,variety,cultivar,flower
+A carrot is a
+   EXPECTED: vegetable | PREDICTED: carrot,vegetable,variety,mushroom,potato
+A hammer is a
+   EXPECTED: tool | PREDICTED: hammer,device,tool,ball,metal
+A car is a
+   EXPECTED: vehicle | PREDICTED: car,vehicle,unit,automobile,device
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,vehicle,pickup,car,tractor
+A hotel is a
+   EXPECTED: building | PREDICTED: hotel,building,restaurant,house,venue
+A house is a
+   EXPECTED: building | PREDICTED: house,structure,place,building,room

@@ -1,0 +1,27 @@
+
+
+***
+MODEL: albert-base-v1
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED TARGET in TOP 5 predictions: 0.17647058823529413 (6/34)
+
+ITEMS PREDICTED CORRECTLY:
+
+He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
+   EXPECTED: football | PREDICTED: football,games,play,balls,victory
+Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
+   EXPECTED: baseball | PREDICTED: baseball,basketball,hockey,sports,tennis
+Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
+   EXPECTED: ferry | PREDICTED: boat,bus,ship,ferry,plane
+Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
+   EXPECTED: plane | PREDICTED: ship,bus,plane,train,boat
+George was hiking in India when he saw the orange and black striped animal leap out at him. He sustained serious injuries before he managed to kill the
+   EXPECTED: tiger | PREDICTED: animal,elephant,snake,creature,tiger
+Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
+   EXPECTED: jeans | PREDICTED: jeans,sunglasses,boots,glasses,pajama

@@ -1,0 +1,45 @@
+
+
+***
+MODEL: albert-large-v2
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.8333333333333334 (15/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+A trout is a
+   EXPECTED: fish | PREDICTED: trout,fish,shark,catfish,whale
+A salmon is a
+   EXPECTED: fish | PREDICTED: fish,shark,sturgeon,salmon,whale
+An ant is an
+   EXPECTED: insect | PREDICTED: insect,elephant,animal,egg,octopus
+A bee is an
+   EXPECTED: insect | PREDICTED: insect,animal,orchid,organism,owl
+A robin is a
+   EXPECTED: bird | PREDICTED: robin,bird,rabbit,butterfly,cat
+A sparrow is a
+   EXPECTED: bird | PREDICTED: sparrow,bird,hawk,snail,crow
+An oak is a
+   EXPECTED: tree | PREDICTED: tree,walnut,grape,pine,maple
+A pine is a
+   EXPECTED: tree | PREDICTED: pine,tree,conifer,redwood,cedar
+A rose is a
+   EXPECTED: flower | PREDICTED: rose,flower,star,rainbow,tree
+A daisy is a
+   EXPECTED: flower | PREDICTED: daisy,flower,butterfly,clover,bee
+A carrot is a
+   EXPECTED: vegetable | PREDICTED: carrot,potato,grape,vegetable,banana
+A pea is a
+   EXPECTED: vegetable | PREDICTED: potato,banana,grape,carrot,vegetable
+A saw is a
+   EXPECTED: tool | PREDICTED: thing,needle,machine,tool,saw
+A car is a
+   EXPECTED: vehicle | PREDICTED: car,vehicle,truck,automobile,driver
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,tractor,vehicle,car,trailer

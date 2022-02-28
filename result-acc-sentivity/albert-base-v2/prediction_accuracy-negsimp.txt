@@ -1,0 +1,27 @@
+
+
+***
+MODEL: albert-base-v2
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.3333333333333333 (6/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+A bee is an
+   EXPECTED: insect | PREDICTED: oyster,insect,orchid,egg,owl
+A rose is a
+   EXPECTED: flower | PREDICTED: joyah,evalle,walnut,flower,sunflower
+A carrot is a
+   EXPECTED: vegetable | PREDICTED: carrot,cucumber,potato,vegetable,banana
+A pea is a
+   EXPECTED: vegetable | PREDICTED: joyah,rooster,sunflower,carrot,vegetable
+A car is a
+   EXPECTED: vehicle | PREDICTED: car,vehicle,bicycle,wheelchair,bike
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,tractor,vehicle,motorcycle,freighter

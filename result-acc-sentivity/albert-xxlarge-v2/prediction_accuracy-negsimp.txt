@@ -1,0 +1,51 @@
+
+
+***
+MODEL: albert-xxlarge-v2
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 1.0 (18/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+A trout is a
+   EXPECTED: fish | PREDICTED: trout,fish,salmon,mussel,sturgeon
+A salmon is a
+   EXPECTED: fish | PREDICTED: salmon,fish,trout,catfish,sturgeon
+An ant is an
+   EXPECTED: insect | PREDICTED: insect,organism,animal,amphibian,idiot
+A bee is an
+   EXPECTED: insect | PREDICTED: insect,organism,amphibian,animal,insects
+A robin is a
+   EXPECTED: bird | PREDICTED: bird,robin,warbler,woodpecker,seagull
+A sparrow is a
+   EXPECTED: bird | PREDICTED: bird,sparrow,parrot,pigeon,magpie
+An oak is a
+   EXPECTED: tree | PREDICTED: tree,conifer,hickory,deciduous,willow
+A pine is a
+   EXPECTED: tree | PREDICTED: tree,conifer,pine,redwood,twig
+A rose is a
+   EXPECTED: flower | PREDICTED: rose,roses,flower,strawberry,grape
+A daisy is a
+   EXPECTED: flower | PREDICTED: daisy,flower,sunflower,butterfly,strawberry
+A carrot is a
+   EXPECTED: vegetable | PREDICTED: carrot,vegetable,potato,pumpkin,cucumber
+A pea is a
+   EXPECTED: vegetable | PREDICTED: bean,vegetable,carrot,pumpkin,flower
+A hammer is a
+   EXPECTED: tool | PREDICTED: hammer,tool,mallet,wrench,nail
+A saw is a
+   EXPECTED: tool | PREDICTED: knife,tool,blade,saw,razor
+A car is a
+   EXPECTED: vehicle | PREDICTED: vehicle,car,machine,spaceship,thing
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,vehicle,tractor,jeep,thing
+A hotel is a
+   EXPECTED: building | PREDICTED: hotel,motel,hostel,building,restaurant
+A house is a
+   EXPECTED: building | PREDICTED: house,mansion,palace,thing,building

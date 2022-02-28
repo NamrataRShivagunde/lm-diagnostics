@@ -1,0 +1,49 @@
+
+
+***
+MODEL: albert-base-v1
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED WORD in top 5 predictions: 0.17045454545454544 (15/88)
+  for cloze quartile 1: 0.2 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.043478260869565216 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.17391304347826086 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.29411764705882354 (0.766666667 upper, 17 items)
+
+ITEMS PREDICTED CORRECTLY:
+
+The librarian documented which journalist the celebrities had 
+   EXPECTED: avoided,hated,read,met | PREDICTED: interviewed,been,met,encountered,contacted
+The librarian documented which celebrities the journalist had 
+   EXPECTED: interviewed | PREDICTED: interviewed,met,encountered,posed,seen
+the old widower remembered which ghost the villager had 
+   EXPECTED: seen | PREDICTED: seen,been,encountered,created,become
+the historian documented which prince the assassin had 
+   EXPECTED: killed | PREDICTED: killed,arrived,died,been,captured
+the nanny knew which housekeeper the billionaire had 
+   EXPECTED: hired | PREDICTED: been,hired,given,become,chosen
+Tracy announced which applicant the administrator had 
+   EXPECTED: chosen | PREDICTED: interviewed,met,contacted,submitted,chosen
+the royal cook asked which chef the lord had 
+   EXPECTED: requested,chosen,hired | PREDICTED: hired,been,chosen,appointed,named
+the camper reported which bear the girl had 
+   EXPECTED: seen | PREDICTED: raised,seen,taken,eaten,left
+the undead king recognized which zombie the woman had 
+   EXPECTED: killed | PREDICTED: been,become,killed,created,encountered
+the broadcaster explained which contestant the judge had 
+   EXPECTED: chosen,disqualified | PREDICTED: interviewed,been,defeated,chosen,nominated
+The ape researcher identified which chimpanzee the poacher had 
+   EXPECTED: killed | PREDICTED: encountered,killed,taken,captured,attacked
+the committee member guessed which president the advisors had 
+   EXPECTED: chosen | PREDICTED: chosen,been,appointed,named,hired
+the committee member guessed which advisors the president had 
+   EXPECTED: appointed | PREDICTED: appointed,assigned,sent,given,been
+the art critic identified which artist the model had 
+   EXPECTED: posed for | PREDICTED: been,become,created,chosen,posed
+The cotton farmer wondered which master the slave had 
+   EXPECTED: killed | PREDICTED: been,become,hired,killed,chosen

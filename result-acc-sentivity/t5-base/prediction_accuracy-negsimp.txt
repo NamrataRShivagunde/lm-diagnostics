@@ -1,0 +1,49 @@
+
+
+***
+MODEL: t5-base
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.9444444444444444 (17/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+A trout is a
+   EXPECTED: fish | PREDICTED: fish,trou,rainbow,good,great
+A salmon is a
+   EXPECTED: fish | PREDICTED: salmon,fish,good,great,symbol
+An ant is an
+   EXPECTED: insect | PREDICTED: insect,animal,alien,insects,invisible
+A bee is an
+   EXPECTED: insect | PREDICTED: insect,animal,important,egg,adult
+A robin is a
+   EXPECTED: bird | PREDICTED: bird,common,small,predator,wild
+A sparrow is a
+   EXPECTED: bird | PREDICTED: bird,common,small,beautiful,great
+An oak is a
+   EXPECTED: tree | PREDICTED: beautiful,tree,great,symbol,good
+A pine is a
+   EXPECTED: tree | PREDICTED: tree,good,pine,beautiful,great
+A rose is a
+   EXPECTED: flower | PREDICTED: rose,symbol,flower,beautiful,gift
+A daisy is a
+   EXPECTED: flower | PREDICTED: flower,beautiful,symbol,pretty,lovely
+A carrot is a
+   EXPECTED: vegetable | PREDICTED: carrot,good,vegetable,great,sweet
+A pea is a
+   EXPECTED: vegetable | PREDICTED: vegetable,legume,fruit,flower,plant
+A hammer is a
+   EXPECTED: tool | PREDICTED: tool,sharp,small,powerful,metal
+A saw is a
+   EXPECTED: tool | PREDICTED: saw,blade,good,sharp,tool
+A car is a
+   EXPECTED: vehicle | PREDICTED: car,vehicle,good,person,man
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,vehicle,car,trailer,big
+A house is a
+   EXPECTED: building | PREDICTED: house,home,building,family,dwelling

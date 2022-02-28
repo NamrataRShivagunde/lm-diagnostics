@@ -1,0 +1,79 @@
+
+
+***
+MODEL: t5-base
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED WORD in top 5 predictions: 0.3409090909090909 (30/88)
+  for cloze quartile 1: 0.28 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.21739130434782608 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.34782608695652173 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.5882352941176471 (0.766666667 upper, 17 items)
+
+ITEMS PREDICTED CORRECTLY:
+
+The librarian documented which celebrities the journalist had 
+   EXPECTED: interviewed | PREDICTED: interviewed,covered,met,visited,worked
+the old widower remembered which ghost the villager had 
+   EXPECTED: seen | PREDICTED: .,left,killed,seen,heard
+the firefighter reported which victim the paramedic had 
+   EXPECTED: saved | PREDICTED: treated,saved,helped,seen,taken
+the historian documented which prince the assassin had 
+   EXPECTED: killed | PREDICTED: murdered,.,killed,chosen,become
+the judo master recognized which assailant the defender had 
+   EXPECTED: defeated,beaten | PREDICTED: attacked,taken,targeted,committed,defeated
+the judo master recognized which defender the assailant had 
+   EXPECTED: attacked | PREDICTED: .,chosen,attacked,taken,used
+the naturalist observed which deer the predators had 
+   EXPECTED: eaten,killed | PREDICTED: .,eaten,killed,attacked,caught
+the restaurant owner forgot which customer the waitress had 
+   EXPECTED: served | PREDICTED: .,served,?,ordered,treated
+the nanny knew which billionaire the housekeeper had 
+   EXPECTED: worked for | PREDICTED: become,.,worked,made,married
+the nanny knew which housekeeper the billionaire had 
+   EXPECTED: hired | PREDICTED: hired,.,chosen,appointed,named
+the researcher learned which whale the biologist had 
+   EXPECTED: studied | PREDICTED: .,observed,identified,found,studied
+Tracy announced which applicant the administrator had 
+   EXPECTED: chosen | PREDICTED: selected,chosen,hired,approved,.
+the columnist publicized which celebrity the photographer had 
+   EXPECTED: photographed | PREDICTED: photographed,.,captured,chosen,taken
+the royal cook asked which chef the lord had 
+   EXPECTED: requested,chosen,hired | PREDICTED: chosen,.,appointed,selected,ordered
+the royal cook asked which lord the chef had 
+   EXPECTED: served | PREDICTED: chosen,served,visited,.,eaten
+the aid worker realized which refugees the philanthropist had 
+   EXPECTED: helped | PREDICTED: helped,supported,saved,worked,chosen
+the camper reported which bear the girl had 
+   EXPECTED: seen | PREDICTED: .,picked,brought,found,seen
+the bird watcher saw which hawk the photographer had 
+   EXPECTED: photographed | PREDICTED: .,photographed,captured,taken,seen
+the costume designer confirmed which barber the actor had 
+   EXPECTED: used | PREDICTED: chosen,hired,.,used,selected
+the investigator discovered which couple the abductor had 
+   EXPECTED: taken | PREDICTED: ab,taken,.,stolen,murdered
+the undead king recognized which zombie the woman had 
+   EXPECTED: killed | PREDICTED: .,killed,become,attacked,chosen
+the broadcaster explained which contestant the judge had 
+   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,.,picked,decided
+the newscaster confirmed which fugitive the policeman had 
+   EXPECTED: captured | PREDICTED: arrested,identified,become,captured,met
+The ape researcher identified which poacher the chimpanzee had 
+   EXPECTED: attacked | PREDICTED: come,killed,become,attacked,.
+The ape researcher identified which chimpanzee the poacher had 
+   EXPECTED: killed | PREDICTED: killed,targeted,attacked,captured,taken
+the committee member guessed which president the advisors had 
+   EXPECTED: chosen | PREDICTED: .,chosen,appointed,selected,elected
+the committee member guessed which advisors the president had 
+   EXPECTED: appointed | PREDICTED: .,chosen,appointed,hired,selected
+the parole officer confirmed which delinquent the psychologist had 
+   EXPECTED: seen | PREDICTED: identified,worked,seen,treated,observed
+the policeman knew which suspect the detective had 
+   EXPECTED: arrested | PREDICTED: .,identified,arrested,found,investigated
+the farmhand recorded which breeder the goats had 
+   EXPECTED: come from,belonged to | PREDICTED: .,come,purchased,chosen,taken
