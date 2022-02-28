@@ -1,0 +1,29 @@
+
+
+***
+MODEL: distilbert-base-uncased
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.4375 (7/16)
+
+ITEMS PREDICTED CORRECTLY:
+
+With proper equipment, scuba-diving is very
+   EXPECTED: safe | PREDICTED: easy,difficult,safe,popular,feasible
+Traveling in Baghdad is very
+   EXPECTED: dangerous | PREDICTED: difficult,expensive,dangerous,risky,important
+Secondhand furniture is very
+   EXPECTED: cheap | PREDICTED: expensive,popular,durable,cheap,rare
+Most smokers find that quitting is very
+   EXPECTED: difficult | PREDICTED: difficult,dangerous,risky,expensive,hazardous
+Terrorist bomb attacks are really
+   EXPECTED: dangerous | PREDICTED: dangerous,rare,uncommon,illegal,terrorists
+A baby bunny's fur is very
+   EXPECTED: soft | PREDICTED: short,soft,distinctive,attractive,cute
+Businessman Donald Trump is really
+   EXPECTED: rich | PREDICTED: gay,upset,interested,rich,wealthy
