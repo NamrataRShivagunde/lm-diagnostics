@@ -2,17 +2,22 @@
 
 run 
 
-    ```python run.py <modelname>```
+```python run.py <modelname>```
 
 for example
 
-    ```python run.py bert-base-uncased```
+```python run.py bert-base-uncased```
 
 The script supports
 - BERT - `bert-base-uncased` , `bert-large-uncased`
 - RoBERTa -  `roberta-base` , `roberta-large`
+- DistilBERT - `distilbert-base-uncased`
 - AlBERT - `albert-base-v1`, `albert-large-v1`, `albert-xl-v1` ,`albert-xxl-v1`
+          `albert-base-v2`, `albert-large-v2`, `albert-xl-v2` ,`albert-xxl-v2`
+- GPT2 - `gpt2`, `gpt2-medium`, `gpt22-large`, `gpt2-xl`
 
+# To run all models 
+ ``` python runallmodels.py ```
 
 For individual steps follow these steps.
 
