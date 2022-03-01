@@ -13,15 +13,15 @@ TRUE COMPLETION in top 5 predictions: 0.375 (6/16)
 
 ITEMS PREDICTED CORRECTLY:
 
-With proper equipment, scuba-diving is very
-   EXPECTED: safe | PREDICTED: easy,enjoyable,safe,simple,relaxing
 Traveling in Baghdad is very
-   EXPECTED: dangerous | PREDICTED: risky,hazardous,dangerous,unsafe,difficult
-Drinking tap water in developing countries is very
-   EXPECTED: dangerous | PREDICTED: unsafe,risky,dangerous,hazardous,harmful
+   EXPECTED: dangerous | PREDICTED: risky,unsafe,dangerous,humid,uncomfortable
+In moderation, drinking red wine is
+   EXPECTED: good | PREDICTED: okay,alright,acceptable,healthy,good
 Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: difficult,easy,challenging,hard,frustrating
+   EXPECTED: difficult | PREDICTED: difficult,challenging,frustrating,unwilling,uncomfortable
+Terrorist bomb attacks are really
+   EXPECTED: dangerous | PREDICTED: scary,dangerous,annoying,creepy,unsafe
 Keeping the door open for somebody is very
-   EXPECTED: polite | PREDICTED: important,polite,nice,honorable,comforting
+   EXPECTED: polite | PREDICTED: important,nice,honorable,polite,valuable
 A baby bunny's fur is very
-   EXPECTED: soft | PREDICTED: soft,silky,fluffy,coarse,delicate
+   EXPECTED: soft | PREDICTED: silky,coarse,soft,fluffy,delicate
