@@ -10,5 +10,5 @@ Good completion more probable than role reversal: 0.3409090909090909 (15/44)
 
 Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
 
-AVG PROB DIFF: -2.7225221745394183e-05
+AVG PROB DIFF: -2.711369087067665e-05
 AVG CLOZE DIFF: 0.23333333329545453

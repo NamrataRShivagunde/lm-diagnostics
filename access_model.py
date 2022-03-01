@@ -55,7 +55,8 @@ def prep_input(input_sents,modelname,tokenizer,bert=True):
             sent = sent + '</s>'
         else: # for distillbert, bert, alberta
             mask_id = tokenizer.convert_tokens_to_ids('[MASK]')
-            sent = sent    
+            sent = sent + '.'    
+
         tokenized_text = tokenizer(sent, return_tensors="pt")
 
         # Setting the mask index
