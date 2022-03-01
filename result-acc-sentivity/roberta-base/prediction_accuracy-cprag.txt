@@ -18,7 +18,7 @@ ITEMS PREDICTED CORRECTLY:
 He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
    EXPECTED: football | PREDICTED: football,catch,ball,basketball,golf
 Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
-   EXPECTED: baseball | PREDICTED: baseball,sports,Yankees,pitching,them
+   EXPECTED: baseball | PREDICTED: baseball,sports,Yankees,pitching,history
 Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
    EXPECTED: ferry | PREDICTED: ferry,bus,plane,boat,shuttle
 The patient was in critical condition and the ambulance wouldn’t be fast enough. They decided they would have to use the

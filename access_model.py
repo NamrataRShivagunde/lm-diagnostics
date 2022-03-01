@@ -53,7 +53,7 @@ def prep_input(input_sents,modelname,tokenizer,bert=True):
         elif modelname.startswith('t5'):
             sent = sent.replace('[MASK]', '<extra_id_0>')
             sent = sent + '</s>'
-        else: # for bert, alberta
+        else: # for distillbert, bert, alberta
             mask_id = tokenizer.convert_tokens_to_ids('[MASK]')
             sent = sent + '.'    
         tokenized_text = tokenizer(sent, return_tensors="pt")
