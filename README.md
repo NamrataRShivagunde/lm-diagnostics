@@ -46,7 +46,7 @@ NEGSIMP-136 dataset is extended using```neg-simp-categories.csv``` which contain
 
       python generate-data.py --dataset 'negsimp'
 
-This will use the ```neg-simp-categories.csv``` aqnd generate neg-simp dataset. We call thi sdataset NEG-SIMP-GENERATED
+This will use the ```neg-simp-categories.csv``` and generate neg-simp dataset. We call this dataset NEG-SIMP-GENERATED
 
 To run one model for generated dataset 
 
@@ -58,12 +58,10 @@ for example
 
 to run all models for the generated dataset
 
-      python run-all-models.py \
-      --generated-data True \
-      --testlist 'negsimp'
+      python run-all-models.py --generated-data True --testlist 'negsimp'
 
  
-For point 1, one model is run for all there datasets. But eveluating each model involves each steps, its optional to run these commands. T
+For point 1, one model is run for all three datasets. But evaluating each model involves each steps, its optional to run these commands. Its based on code repository from Ettinger (2020).
 
 ## 4. Run individual steps
 ### Step 4.1 : Process datasets to produce inputs for LM
