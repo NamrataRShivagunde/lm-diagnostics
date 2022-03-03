@@ -170,9 +170,9 @@ if __name__ == "__main__":
             for modelname in args.models:
                 out.write('\n\n***\nMODEL: %s\n***\n'%modelname)
                 target_probs = []
-                if modelname == "EleutherAI/gpt-neo-1.3B":
-                    modelname = "gpt-neo13"
                 with open(os.path.join(args.probdir,'modeltgtprobs-%s-%s'%(testname,modelname))) as probfile:
-                    for line in probfile: target_probs.append(float(line.strip()))
+                    for line in probfile: 
+                        target_probs.append(float(line.strip()))
                 report = sens_test(dataset_ref,target_probs)
+                print("pass")
                 out.write(report)

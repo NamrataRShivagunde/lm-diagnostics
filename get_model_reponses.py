@@ -23,9 +23,12 @@ if __name__ == "__main__":
     parser.add_argument("--inputdir", default='processed_datasets/', type=str)
     parser.add_argument("--modelname",default='bert-base-uncased', type=str)
     parser.add_argument("--outputdir", default=None, type=str)
+    parser.add_argument("--testlist", default="cprag,role,negsimp,negnat", type=str)
+   
     args = parser.parse_args()
 
-    testlist = ['cprag','role', 'negsimp','negnat']
+    # testlist = ['cprag','role', 'negsimp','negnat']
+    testlist = args.testlist.split(',')
 
     print('LOADING MODELS')
     model, tokenizer = tp.load_model(args.modelname)
@@ -39,6 +42,7 @@ if __name__ == "__main__":
         os.makedirs(args.outputdir)
 
     for testname in testlist:
+        print('testname', testname)
         inputlist = []
         tgtlist = []
         with open(os.path.join(args.inputdir,testname+'-contextlist')) as cont:

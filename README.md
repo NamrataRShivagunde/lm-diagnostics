@@ -17,9 +17,36 @@ The script supports
 - GPT2 - `gpt2`, `gpt2-medium`, `gpt22-large`, `gpt2-xl`
 
 # To run all models 
- ``` python runallmodels.py ```
+ ``` python run-all-models.py ```
+
 
 For individual steps follow these steps.
+
+# To run one model for generated datasets
+
+``` python run-for-generated-data.py <modelname> <dataset>```
+
+for example
+
+```python run-for-generated-data.py bert-base-uncased 'negsimp'```
+
+Currently supporting datasets
+- 'negsimp'
+- 'role'
+- 'negnat'
+
+Models are same as above list
+
+to run all models for one generated dataset
+ ``` python run-all-models.py --generated-data True --testlist 'negsimp' ```
+
+# To generate dataset
+
+NEG-SIMP is an extension of NEG-SIMP from (ettinger, 2020) using 56 categories and their subcategories from original paper (Battig, 1969). 
+To extend the NEG-SIMP dataset run
+
+```python generate-data.py --dataset 'negsimp'```
+
 
 # Step 1: Process datasets to produce inputs for LM
 
