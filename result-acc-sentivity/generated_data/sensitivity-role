@@ -1,3 +1,24 @@
 Top 1 correct predictions accuracy for bert-base-uncased model on role = 0.2 and Sensitivity to negation = N/A
 Top 1 correct predictions accuracy for bert-base-uncased model on role = 0.2 and Sensitivity = N/A
 Top 1 correct predictions accuracy for bert-base-uncased model on role = 0.07333333333333333 and Sensitivity = N/A
+Top 1 correct predictions accuracy for t5-small model on role = 0.03333333333333333 and Sensitivity = N/A
+Top 1 correct predictions accuracy for t5-base model on role = 0.06666666666666667 and Sensitivity = N/A
+Top 1 correct predictions accuracy for t5-large model on role = 0.07333333333333333 and Sensitivity = N/A
+Top 1 correct predictions accuracy for t5-3b model on role = 0.08 and Sensitivity = N/A
+Top 1 correct predictions accuracy for gpt2 model on role = 0.0 and Sensitivity = N/A
+Top 1 correct predictions accuracy for gpt2-medium model on role = 0.0 and Sensitivity = N/A
+Top 1 correct predictions accuracy for gpt2-large model on role = 0.0 and Sensitivity = N/A
+Top 1 correct predictions accuracy for gpt2-xl model on role = 0.0 and Sensitivity = N/A
+Top 1 correct predictions accuracy for bert-base-uncased model on role = 0.07333333333333333 and Sensitivity = N/A
+Top 1 correct predictions accuracy for bert-large-uncased model on role = 0.12333333333333334 and Sensitivity = N/A
+Top 1 correct predictions accuracy for distilbert-base-uncased model on role = 0.07 and Sensitivity = N/A
+Top 1 correct predictions accuracy for roberta-base model on role = 0.13 and Sensitivity = N/A
+Top 1 correct predictions accuracy for roberta-large model on role = 0.13333333333333333 and Sensitivity = N/A
+Top 1 correct predictions accuracy for albert-base-v1 model on role = 0.02 and Sensitivity = N/A
+Top 1 correct predictions accuracy for albert-large-v1 model on role = 0.08 and Sensitivity = N/A
+Top 1 correct predictions accuracy for albert-xlarge-v1 model on role = 0.09 and Sensitivity = N/A
+Top 1 correct predictions accuracy for albert-xxlarge-v1 model on role = 0.11333333333333333 and Sensitivity = N/A
+Top 1 correct predictions accuracy for albert-base-v2 model on role = 0.07 and Sensitivity = N/A
+Top 1 correct predictions accuracy for albert-large-v2 model on role = 0.07333333333333333 and Sensitivity = N/A
+Top 1 correct predictions accuracy for albert-xlarge-v2 model on role = 0.11 and Sensitivity = N/A
+Top 1 correct predictions accuracy for albert-xxlarge-v2 model on role = 0.09333333333333334 and Sensitivity = N/A
