@@ -93,7 +93,7 @@ horse dog person man human
 cow horse person goat human
 cow horse person pig goat
 lion symbol horse dog bird
-lion beast dog tiger man
+lion beast tiger dog man
 tiger bird human snake creature
 tiger lion bird man human
 horse person elephant mammal bird
@@ -218,7 +218,7 @@ tree flower plant branch fruit
 tree flower olive letter star
 flower rose plant poem word
 rose flower plant thorn daisy
-color flower butterfly flag colour
+color flower butterfly flag noun
 color colour flower bird butterfly
 chair seat table desk sofa
 chair seat table throne bed
@@ -408,7 +408,7 @@ plane airplane aircraft car vehicle
 plane airplane aircraft helicopter car
 bow weapon boat bridge device
 bow weapon sword bridge boat
-dagger weapon sword knife blade
+weapon dagger sword knife blade
 weapon dagger sword knife blade
 gas liquid substance fluid chemical
 gas liquid substance fuel fluid
@@ -432,9 +432,9 @@ russia country song world nation
 russia nation country party republic
 country nation song game world
 country game nation world man
-country noun term concept nation
+country noun term nation concept
 germany country nation state german
-canadian country nation flag canada
+canadian country nation flag noun
 canada country canadian nation province
 country noun song language name
 person word question noun letter
@@ -453,7 +453,7 @@ brazil brazilian brasil country state
 switzerland country swiss canton concept
 switzerland swiss canton country state
 flag song noun country horse
-possession nation state person country
+possession nation state country person
 country concept world nation australia
 country person nation world place
 flag horse tree noun song
@@ -590,7 +590,7 @@ salesman businessman business person man
 salesman man businessman lawyer consumer
 nurse doctor physician patient person
 nurse doctor physician patient surgeon
-psychologist psychiatrist person physician discipline
+psychologist person psychiatrist physician discipline
 psychologist psychiatrist doctor scientist physician
 carpenter person worker contractor sailor
 professional person carpenter thief worker
@@ -601,7 +601,7 @@ businessman politician person citizen man
 scientist researcher person science physicist
 scientist doctor researcher man philosopher
 clerk lawyer deputy servant person
-clerk deputy judge person servant
+clerk deputy judge person lawyer
 farmer person landowner soldier politician
 farmer person citizen man peasant
 worker farmer carpenter labor person
@@ -618,7 +618,7 @@ physicist scientist mathematician person philosopher
 physicist scientist mathematician philosopher person
 director manager person company producer
 manager ceo director executive president
-policeman conductor person firefighters fire
+policeman conductor firefighters person fire
 policeman conductor professional firefighters person
 manager coach person player leader
 manager player leader coach person
@@ -702,14 +702,14 @@ handball sport game team match
 handball sport weapon game match
 game ball card sport football
 polo game sport race horse
-boxing sport boxer fight gym
+boxing sport fight boxer gym
 boxing fight sport boxer contest
 sport game rugby team football
 rugby sport game team club
 hunting hunt killing game sport
 hunting hunt killing game hunted
 sport gymnastics gymnast category discipline
-person contract noun word problem
+person contract noun word concept
 sport race game racing pursuit
 race game sport goal contest
 sailing sport yacht sailor boat
@@ -977,7 +977,7 @@ tomato vegetable potato plant salad
 plant fruit vegetable tree shrub
 vegetable fruit plant flower tree
 polynomial vegetable chain carrot soup
-vegetable polynomial cheese weed variety
+vegetable polynomial cheese variety weed
 vegetable salad carrot fruit soup
 vegetable meal meat vegetarian dessert
 pasta soup sausage meal vegetable
@@ -994,7 +994,7 @@ bee plant flower cake fruit
 bee plant flower fruit dog
 squash game ball sport weapon
 weapon person man problem game
-letter noun card flag knife
+letter noun card flag horse
 person noun contract word problem
 book flower noun dessert horse
 weapon dog drug noun meal
@@ -1032,7 +1032,7 @@ fly mothnat fungus bee
 flynat bee moth threat
 moth butterfly fly bird tree
 moth bird fly butterfly variable
-flea mammal dog snake fly
+flea dog mammal snake fly
 flea dog mammal fly bug
 butterfly bird moth fly feather
 bird butterfly moth species fly
@@ -1055,7 +1055,7 @@ mammal predator parasite dog worm
 flyfly butterfly moth bird
 fly bird dragon butterflyfly
 fish sharkfish bird catfish
-fish shark predator species bird
+fish shark predator bird species
 worm snake plant creature concept
 worm snake fish creature person
 bird beetle moth mammal fly
@@ -1137,7 +1137,7 @@ dog word joke cat child
 cold blessing winter feeling heat
 cold heat winter sickness problem
 disease virus plague vaccine smallpox
-disease virus threat smallpox fever
+disease virus smallpox threat fever
 disease disorder condition leukemia syndrome
 cancer disease leukemia cure patient
 disorder process disease reaction condition
@@ -1303,7 +1303,7 @@ fish dog bird mammal shark
 fish boat sail crab submarine
 fish sail shark bird sailor
 fish pigeon bird mammal dog
-fish dog mammal bird seal
+fish dog bird mammal seal
 noun book square document mark
 law prayer mosque mark book
 spot mark place point marker
@@ -1370,7 +1370,7 @@ grass plant tree weed lawn
 grass plant tree weed flower
 bird horse dog thoroughbred racehorse
 dog horse bird diamond species
-water stream river substance liquid
+water stream river substance thing
 water river stream substance lake
 bull horse man person dog
 bull man horse person dog
@@ -1463,7 +1463,7 @@ california state city country jurisdiction
 horse flag railroad noun maryland
 person crime contract man problem
 noun horse tree flag yacht
-person noun horse dog book
+person noun dog horse book
 railroad river cemetery newspaper horse
 person contract noun problem child
 texas country song horse name

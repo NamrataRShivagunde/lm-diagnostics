@@ -1,5 +1,5 @@
 grandmother cousin mother relative woman
-mother grandmother parent child relative
+grandmother mother parent child relative
 cousin nephew grandfather relative surname
 father nephew relative parent cousin
 father grandfather child priest husband
@@ -60,7 +60,7 @@ diamond platinum gem coin gold
 diamond platinum commodity trademark gem
 nickel coin mineral metal dime
 nickel mineral coin copper metal
-chemical mineral semiconductor substance salt
+chemical semiconductor mineral substance salt
 noun substance mineral drug filter
 mercury substance mineral metal comet
 mercury moon substance planet mineral
@@ -86,7 +86,7 @@ battery semiconductor mineral compound polymer
 matrix semiconductor mineral battery compound
 dog pet mammal cat horse
 dog pet cat monster wolf
-cat dog bird mammal mouse
+cat dog bird mammal kitten
 dog cat pet bird mouse
 horse dog rider donkey creature
 horse dog rider mule beast
@@ -232,12 +232,12 @@ desk building computer place tool
 desk chair bench table job
 lamp device fixture candle lantern
 lamp candle beacon lantern lighthouse
-couch sofa bed place chair
+couch sofa bed place room
 couch sofa bed pillow chair
 dresser drawer person closet tool
 dresser bed drawer mirror doll
 television device telephone medium broadcast
-television broadcast tv medium radio
+television broadcast tv radio medium
 stool chair table bench desk
 stool chair bench table cage
 bureau unit division subdivision department
@@ -435,11 +435,11 @@ surname nation country slave republic
 surname country nation germany german
 country republic nation dictatorship state
 surname canadian country nation citizen
-country province nation republic canadian
+country province nation canadian republic
 surname country noun phenomenon continent
 surname republic country religion nation
 surname country spain nation monarchy
-country republic nation monarchy religion
+country republic nation monarchy dictatorship
 surname mexican country currency coin
 country nation republic surname religion
 currency coin china country surname
@@ -550,7 +550,7 @@ fraud hoax fabrication crime forge
 crime fraud felony hoax fabrication
 crime felony treason conspiracy offense
 crime felony treason offense murder
-fraud crime felony hoax deception
+fraud crime hoax felony deception
 crime fraud felony deception conspiracy
 suicide crime homicide murder felony
 suicide crime homicide felony murder
@@ -673,7 +673,7 @@ sport discipline swim profession necessity
 sport discipline profession game surname
 sport game discipline soccer profession
 sport game golf firearm profession
-sport game handicap golf hobby
+sport game golf handicap hobby
 sport game handball discipline surname
 sport game handball discipline race
 track curve road bridge loop
@@ -803,7 +803,7 @@ penguin bird pet dog parrot
 raven bird creature feather dog
 raven bird monster creature beast
 bird swan butterfly creature dog
-bird swan butterfly kite fish
+bird swan kite butterfly fish
 crane tool vehicle bird device
 crane bird kite tool vehicle
 bird surname dog horse creature
@@ -1050,7 +1050,7 @@ moth beetle wasp butterfly parasite
 pest predator parasite moth beetle
 tick snake flea bird virus
 tick snake virus disease pest
-worm bacterium beetle mammal plant
+worm beetle bacterium mammal plant
 pest parasite worm virus weed
 bird butterfly fly dragon snake
 predator bird butterfly pest dragon
@@ -1124,7 +1124,7 @@ plant flower mushroom shrub mammal
 poison pest flower mushroom weed
 flower shrub feather plant cactus
 flower feather cactus shrub tree
-disease cancer tumor disorder phenomenon
+disease cancer tumor disorder condition
 disease cancer tumor cure diagnosis
 disease virus surname condition diagnosis
 disease virus cure problem crime
@@ -1233,14 +1233,14 @@ pest weed predator parasite bird
 plum dessert flower tree fruit
 plum flower tree fruit cake
 tree shrub plant grass bush
-tree weed plant shrub vegetable
+tree weed plant shrub grass
 surname weapon sword chain noun
 surname noun verb weapon chain
 tree shrub mountain plant bird
 tree subspecies volcano mountain plant
 holiday christmas celebration gift carol
 holiday christmas celebration birthday gift
-flower tree shrub plant dog
+flower tree shrub plant holly
 flower tree dog holly witch
 cocktail dessert pastry cactus feather
 dessert cocktail flower cactus cake
@@ -1276,7 +1276,7 @@ whale mammal predator shark creature
 whale predator mammal shark fish
 rock stone boulder mountain landmark
 rock stone mountain volcano tree
-fish protein cod vessel bird
+fish cod protein vessel bird
 fish cod noun word protein
 flower butterfly bird feather symbol
 color colour flower flag butterfly
@@ -1341,7 +1341,7 @@ dog bird surname slave horse
 dolphin whale mammal bird fish
 dolphin whale predator shark fish
 surname caste garment noun feather
-surname sacrifice prayer crime caste
+surname prayer sacrifice crime caste
 rattle sound snake bird whistle
 rattle snake sound feather whistle
 color colour white black bird
@@ -1442,7 +1442,7 @@ surname neighborhood city town suburb
 city neighborhood suburb surname town
 surname noun building contract phenomenon
 surname contract theorem noun felony
-surname ship steamship warship comet
+surname ship steamship warship constellation
 surname slave dog noun flag
 surname neighborhood river city neighbourhood
 surname noun felony slave contract
@@ -1453,7 +1453,7 @@ surname noun city felony contract
 surname noun river dog building
 surname noun slave dog city
 surname building hamlet shrub steamship
-surname slave felony noun prison
+surname slave felony noun dog
 surname town neighborhood subdivision village
 town suburb city village neighborhood
 surname river noun building location
@@ -1469,7 +1469,7 @@ surname felony slave noun citizen
 surname country state territory province
 state country nation city province
 surname woman family river firearm
-surname slave felony state subspecies
+surname slave felony state colony
 surname province state borough region
 state borough province surname felony
 surname maine province dog tribe
@@ -1518,7 +1518,7 @@ surname noun dog location compound
 surname felony slave noun dog
 surname country river state song
 state country nation tennessee town
-surname volcano desert mountain region
+surname desert volcano mountain region
 state volcano desert felony province
 surname river glacier mountain phrase
 surname subspecies volcano mountain dog
