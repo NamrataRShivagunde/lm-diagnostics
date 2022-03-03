@@ -5,6 +5,7 @@ from  transformers import GPT2LMHeadModel, GPT2Tokenizer
 import pandas as pd
 import random
 import argparse
+import openai
 
 def get_arguments():
     """
@@ -37,6 +38,37 @@ def generate_role88():
     input_ids = tokenizer.encode(sentence, return_tensors='pt')
     output = model.generate(input_ids, max_length=200, do_sample=True, temperature=2.0)
     return tokenizer, output
+
+def process_role88():
+    """ role-300 file contains the data generated using OpenAI GPT3. this function will cpnvert the format 
+    of this dataset to the one accepted by the models.  
+    for example after processing the context and target looks like this
+    context - "the journalist investigated which athlete the team had [MASK]
+                the journalist investigated which team the athlete had [MASK]"
+    target - "recruited
+              joined"
+    """
+    raw_role_data = open("datasets/role-300", "r")
+    contextlist = []
+    tgtlist = []
+    for element in raw_role_data:
+        element = element.split(' ')
+        context = ' '.join(element[:-1])
+        tgt =  element[-1]
+        tgt = tgt.strip()
+        tgt = tgt.replace(',','')
+        contextlist.append(context+' [MASK]')
+        tgtlist.append(tgt)
+
+    textfile = open("processed_datasets/generated_data/role-contextlist", "w")
+    for element in contextlist:
+        textfile.write(element + "\n")
+    textfile.close()
+
+    textfile = open("processed_datasets/generated_data/role-targetlist", "w")
+    for element in tgtlist:
+        textfile.write(element + "\n")
+    textfile.close()
 
 
 def generate_negsimp():
@@ -81,7 +113,8 @@ def main():
     if args.dataset == 'negsimp':
         generate_negsimp()
     elif args.dataset == 'role':
-        tokenizer, output = generate_role88()
+        process_role88()
+        # tokenizer, output = generate_role88()
 
 if __name__ == "__main__":
     main()

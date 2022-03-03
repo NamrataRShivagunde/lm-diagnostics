@@ -4,3 +4,4 @@ numpy
 pytorch_pretrained_bert
 transformers
 pandas
+openai

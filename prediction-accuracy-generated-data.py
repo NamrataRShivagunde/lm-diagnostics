@@ -24,19 +24,27 @@ def main():
         num_correct = 0
         flipped_pred = 0
         top1correct = 0
-        for i in range(0, len(tgt), 2):
+        n = len(tgt)
+        step = 1
+        if args.dataset == 'negsimp':
+            step = 2
+        for i in range(0, len(tgt), step):
             prediction = pred[i].strip()
             prediction = prediction.split(' ')
             if tgt[i].strip() in prediction:    # Number of correct predictions for affirmative sentences
                 num_correct += 1
                 if tgt[i].strip() == prediction[0]: # flipped_pred will track if the prediction (top 1) will change when moved from affirmative to negated sentences
                     top1correct += 1
-                    if pred[i][0] != pred[i+1][0]:
-                        flipped_pred += 1
+                    if args.dataset == 'negsimp':
+                        if pred[i][0] != pred[i+1][0]:
+                            flipped_pred += 1
 
-    accuracy = num_correct / len(tgt_file)
-    top1correct = top1correct / len(tgt_file) # number of correct in top 1 predictions
-    sentitivity_neg = flipped_pred * 2 / len(tgt_file) # tgtfile has both affirmative and negated sentences, length will be half
+    accuracy = num_correct * step / n # accuracy is only for affirmative sentences
+    top1accuracy = top1correct / n # number of correct in top 1 predictions
+    if args.dataset == 'negsimp':
+        sentitivity_neg = flipped_pred * 2 / n # tgtfile has both affirmative and negated sentences, length will be half
+    else : 
+        sentitivity_neg = 'N/A'
 
     if not os.path.exists("result-acc-sentivity/generated_data/"):
         os.makedirs("result-acc-sentivity/generated_data/")
@@ -46,7 +54,7 @@ def main():
     textfile.close()
 
     textfile = open("result-acc-sentivity/generated_data/sensitivity-{}".format(args.dataset), "a")
-    textfile.write("Top 1 correct predictions accuracy for {} model on {} = ".format(args.modelname, args.dataset) + str(top1correct) + " and Sensitivity to negation = " + str(sentitivity_neg) + "\n")
+    textfile.write("Top 1 correct predictions accuracy for {} model on {} = ".format(args.modelname, args.dataset) + str(top1accuracy) + " and Sensitivity = " + str(sentitivity_neg) + "\n")
     textfile.close()
 
 if __name__ == "__main__":

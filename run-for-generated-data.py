@@ -22,12 +22,5 @@ os.system('python get_model_reponses.py \
 --testlist {1}'.format(modelname, testlist)
 )
 
-if testlist == 'negsimp':
-    dataset = '--negsimp_stim datasets/NEG-88/NEG-88-SIMP.tsv'
-elif testlist == 'role':
-    dataset = '--role_stim datasets/ROLE-88/ROLE-88.tsv'
-elif testlist == 'negnat':
-    dataset = '--negnat_stim datasets/NEG-88/NEG-88-NAT.tsv'
-
 print('Getting prediction accuracy for GENERATED DATASET {}'.format(testlist))
 os.system('python prediction-accuracy-generated-data.py {} {}'.format(modelname, testlist))
