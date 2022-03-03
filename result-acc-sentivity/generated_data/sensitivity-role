@@ -1,6 +1,3 @@
-Top 1 correct predictions accuracy for bert-base-uncased model on role = 0.2 and Sensitivity to negation = N/A
-Top 1 correct predictions accuracy for bert-base-uncased model on role = 0.2 and Sensitivity = N/A
-Top 1 correct predictions accuracy for bert-base-uncased model on role = 0.07333333333333333 and Sensitivity = N/A
 Top 1 correct predictions accuracy for t5-small model on role = 0.03333333333333333 and Sensitivity = N/A
 Top 1 correct predictions accuracy for t5-base model on role = 0.06666666666666667 and Sensitivity = N/A
 Top 1 correct predictions accuracy for t5-large model on role = 0.07333333333333333 and Sensitivity = N/A
