@@ -125,6 +125,9 @@ if __name__ == "__main__":
 
     if not os.path.exists(args.resultsdir):
         os.makedirs(args.resultsdir)
+    
+    if not os.path.exists('oneplace'):
+        os.makedirs('oneplace')
 
     for stimfile,acc_test,testname,process_func in testlist:
         if not stimfile: continue
@@ -141,3 +144,17 @@ if __name__ == "__main__":
                     word_preds = [p[:k] for p in word_preds_full]
                     report = acc_test(dataset_ref,word_preds,k=k)
                     out.write(report)
+        
+        with open('oneplace/prediction.txt','a') as out:
+            for modelname in args.models:
+                out.write('\n\n***\nMODEL: %s\n***\n'%modelname)
+                word_preds_full = []
+                with open(os.path.join(args.preddir,'modelpreds-%s-%s'%(testname,modelname)), encoding='utf8') as predfile:
+                    for line in predfile: word_preds_full.append(line.strip().split())
+                for k in args.k_values:
+                    out.write('\n--\nk = %s\n--\n'%k)
+                    word_preds = [p[:k] for p in word_preds_full]
+                    report = acc_test(dataset_ref,word_preds,k=k)
+                    out.write(report)
+            out.write("----------------------------------------------------------------------------")
+        

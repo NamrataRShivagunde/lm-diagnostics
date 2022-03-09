@@ -163,6 +163,9 @@ if __name__ == "__main__":
     if not os.path.exists(args.resultsdir):
         os.makedirs(args.resultsdir)
 
+    if not os.path.exists('oneplace'):
+        os.makedirs('oneplace')
+
     for stimfile,sens_test,testname,process_func in testlist:
         if not stimfile: continue
         inputlist,_,dataset_ref = process_func(stimfile,mask_tok=False)
@@ -174,5 +177,15 @@ if __name__ == "__main__":
                     for line in probfile: 
                         target_probs.append(float(line.strip()))
                 report = sens_test(dataset_ref,target_probs)
-                print("pass")
                 out.write(report)
+
+        with open('oneplace/sensitivity.txt','a') as out:
+            for modelname in args.models:
+                out.write('\n\n***\nMODEL: %s\n***\n'%modelname)
+                target_probs = []
+                with open(os.path.join(args.probdir,'modeltgtprobs-%s-%s'%(testname,modelname))) as probfile:
+                    for line in probfile: 
+                        target_probs.append(float(line.strip()))
+                report = sens_test(dataset_ref,target_probs)
+                out.write(report)
+            out.write("----------------------------------------------------------------------------")

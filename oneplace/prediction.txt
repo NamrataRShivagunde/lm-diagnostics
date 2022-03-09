@@ -1,0 +1,553 @@
+
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED TARGET in TOP 5 predictions: 0.20588235294117646 (7/34)
+
+ITEMS PREDICTED CORRECTLY:
+
+He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
+   EXPECTED: football | PREDICTED: football,game,play,games,action
+Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
+   EXPECTED: baseball | PREDICTED: baseball,Yankee,playing,Baseball,winning
+Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
+   EXPECTED: ferry | PREDICTED: ferry,boat,island,bus,board
+Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
+   EXPECTED: plane | PREDICTED: board,plane,ship,boat,ferry
+The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
+   EXPECTED: cake | PREDICTED: wedding,cake,kitchen,ceremony,recipe
+By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
+   EXPECTED: boots | PREDICTED: shoes,socks,hiking,boots,sunglasses
+Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
+   EXPECTED: jeans | PREDICTED: stone,shoes,stones,jeans,boots
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED WORD in top 5 predictions: 0.18181818181818182 (16/88)
+  for cloze quartile 1: 0.16 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.13043478260869565 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.21739130434782608 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.23529411764705882 (0.766666667 upper, 17 items)
+
+ITEMS PREDICTED CORRECTLY:
+
+The librarian documented which journalist the celebrities had 
+   EXPECTED: avoided,hated,read,met | PREDICTED: .,become,made,chosen,met
+the old widower remembered which ghost the villager had 
+   EXPECTED: seen | PREDICTED: .,found,chosen,known,seen
+the historian documented which prince the assassin had 
+   EXPECTED: killed | PREDICTED: died,killed,.,murdered,served
+the naturalist observed which deer the predators had 
+   EXPECTED: eaten,killed | PREDICTED: .,seen,eaten,found,known
+the restaurant owner forgot which customer the waitress had 
+   EXPECTED: served | PREDICTED: .,served,asked,met,chosen
+the nanny knew which housekeeper the billionaire had 
+   EXPECTED: hired | PREDICTED: .,worked,hired,always,appointed
+Tracy announced which applicant the administrator had 
+   EXPECTED: chosen | PREDICTED: chosen,.,selected,hired,appointed
+the royal cook asked which chef the lord had 
+   EXPECTED: requested,chosen,hired | PREDICTED: chosen,served,.,appointed,ever
+the royal cook asked which lord the chef had 
+   EXPECTED: served | PREDICTED: appointed,chosen,.,served,named
+the aid worker realized which refugees the philanthropist had 
+   EXPECTED: helped | PREDICTED: helped,.,received,sent,brought
+the camper reported which bear the girl had 
+   EXPECTED: seen | PREDICTED: .,seen,died,left,shown
+the bird watcher saw which hawk the photographer had 
+   EXPECTED: photographed | PREDICTED: seen,.,photographed,taken,found
+the costume designer confirmed which barber the actor had 
+   EXPECTED: used | PREDICTED: chosen,used,hired,worked,.
+the broadcaster explained which contestant the judge had 
+   EXPECTED: chosen,disqualified | PREDICTED: chosen,.,selected,asked,entered
+the committee member guessed which president the advisors had 
+   EXPECTED: chosen | PREDICTED: .,appointed,served,chosen,elected
+the committee member guessed which advisors the president had 
+   EXPECTED: appointed | PREDICTED: .,appointed,served,met,chosen
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.5555555555555556 (10/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+A trout is a
+   EXPECTED: fish | PREDICTED: trou,fish,good,great,must
+A salmon is a
+   EXPECTED: fish | PREDICTED: salmon,fish,great,good,common
+An ant is an
+   EXPECTED: insect | PREDICTED: insect,animal,anti,egg,herb
+A bee is an
+   EXPECTED: insect | PREDICTED: animal,insect,excellent,egg,oyster
+A pine is a
+   EXPECTED: tree | PREDICTED: pine,tree,pin,beautiful,perfect
+A rose is a
+   EXPECTED: flower | PREDICTED: rose,flower,beautiful,sweet,gold
+A hammer is a
+   EXPECTED: tool | PREDICTED: good,simple,tool,great,ball
+A saw is a
+   EXPECTED: tool | PREDICTED: saw,tool,simple,staple,standard
+A car is a
+   EXPECTED: vehicle | PREDICTED: car,vehicle,must,great,luxury
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,vehicle,great,good,big
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.25 (4/16)
+
+ITEMS PREDICTED CORRECTLY:
+
+In moderation, drinking red wine is
+   EXPECTED: good | PREDICTED: good,always,recommended,better,bad
+Most smokers find that quitting is very
+   EXPECTED: difficult | PREDICTED: difficult,dangerous,important,expensive,bad
+Vitamins and proteins are very
+   EXPECTED: good | PREDICTED: important,good,essential,beneficial,effective
+A baby bunny's fur is very
+   EXPECTED: soft | PREDICTED: cute,good,fluffy,soft,sweet
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED TARGET in TOP 5 predictions: 0.20588235294117646 (7/34)
+
+ITEMS PREDICTED CORRECTLY:
+
+He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
+   EXPECTED: football | PREDICTED: football,game,play,games,action
+Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
+   EXPECTED: baseball | PREDICTED: baseball,Yankee,playing,Baseball,winning
+Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
+   EXPECTED: ferry | PREDICTED: ferry,boat,island,bus,board
+Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
+   EXPECTED: plane | PREDICTED: board,plane,ship,boat,ferry
+The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
+   EXPECTED: cake | PREDICTED: wedding,cake,kitchen,ceremony,recipe
+By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
+   EXPECTED: boots | PREDICTED: shoes,socks,hiking,boots,sunglasses
+Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
+   EXPECTED: jeans | PREDICTED: stone,shoes,stones,jeans,boots
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED WORD in top 5 predictions: 0.18181818181818182 (16/88)
+  for cloze quartile 1: 0.16 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.13043478260869565 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.21739130434782608 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.23529411764705882 (0.766666667 upper, 17 items)
+
+ITEMS PREDICTED CORRECTLY:
+
+The librarian documented which journalist the celebrities had 
+   EXPECTED: avoided,hated,read,met | PREDICTED: .,become,made,chosen,met
+the old widower remembered which ghost the villager had 
+   EXPECTED: seen | PREDICTED: .,found,chosen,known,seen
+the historian documented which prince the assassin had 
+   EXPECTED: killed | PREDICTED: died,killed,.,murdered,served
+the naturalist observed which deer the predators had 
+   EXPECTED: eaten,killed | PREDICTED: .,seen,eaten,found,known
+the restaurant owner forgot which customer the waitress had 
+   EXPECTED: served | PREDICTED: .,served,asked,met,chosen
+the nanny knew which housekeeper the billionaire had 
+   EXPECTED: hired | PREDICTED: .,worked,hired,always,appointed
+Tracy announced which applicant the administrator had 
+   EXPECTED: chosen | PREDICTED: chosen,.,selected,hired,appointed
+the royal cook asked which chef the lord had 
+   EXPECTED: requested,chosen,hired | PREDICTED: chosen,served,.,appointed,ever
+the royal cook asked which lord the chef had 
+   EXPECTED: served | PREDICTED: appointed,chosen,.,served,named
+the aid worker realized which refugees the philanthropist had 
+   EXPECTED: helped | PREDICTED: helped,.,received,sent,brought
+the camper reported which bear the girl had 
+   EXPECTED: seen | PREDICTED: .,seen,died,left,shown
+the bird watcher saw which hawk the photographer had 
+   EXPECTED: photographed | PREDICTED: seen,.,photographed,taken,found
+the costume designer confirmed which barber the actor had 
+   EXPECTED: used | PREDICTED: chosen,used,hired,worked,.
+the broadcaster explained which contestant the judge had 
+   EXPECTED: chosen,disqualified | PREDICTED: chosen,.,selected,asked,entered
+the committee member guessed which president the advisors had 
+   EXPECTED: chosen | PREDICTED: .,appointed,served,chosen,elected
+the committee member guessed which advisors the president had 
+   EXPECTED: appointed | PREDICTED: .,appointed,served,met,chosen
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.5555555555555556 (10/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+A trout is a
+   EXPECTED: fish | PREDICTED: trou,fish,good,great,must
+A salmon is a
+   EXPECTED: fish | PREDICTED: salmon,fish,great,good,common
+An ant is an
+   EXPECTED: insect | PREDICTED: insect,animal,anti,egg,herb
+A bee is an
+   EXPECTED: insect | PREDICTED: animal,insect,excellent,egg,oyster
+A pine is a
+   EXPECTED: tree | PREDICTED: pine,tree,pin,beautiful,perfect
+A rose is a
+   EXPECTED: flower | PREDICTED: rose,flower,beautiful,sweet,gold
+A hammer is a
+   EXPECTED: tool | PREDICTED: good,simple,tool,great,ball
+A saw is a
+   EXPECTED: tool | PREDICTED: saw,tool,simple,staple,standard
+A car is a
+   EXPECTED: vehicle | PREDICTED: car,vehicle,must,great,luxury
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,vehicle,great,good,big
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.25 (4/16)
+
+ITEMS PREDICTED CORRECTLY:
+
+In moderation, drinking red wine is
+   EXPECTED: good | PREDICTED: good,always,recommended,better,bad
+Most smokers find that quitting is very
+   EXPECTED: difficult | PREDICTED: difficult,dangerous,important,expensive,bad
+Vitamins and proteins are very
+   EXPECTED: good | PREDICTED: important,good,essential,beneficial,effective
+A baby bunny's fur is very
+   EXPECTED: soft | PREDICTED: cute,good,fluffy,soft,sweet
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED TARGET in TOP 5 predictions: 0.20588235294117646 (7/34)
+
+ITEMS PREDICTED CORRECTLY:
+
+He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
+   EXPECTED: football | PREDICTED: football,game,play,games,action
+Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
+   EXPECTED: baseball | PREDICTED: baseball,Yankee,playing,Baseball,winning
+Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
+   EXPECTED: ferry | PREDICTED: ferry,boat,island,bus,board
+Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
+   EXPECTED: plane | PREDICTED: board,plane,ship,boat,ferry
+The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
+   EXPECTED: cake | PREDICTED: wedding,cake,kitchen,ceremony,recipe
+By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
+   EXPECTED: boots | PREDICTED: shoes,socks,hiking,boots,sunglasses
+Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
+   EXPECTED: jeans | PREDICTED: stone,shoes,stones,jeans,boots
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED WORD in top 5 predictions: 0.18181818181818182 (16/88)
+  for cloze quartile 1: 0.16 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.13043478260869565 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.21739130434782608 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.23529411764705882 (0.766666667 upper, 17 items)
+
+ITEMS PREDICTED CORRECTLY:
+
+The librarian documented which journalist the celebrities had 
+   EXPECTED: avoided,hated,read,met | PREDICTED: .,become,made,chosen,met
+the old widower remembered which ghost the villager had 
+   EXPECTED: seen | PREDICTED: .,found,chosen,known,seen
+the historian documented which prince the assassin had 
+   EXPECTED: killed | PREDICTED: died,killed,.,murdered,served
+the naturalist observed which deer the predators had 
+   EXPECTED: eaten,killed | PREDICTED: .,seen,eaten,found,known
+the restaurant owner forgot which customer the waitress had 
+   EXPECTED: served | PREDICTED: .,served,asked,met,chosen
+the nanny knew which housekeeper the billionaire had 
+   EXPECTED: hired | PREDICTED: .,worked,hired,always,appointed
+Tracy announced which applicant the administrator had 
+   EXPECTED: chosen | PREDICTED: chosen,.,selected,hired,appointed
+the royal cook asked which chef the lord had 
+   EXPECTED: requested,chosen,hired | PREDICTED: chosen,served,.,appointed,ever
+the royal cook asked which lord the chef had 
+   EXPECTED: served | PREDICTED: appointed,chosen,.,served,named
+the aid worker realized which refugees the philanthropist had 
+   EXPECTED: helped | PREDICTED: helped,.,received,sent,brought
+the camper reported which bear the girl had 
+   EXPECTED: seen | PREDICTED: .,seen,died,left,shown
+the bird watcher saw which hawk the photographer had 
+   EXPECTED: photographed | PREDICTED: seen,.,photographed,taken,found
+the costume designer confirmed which barber the actor had 
+   EXPECTED: used | PREDICTED: chosen,used,hired,worked,.
+the broadcaster explained which contestant the judge had 
+   EXPECTED: chosen,disqualified | PREDICTED: chosen,.,selected,asked,entered
+the committee member guessed which president the advisors had 
+   EXPECTED: chosen | PREDICTED: .,appointed,served,chosen,elected
+the committee member guessed which advisors the president had 
+   EXPECTED: appointed | PREDICTED: .,appointed,served,met,chosen
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.5555555555555556 (10/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+A trout is a
+   EXPECTED: fish | PREDICTED: trou,fish,good,great,must
+A salmon is a
+   EXPECTED: fish | PREDICTED: salmon,fish,great,good,common
+An ant is an
+   EXPECTED: insect | PREDICTED: insect,animal,anti,egg,herb
+A bee is an
+   EXPECTED: insect | PREDICTED: animal,insect,excellent,egg,oyster
+A pine is a
+   EXPECTED: tree | PREDICTED: pine,tree,pin,beautiful,perfect
+A rose is a
+   EXPECTED: flower | PREDICTED: rose,flower,beautiful,sweet,gold
+A hammer is a
+   EXPECTED: tool | PREDICTED: good,simple,tool,great,ball
+A saw is a
+   EXPECTED: tool | PREDICTED: saw,tool,simple,staple,standard
+A car is a
+   EXPECTED: vehicle | PREDICTED: car,vehicle,must,great,luxury
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,vehicle,great,good,big
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.25 (4/16)
+
+ITEMS PREDICTED CORRECTLY:
+
+In moderation, drinking red wine is
+   EXPECTED: good | PREDICTED: good,always,recommended,better,bad
+Most smokers find that quitting is very
+   EXPECTED: difficult | PREDICTED: difficult,dangerous,important,expensive,bad
+Vitamins and proteins are very
+   EXPECTED: good | PREDICTED: important,good,essential,beneficial,effective
+A baby bunny's fur is very
+   EXPECTED: soft | PREDICTED: cute,good,fluffy,soft,sweet
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED TARGET in TOP 5 predictions: 0.20588235294117646 (7/34)
+
+ITEMS PREDICTED CORRECTLY:
+
+He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
+   EXPECTED: football | PREDICTED: football,game,play,games,action
+Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
+   EXPECTED: baseball | PREDICTED: baseball,Yankee,playing,Baseball,winning
+Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
+   EXPECTED: ferry | PREDICTED: ferry,boat,island,bus,board
+Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
+   EXPECTED: plane | PREDICTED: board,plane,ship,boat,ferry
+The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
+   EXPECTED: cake | PREDICTED: wedding,cake,kitchen,ceremony,recipe
+By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
+   EXPECTED: boots | PREDICTED: shoes,socks,hiking,boots,sunglasses
+Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
+   EXPECTED: jeans | PREDICTED: stone,shoes,stones,jeans,boots
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED WORD in top 5 predictions: 0.18181818181818182 (16/88)
+  for cloze quartile 1: 0.16 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.13043478260869565 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.21739130434782608 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.23529411764705882 (0.766666667 upper, 17 items)
+
+ITEMS PREDICTED CORRECTLY:
+
+The librarian documented which journalist the celebrities had 
+   EXPECTED: avoided,hated,read,met | PREDICTED: .,become,made,chosen,met
+the old widower remembered which ghost the villager had 
+   EXPECTED: seen | PREDICTED: .,found,chosen,known,seen
+the historian documented which prince the assassin had 
+   EXPECTED: killed | PREDICTED: died,killed,.,murdered,served
+the naturalist observed which deer the predators had 
+   EXPECTED: eaten,killed | PREDICTED: .,seen,eaten,found,known
+the restaurant owner forgot which customer the waitress had 
+   EXPECTED: served | PREDICTED: .,served,asked,met,chosen
+the nanny knew which housekeeper the billionaire had 
+   EXPECTED: hired | PREDICTED: .,worked,hired,always,appointed
+Tracy announced which applicant the administrator had 
+   EXPECTED: chosen | PREDICTED: chosen,.,selected,hired,appointed
+the royal cook asked which chef the lord had 
+   EXPECTED: requested,chosen,hired | PREDICTED: chosen,served,.,appointed,ever
+the royal cook asked which lord the chef had 
+   EXPECTED: served | PREDICTED: appointed,chosen,.,served,named
+the aid worker realized which refugees the philanthropist had 
+   EXPECTED: helped | PREDICTED: helped,.,received,sent,brought
+the camper reported which bear the girl had 
+   EXPECTED: seen | PREDICTED: .,seen,died,left,shown
+the bird watcher saw which hawk the photographer had 
+   EXPECTED: photographed | PREDICTED: seen,.,photographed,taken,found
+the costume designer confirmed which barber the actor had 
+   EXPECTED: used | PREDICTED: chosen,used,hired,worked,.
+the broadcaster explained which contestant the judge had 
+   EXPECTED: chosen,disqualified | PREDICTED: chosen,.,selected,asked,entered
+the committee member guessed which president the advisors had 
+   EXPECTED: chosen | PREDICTED: .,appointed,served,chosen,elected
+the committee member guessed which advisors the president had 
+   EXPECTED: appointed | PREDICTED: .,appointed,served,met,chosen
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.5555555555555556 (10/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+A trout is a
+   EXPECTED: fish | PREDICTED: trou,fish,good,great,must
+A salmon is a
+   EXPECTED: fish | PREDICTED: salmon,fish,great,good,common
+An ant is an
+   EXPECTED: insect | PREDICTED: insect,animal,anti,egg,herb
+A bee is an
+   EXPECTED: insect | PREDICTED: animal,insect,excellent,egg,oyster
+A pine is a
+   EXPECTED: tree | PREDICTED: pine,tree,pin,beautiful,perfect
+A rose is a
+   EXPECTED: flower | PREDICTED: rose,flower,beautiful,sweet,gold
+A hammer is a
+   EXPECTED: tool | PREDICTED: good,simple,tool,great,ball
+A saw is a
+   EXPECTED: tool | PREDICTED: saw,tool,simple,staple,standard
+A car is a
+   EXPECTED: vehicle | PREDICTED: car,vehicle,must,great,luxury
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,vehicle,great,good,big
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.25 (4/16)
+
+ITEMS PREDICTED CORRECTLY:
+
+In moderation, drinking red wine is
+   EXPECTED: good | PREDICTED: good,always,recommended,better,bad
+Most smokers find that quitting is very
+   EXPECTED: difficult | PREDICTED: difficult,dangerous,important,expensive,bad
+Vitamins and proteins are very
+   EXPECTED: good | PREDICTED: important,good,essential,beneficial,effective
+A baby bunny's fur is very
+   EXPECTED: soft | PREDICTED: cute,good,fluffy,soft,sweet
+----------------------------------------------------------------------------
