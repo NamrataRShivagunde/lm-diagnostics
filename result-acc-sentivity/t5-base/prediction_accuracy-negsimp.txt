@@ -9,41 +9,39 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.9444444444444444 (17/18)
+TRUE COMPLETION in top 5 predictions: 0.8888888888888888 (16/18)
 
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: fish,trou,rainbow,good,great
+   EXPECTED: fish | PREDICTED: fish,great,good,trou,common
 A salmon is a
-   EXPECTED: fish | PREDICTED: salmon,fish,good,great,symbol
+   EXPECTED: fish | PREDICTED: salmon,fish,great,good,delicious
 An ant is an
-   EXPECTED: insect | PREDICTED: insect,animal,alien,insects,invisible
+   EXPECTED: insect | PREDICTED: insect,animal,insects,organism,alien
 A bee is an
-   EXPECTED: insect | PREDICTED: insect,animal,important,egg,adult
+   EXPECTED: insect | PREDICTED: insect,animal,important,egg,edible
 A robin is a
-   EXPECTED: bird | PREDICTED: bird,common,small,predator,wild
+   EXPECTED: bird | PREDICTED: bird,common,predator,small,species
 A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,common,small,beautiful,great
+   EXPECTED: bird | PREDICTED: common,bird,small,great,beautiful
 An oak is a
-   EXPECTED: tree | PREDICTED: beautiful,tree,great,symbol,good
+   EXPECTED: tree | PREDICTED: beautiful,great,symbol,good,tree
 A pine is a
-   EXPECTED: tree | PREDICTED: tree,good,pine,beautiful,great
+   EXPECTED: tree | PREDICTED: tree,good,great,beautiful,wood
 A rose is a
-   EXPECTED: flower | PREDICTED: rose,symbol,flower,beautiful,gift
+   EXPECTED: flower | PREDICTED: symbol,rose,beautiful,flower,gift
 A daisy is a
    EXPECTED: flower | PREDICTED: flower,beautiful,symbol,pretty,lovely
 A carrot is a
-   EXPECTED: vegetable | PREDICTED: carrot,good,vegetable,great,sweet
+   EXPECTED: vegetable | PREDICTED: carrot,good,vegetable,sweet,great
 A pea is a
-   EXPECTED: vegetable | PREDICTED: vegetable,legume,fruit,flower,plant
+   EXPECTED: vegetable | PREDICTED: vegetable,legume,fruit,flower,seed
 A hammer is a
-   EXPECTED: tool | PREDICTED: tool,sharp,small,powerful,metal
-A saw is a
-   EXPECTED: tool | PREDICTED: saw,blade,good,sharp,tool
+   EXPECTED: tool | PREDICTED: tool,sharp,metal,powerful,small
 A car is a
-   EXPECTED: vehicle | PREDICTED: car,vehicle,good,person,man
+   EXPECTED: vehicle | PREDICTED: car,vehicle,good,motor,driver
 A truck is a
    EXPECTED: vehicle | PREDICTED: truck,vehicle,car,trailer,big
 A house is a
-   EXPECTED: building | PREDICTED: house,home,building,family,dwelling
+   EXPECTED: building | PREDICTED: house,home,building,family,garden

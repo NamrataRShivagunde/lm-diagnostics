@@ -9,93 +9,11 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.4659090909090909 (41/88)
-  for cloze quartile 1: 0.36 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.43478260869565216 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.43478260869565216 (0.333333333 upper, 23 items)
-  for cloze quartile 4: 0.7058823529411765 (0.766666667 upper, 17 items)
+EXPECTED WORD in top 5 predictions: 0.0 (0/88)
+  for cloze quartile 1: 0.0 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.0 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.0 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.0 (0.766666667 upper, 17 items)
 
 ITEMS PREDICTED CORRECTLY:
 
-The librarian documented which journalist the celebrities had 
-   EXPECTED: avoided,hated,read,met | PREDICTED: met,interviewed,called,contacted,visited
-The librarian documented which celebrities the journalist had 
-   EXPECTED: interviewed | PREDICTED: interviewed,met,photographed,covered,mentioned
-the old widower remembered which ghost the villager had 
-   EXPECTED: seen | PREDICTED: seen,visited,met,heard,killed
-the firefighter reported which victim the paramedic had 
-   EXPECTED: saved | PREDICTED: saved,helped,treated,encountered,seen
-the historian documented which assassin the prince had 
-   EXPECTED: hired | PREDICTED: hired,killed,chosen,dispatched,sent
-the historian documented which prince the assassin had 
-   EXPECTED: killed | PREDICTED: killed,targeted,murdered,been,assassinated
-the judo master recognized which defender the assailant had 
-   EXPECTED: attacked | PREDICTED: targeted,attacked,been,killed,engaged
-the naturalist observed which deer the predators had 
-   EXPECTED: eaten,killed | PREDICTED: killed,taken,targeted,eaten,chosen
-the naturalist observed which predators the deer had 
-   EXPECTED: avoided | PREDICTED: encountered,seen,faced,avoided,killed
-the restaurant owner forgot which customer the waitress had 
-   EXPECTED: served | PREDICTED: served,been,called,ordered.
-the nanny knew which housekeeper the billionaire had 
-   EXPECTED: hired | PREDICTED: hired,employed,used,chosen,paid
-Tracy announced which administrator the applicant had 
-   EXPECTED: interviewed with,seen | PREDICTED: chosen,selected,contacted,interviewed,hired
-Tracy announced which applicant the administrator had 
-   EXPECTED: chosen | PREDICTED: approved,selected,rejected,chosen,disqualified
-the columnist publicized which celebrity the photographer had 
-   EXPECTED: photographed | PREDICTED: photographed,shot,captured,taken,tagged
-the police officer noted which burglar the jeweler had 
-   EXPECTED: identified | PREDICTED: targeted,identified,been,seen,encountered
-the police officer noted which jeweler the burglar had 
-   EXPECTED: robbed | PREDICTED: used,targeted,robbed,purchased,been
-the royal cook asked which chef the lord had 
-   EXPECTED: requested,chosen,hired | PREDICTED: hired,appointed,employed,chosen,consulted
-the royal cook asked which lord the chef had 
-   EXPECTED: served | PREDICTED: killed,met,served,mentioned,seen
-the aid worker realized which refugees the philanthropist had 
-   EXPECTED: helped | PREDICTED: helped,targeted,chosen,referred,sponsored
-the camper reported which bear the girl had 
-   EXPECTED: seen | PREDICTED: seen,found,encountered,met,received
-the bird watcher saw which hawk the photographer had 
-   EXPECTED: photographed | PREDICTED: shot,photographed,captured,seen,taken
-the bird watcher saw which photographer the hawk had 
-   EXPECTED: attacked | PREDICTED: targeted,approached,attacked,struck,spotted
-the costume designer confirmed which barber the actor had 
-   EXPECTED: used | PREDICTED: used,visited,chosen,attended,seen
-the sheriff recalled which locals the gangsters had 
-   EXPECTED: robbed | PREDICTED: targeted,killed,attacked,robbed,kidnapped
-the undead king recognized which zombie the woman had 
-   EXPECTED: killed | PREDICTED: killed,been,slain,become,encountered
-the broadcaster explained which contestant the judge had 
-   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,eliminated,disqualified,picked
-the newscaster confirmed which policeman the fugitive had 
-   EXPECTED: shot | PREDICTED: killed,shot,targeted,been,stabbed
-the opera composer revealed which singer the pirate had 
-   EXPECTED: kidnapped,murdered,killed | PREDICTED: kidnapped,targeted,killed,abducted,chosen
-The ape researcher identified which poacher the chimpanzee had 
-   EXPECTED: attacked | PREDICTED: killed,encountered,attacked,targeted,been
-The ape researcher identified which chimpanzee the poacher had 
-   EXPECTED: killed | PREDICTED: killed,targeted,bitten,encountered,kidnapped
-the committee member guessed which president the advisors had 
-   EXPECTED: chosen | PREDICTED: chosen,nominated,selected,recommended,picked
-the committee member guessed which advisors the president had 
-   EXPECTED: appointed | PREDICTED: chosen,consulted,hired,appointed,selected
-the farmer indicated which donkey the townsperson had 
-   EXPECTED: stolen,ridden | PREDICTED: seen,ridden,bought,purchased,brought
-the parole officer confirmed which psychologist the delinquent had 
-   EXPECTED: seen | PREDICTED: seen,attended,visited,consulted,used
-the parole officer confirmed which delinquent the psychologist had 
-   EXPECTED: seen | PREDICTED: identified,found,diagnosed,seen,interviewed
-the policeman knew which suspect the detective had 
-   EXPECTED: arrested | PREDICTED: killed,arrested,shot,encountered,seen
-Teresa knew which parrot the neighbor had 
-   EXPECTED: bought | PREDICTED: killed,stolen,bought,caught,shot
-Teresa knew which neighbor the parrot had 
-   EXPECTED: bitten,mimicked | PREDICTED: bitten,attacked,killed,called.
-the farmhand recorded which goats the breeder had 
-   EXPECTED: bred | PREDICTED: purchased,sold,bred,bought,raised
-the four-year-old knew which dragon the hero had 
-   EXPECTED: slain | PREDICTED: killed,slain,fought,defeated,ridden
-the four-year-old knew which hero the dragon had 
-   EXPECTED: slain | PREDICTED: killed,slain,chosen,become,been

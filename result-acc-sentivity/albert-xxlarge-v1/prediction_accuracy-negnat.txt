@@ -9,23 +9,21 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.5 (8/16)
+TRUE COMPLETION in top 5 predictions: 0.4375 (7/16)
 
 ITEMS PREDICTED CORRECTLY:
 
 With proper equipment, scuba-diving is very
-   EXPECTED: safe | PREDICTED: enjoyable,easy,relaxing,safe,comfortable
+   EXPECTED: safe | PREDICTED: easy,enjoyable,comfortable,relaxing,safe
 Traveling in Baghdad is very
-   EXPECTED: dangerous | PREDICTED: risky,dangerous,unsafe,hazardous,scary
-Drinking tap water in developing countries is very
-   EXPECTED: dangerous | PREDICTED: unsafe,dangerous,harmful,risky,hazardous
-Secondhand furniture is very
-   EXPECTED: cheap | PREDICTED: affordable,inexpensive,expensive,cheap,economical
+   EXPECTED: dangerous | PREDICTED: dangerous,risky,unsafe,scary,uncomfortable
 Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: difficult,easy,challenging,frustrating,hard
+   EXPECTED: difficult | PREDICTED: difficult,easy,challenging,painful,tough
 Terrorist bomb attacks are really
-   EXPECTED: dangerous | PREDICTED: scary,frightening,terrifying,dangerous,horrible
+   EXPECTED: dangerous | PREDICTED: scary,dangerous,creepy,annoying,disgusting
+Vitamins and proteins are very
+   EXPECTED: good | PREDICTED: important,helpful,beneficial,valuable,good
 Keeping the door open for somebody is very
-   EXPECTED: polite | PREDICTED: polite,important,comforting,honorable,nice
+   EXPECTED: polite | PREDICTED: polite,honorable,nice,important,respectful
 A baby bunny's fur is very
-   EXPECTED: soft | PREDICTED: soft,fluffy,silky,delicate,fragile
+   EXPECTED: soft | PREDICTED: fluffy,soft,delicate,silky,slippery
