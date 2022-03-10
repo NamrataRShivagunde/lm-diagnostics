@@ -41,12 +41,12 @@ if args.generated_data:
 
 else:
     
-    os.system('python run.py roberta-base')
-    os.system('python run.py roberta-large')
-
     os.system('python run.py bert-base-uncased')
     os.system('python run.py bert-large-uncased')
     
+    os.system('python run.py roberta-base')
+    os.system('python run.py roberta-large')
+
     os.system('python run.py distilbert-base-uncased')
 
     os.system('python run.py albert-base-v1')

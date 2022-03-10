@@ -89,6 +89,7 @@ def get_predictions(input_sents,modelname,model,tokenizer,k=5,bert=True):
     """
     token_preds = []
     tok_probs = []
+    filtered = False
 
     for mi, tokenized_text in prep_input(input_sents,modelname,tokenizer,bert=bert):
         tokenized_text = tokenized_text.to(device)
@@ -102,18 +103,15 @@ def get_predictions(input_sents,modelname,model,tokenizer,k=5,bert=True):
                 
         if bert: # for bert, roberta, albert
             softpred = torch.softmax(predictions[0,mi],0)
-            top_inds = torch.argsort(softpred,descending=True)[:k].cpu().numpy()
-            top_probs = [softpred[tgt_ind].item() for tgt_ind in top_inds]
-            top_tok_preds = tokenizer.decode(top_inds)
-            top_tok_preds = top_tok_preds.split(' ')
 
         else: # for gpt, t5
             softpred = torch.softmax(predictions[0, mi, :],0)
-            # top_inds = torch.argsort(softpred,descending=True)[:180 + k].cpu().numpy()
-            top_inds = torch.argsort(softpred,descending=True)[k].cpu().numpy()
-            top_probs = [softpred[tgt_ind].item() for tgt_ind in top_inds]
-            top_tok_preds.append(tokenizer.decode(top_inds).strip())
-       
+
+        top_inds = torch.argsort(softpred,descending=True)[:k].cpu().numpy()
+        top_probs = [softpred[tgt_ind].item() for tgt_ind in top_inds]
+        top_tok_preds = tokenizer.decode(top_inds)
+        top_tok_preds = top_tok_preds.split(' ')
+    
             # top_tok_preds = []
             # i = 0
             # while len(top_tok_preds) < k:
