@@ -3565,3 +3565,167 @@ TRUE COMPLETION in top 5 predictions: 0.0 (0/16)
 ITEMS PREDICTED CORRECTLY:
 
 ----------------------------------------------------------------------------
+
+***
+MODEL: roberta-base
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED TARGET in TOP 5 predictions: 0.7058823529411765 (24/34)
+
+ITEMS PREDICTED CORRECTLY:
+
+"Checkmate," Rosaline announced with glee. She was getting to be really good at
+   EXPECTED: chess | PREDICTED: it,this,that,chess,everything
+He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
+   EXPECTED: football | PREDICTED: football,catch,ball,basketball,golf
+Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
+   EXPECTED: baseball | PREDICTED: baseball,sports,Yankees,pitching,them
+Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
+   EXPECTED: ferry | PREDICTED: ferry,bus,plane,boat,shuttle
+The patient was in critical condition and the ambulance wouldn’t be fast enough. They decided they would have to use the
+   EXPECTED: helicopter | PREDICTED: helicopter,air,helicopters,van,CPR
+Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
+   EXPECTED: plane | PREDICTED: plane,flight,airplane,train,ship
+The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
+   EXPECTED: cake | PREDICTED: cake,cakes,icing,pies,cookies
+The little girl was happy that Santa Claus left nothing but crumbs on the plate. She decided he must have really enjoyed the
+   EXPECTED: cookies | PREDICTED: cookies,visit,trip,experience,presents
+He wanted to make his wife breakfast, but he burned piece after piece. I couldn’t believe he was ruining even the
+   EXPECTED: toast | PREDICTED: bacon,eggs,toast,cereal,bread
+She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
+   EXPECTED: necklace | PREDICTED: toy,gift.,leash,necklace
+She wanted to make her eyelashes look really black and thick. So she asked to borrow her older friend’s
+   EXPECTED: mascara | PREDICTED: mascara,glasses,makeup,sunglasses,brush
+He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
+   EXPECTED: lipstick | PREDICTED: lipstick,shirt,dress,perfume,top
+Eleanor offered to fix her visitor some coffee. Then she realized she didn’t have a clean
+   EXPECTED: cup | PREDICTED: cup,mug,plate,purse,one
+My aunt fixed my brother some cereal using her best china. Of course, the first thing he did was drop the
+   EXPECTED: bowl | PREDICTED: spoon,cereal,bowl,lid,fork
+At the dinner party, I wondered why my mother wasn’t eating her soup. Then I noticed that she didn’t have a
+   EXPECTED: spoon | PREDICTED: spoon,fork,knife,phone,coat
+In the dorms, cutting your steak can be a huge struggle. They always give you such a poor quality
+   EXPECTED: knife | PREDICTED: steak.,cut,knife,meat
+He journeyed to the African plains, hoping to get a photograph of the king of the beasts. Unfortunately, the whole time he was there he never saw a
+   EXPECTED: lion | PREDICTED: lion,king,thing,man,creature
+George was hiking in India when he saw the orange and black striped animal leap out at him. He sustained serious injuries before he managed to kill the
+   EXPECTED: tiger | PREDICTED: animal,creature,beast,snake,tiger
+By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
+   EXPECTED: boots | PREDICTED: boots,shoes,socks,sneakers,feet
+Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
+   EXPECTED: jeans | PREDICTED: jeans,glasses,shoes,pants,trousers
+As the afternoon progressed, it became hotter and hotter. Keith finally decided to put on a pair of
+   EXPECTED: shorts | PREDICTED: shorts,pants,jeans,sunglasses,socks
+Tina lined up where she thought the nail should go. When she was satisfied, she asked Bruce to hand her the
+   EXPECTED: hammer | PREDICTED: scissors,nail,tip,money,hammer
+The snow had piled up on the drive so high that they couldn’t get the car out. When Albert woke up, his father handed him a
+   EXPECTED: shovel | PREDICTED: shovel,blanket,flashlight,map,newspaper
+Fred went to the pantry and got out the homemade jelly his grandmother had brought. Fifteen minutes later, however, he was still struggling to open the
+   EXPECTED: jar | PREDICTED: jar,jars,can,lid,bottle
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-base
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED WORD in top 5 predictions: 0.0 (0/88)
+  for cloze quartile 1: 0.0 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.0 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.0 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.0 (0.766666667 upper, 17 items)
+
+ITEMS PREDICTED CORRECTLY:
+
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-base
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.9444444444444444 (17/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+A trout is a
+   EXPECTED: fish | PREDICTED: fish,trout,rainbow,frog,salmon
+A salmon is a
+   EXPECTED: fish | PREDICTED: salmon,fish,whale,trout,bird
+An ant is an
+   EXPECTED: insect | PREDICTED: ant,insect,animal,organism,individual
+A bee is an
+   EXPECTED: insect | PREDICTED: insect,ant,organism,animal,apple
+A robin is a
+   EXPECTED: bird | PREDICTED: rob,robber,bird,rabbit,thief
+A sparrow is a
+   EXPECTED: bird | PREDICTED: bird,hawk,butterfly,cat,moth
+An oak is a
+   EXPECTED: tree | PREDICTED: tree,pine,forest,wood,thorn
+A pine is a
+   EXPECTED: tree | PREDICTED: tree,pine,forest,mushroom,mountain
+A rose is a
+   EXPECTED: flower | PREDICTED: rose,tree,flower,thorn,garden
+A daisy is a
+   EXPECTED: flower | PREDICTED: flower,weed,butterfly,rose,bird
+A carrot is a
+   EXPECTED: vegetable | PREDICTED: carrot,tree,vegetable,banana,stick
+A hammer is a
+   EXPECTED: tool | PREDICTED: nail,sword,tool,hammer,weapon
+A saw is a
+   EXPECTED: tool | PREDICTED: saw,tool,weapon,sword,hammer
+A car is a
+   EXPECTED: vehicle | PREDICTED: car,vehicle,house,machine,person
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,car,vehicle,tank,horse
+A hotel is a
+   EXPECTED: building | PREDICTED: hotel,city,building,house,business
+A house is a
+   EXPECTED: building | PREDICTED: house,lot,garden,building,castle
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-base
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.5625 (9/16)
+
+ITEMS PREDICTED CORRECTLY:
+
+With proper equipment, scuba-diving is very
+   EXPECTED: safe | PREDICTED: easy,simple,safe,fun,effective
+Traveling in Baghdad is very
+   EXPECTED: dangerous | PREDICTED: expensive,difficult,dangerous,easy,hard
+In moderation, drinking red wine is
+   EXPECTED: good | PREDICTED: fine,good,recommended,OK,okay
+Drinking tap water in developing countries is very
+   EXPECTED: dangerous | PREDICTED: expensive,difficult,dangerous,risky,common
+Secondhand furniture is very
+   EXPECTED: cheap | PREDICTED: expensive,cheap,popular,common,rare
+Most smokers find that quitting is very
+   EXPECTED: difficult | PREDICTED: easy,difficult,hard,effective,popular
+Terrorist bomb attacks are really
+   EXPECTED: dangerous | PREDICTED: bad,rare,common,scary,dangerous
+Rockets and missiles are very
+   EXPECTED: fast | PREDICTED: powerful,different,dangerous,similar,fast
+A baby bunny's fur is very
+   EXPECTED: soft | PREDICTED: soft,thick,fine,fluffy,long
+----------------------------------------------------------------------------
