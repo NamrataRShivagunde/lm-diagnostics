@@ -9,11 +9,15 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.125 (2/16)
+TRUE COMPLETION in top 5 predictions: 0.25 (4/16)
 
 ITEMS PREDICTED CORRECTLY:
 
 Traveling in Baghdad is very
-   EXPECTED: dangerous | PREDICTED: difficult,easy,risky,good,dangerous
+   EXPECTED: dangerous | PREDICTED: difficult,easy,dangerous,popular,risky
 Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: risky,good,dangerous,difficult,effective
+   EXPECTED: difficult | PREDICTED: difficult,risky,dangerous,helpful,good
+Terrorist bomb attacks are really
+   EXPECTED: dangerous | PREDICTED: happening,dangerous,important,good,serious
+A baby bunny's fur is very
+   EXPECTED: soft | PREDICTED: soft,good,strong,small,hot

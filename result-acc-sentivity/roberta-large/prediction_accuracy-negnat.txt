@@ -18,14 +18,14 @@ With proper equipment, scuba-diving is very
 Traveling in Baghdad is very
    EXPECTED: dangerous | PREDICTED: difficult,expensive,dangerous,complicated,risky
 In moderation, drinking red wine is
-   EXPECTED: good | PREDICTED: fine,safe,good,healthy,okay
+   EXPECTED: good | PREDICTED: safe,fine,healthy,recommended,good
 Drinking tap water in developing countries is very
-   EXPECTED: dangerous | PREDICTED: dangerous,expensive,risky,unhealthy,difficult
+   EXPECTED: dangerous | PREDICTED: dangerous,risky,expensive,unhealthy,common
 Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: difficult,hard,challenging,tough,easy
+   EXPECTED: difficult | PREDICTED: difficult,hard,challenging,tough,painful
 Terrorist bomb attacks are really
-   EXPECTED: dangerous | PREDICTED: scary,dangerous,bad,rare,stupid
+   EXPECTED: dangerous | PREDICTED: scary,bad,dangerous,rare,frightening
 A baby bunny's fur is very
    EXPECTED: soft | PREDICTED: soft,long,fluffy,short,fuzzy
 Businessman Donald Trump is really
-   EXPECTED: rich | PREDICTED: rich,smart,stupid…,dumb
+   EXPECTED: rich | PREDICTED: rich,smart,stupid,dumb,sick

@@ -9,17 +9,23 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.2777777777777778 (5/18)
+TRUE COMPLETION in top 5 predictions: 0.4444444444444444 (8/18)
 
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: trou,very,good,fish
-An ant is an
-   EXPECTED: insect | PREDICTED: insect,animal,anti,un
+   EXPECTED: fish | PREDICTED: trou,fish,good,very
+A salmon is a
+   EXPECTED: fish | PREDICTED: salmon,fish,great,good
 A bee is an
-   EXPECTED: insect | PREDICTED: animal,excellent,ancient,insect
+   EXPECTED: insect | PREDICTED: be,animal,insect,ancient
 A pine is a
-   EXPECTED: tree | PREDICTED: pine,tree,very,beautiful
+   EXPECTED: tree | PREDICTED: pine,tree,wood,natural
 A rose is a
-   EXPECTED: flower | PREDICTED: rose,beautiful,flower,great
+   EXPECTED: flower | PREDICTED: rose,flower,Rose,beautiful
+A saw is a
+   EXPECTED: tool | PREDICTED: saw,tool,simple,standard
+A car is a
+   EXPECTED: vehicle | PREDICTED: car,vehicle,luxury,good
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,vehicle,good,great

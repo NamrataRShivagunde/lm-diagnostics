@@ -9,37 +9,41 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.8333333333333334 (15/18)
+TRUE COMPLETION in top 5 predictions: 0.9444444444444444 (17/18)
 
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: fish,trout,species,mammal,swimming
+   EXPECTED: fish | PREDICTED: fish,trout,bird,snake,rainbow
 A salmon is a
-   EXPECTED: fish | PREDICTED: fish,salmon,species,large,fishing
+   EXPECTED: fish | PREDICTED: fish,salmon,cookie,bird,turtle
 An ant is an
-   EXPECTED: insect | PREDICTED: insect,animal,organism,edible,adult
+   EXPECTED: insect | PREDICTED: insect,animal,amphibian,organism,egg
 A bee is an
-   EXPECTED: insect | PREDICTED: insect,animal,organism,adult,infectious
+   EXPECTED: insect | PREDICTED: insect,animal,organism,orchid,experiment
 A robin is a
-   EXPECTED: bird | PREDICTED: female,type,large,bird,small
+   EXPECTED: bird | PREDICTED: bird,robin,butterfly,rooster,hero
 A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,fly,specimen,small,mammal
+   EXPECTED: bird | PREDICTED: bird,sparrow,butterfly,friend,rooster
 An oak is a
-   EXPECTED: tree | PREDICTED: tree,wood,type,deciduous,conifer
+   EXPECTED: tree | PREDICTED: tree,rock,maple,shrub,plant
 A pine is a
-   EXPECTED: tree | PREDICTED: tree,pine,wood,type,conifer
+   EXPECTED: tree | PREDICTED: tree,plant,rock,magnet,flower
 A rose is a
-   EXPECTED: flower | PREDICTED: flower,type,flowering,vegetable,floral
+   EXPECTED: flower | PREDICTED: flower,gift,beauty,girl,woman
 A daisy is a
-   EXPECTED: flower | PREDICTED: tree,type,small,flower,large
+   EXPECTED: flower | PREDICTED: flower,tree,magnet,daisy,butterfly
 A carrot is a
-   EXPECTED: vegetable | PREDICTED: carrot,vegetable,choice,thing,gift
+   EXPECTED: vegetable | PREDICTED: carrot,vegetable,gift,banana,treat
 A pea is a
-   EXPECTED: vegetable | PREDICTED: vegetable,small,type,large,plant
+   EXPECTED: vegetable | PREDICTED: vegetable,banana,cake,flower,cookie
 A hammer is a
-   EXPECTED: tool | PREDICTED: tool,metal,mechanical,type,piece
+   EXPECTED: tool | PREDICTED: hammer,tool,weapon,knife,stone
+A saw is a
+   EXPECTED: tool | PREDICTED: saw,tool,gun,flashlight,thing
 A car is a
-   EXPECTED: vehicle | PREDICTED: vehicle,car,motor.;
+   EXPECTED: vehicle | PREDICTED: vehicle,machine,bicycle,car,bike
 A truck is a
-   EXPECTED: vehicle | PREDICTED: vehicle,truck,motor,car,type
+   EXPECTED: vehicle | PREDICTED: vehicle,truck,car,machine,bicycle
+A house is a
+   EXPECTED: building | PREDICTED: home,building,house,place,room

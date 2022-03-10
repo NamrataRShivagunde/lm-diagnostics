@@ -16,18 +16,18 @@ ITEMS PREDICTED CORRECTLY:
 With proper equipment, scuba-diving is very
    EXPECTED: safe | PREDICTED: easy,simple,safe,fun,effective
 Traveling in Baghdad is very
-   EXPECTED: dangerous | PREDICTED: expensive,difficult,dangerous,easy,different
+   EXPECTED: dangerous | PREDICTED: expensive,difficult,dangerous,easy,hard
 In moderation, drinking red wine is
-   EXPECTED: good | PREDICTED: good,fine,best,delicious,healthy
+   EXPECTED: good | PREDICTED: fine,good,recommended,OK,okay
 Drinking tap water in developing countries is very
    EXPECTED: dangerous | PREDICTED: expensive,difficult,dangerous,risky,common
 Secondhand furniture is very
    EXPECTED: cheap | PREDICTED: expensive,cheap,popular,common,rare
 Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: easy,difficult,hard,simple,effective
+   EXPECTED: difficult | PREDICTED: easy,difficult,hard,effective,popular
 Terrorist bomb attacks are really
-   EXPECTED: dangerous | PREDICTED: bad,scary,rare,dangerous,common
+   EXPECTED: dangerous | PREDICTED: bad,rare,common,scary,dangerous
 Rockets and missiles are very
    EXPECTED: fast | PREDICTED: powerful,different,dangerous,similar,fast
 A baby bunny's fur is very
-   EXPECTED: soft | PREDICTED: soft,thick,pretty,long,cute
+   EXPECTED: soft | PREDICTED: soft,thick,fine,fluffy,long

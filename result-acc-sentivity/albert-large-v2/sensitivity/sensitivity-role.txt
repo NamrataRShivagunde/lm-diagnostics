@@ -6,9 +6,9 @@ MODEL: albert-large-v2
 
 Sensitivity results:
 
-Good completion more probable than role reversal: 0.5681818181818182 (25/44)
+Good completion more probable than role reversal: 0.5454545454545454 (24/44)
 
 Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
 
-AVG PROB DIFF: 5.101274242254947e-07
+AVG PROB DIFF: -7.526694554484757e-08
 AVG CLOZE DIFF: 0.23333333329545453

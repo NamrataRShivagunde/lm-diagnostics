@@ -1,72 +1,72 @@
-. fish ! ? ..."
-fish salmon bird cat duck
-. fish ! ? ..."
-fish salmon bird cat duck
-. ! ? .... fish
-fish salmon bird chicken shark
-. ! ? .... fish
-fish salmon bird chicken shark
-. insect animal ! 
-insect animal alien astronaut elephant
-. ! ..." .... insect
-bug person spider human bird
-insect . animal ! 
-insect animal apple object astronaut
-. insect ! worker be
-bird bug butterfly flower spider
-bird .  song !
-bird chicken dog rabbit rose
-bird .  song !
-bird chicken dog rabbit rose
-. bird spar ! ?
-bird spar chicken friend duck
-. bird spar ! ?
-bird spar chicken friend duck
-. tree ! ? ..."
-tree pine . walnut palm
-. tree ! ? ..."
-tree pine . walnut palm
-. ? ! tree 1.
-tree . shrub plant pine
-. ? ! tree 1.
-tree . shrub plant pine
-rose . .... ! ..."
-rose . flower promise gift
-. ." .... rose !
-orchid onion . apple accident
-. flower ! plant sunflower
-flower rose plant sunflower tree
-. flower ! plant sunflower
-flower rose plant sunflower tree
-. ! ? .... carrot
-vegetable carrot fruit potato .
-. ! ? .... carrot
-vegetable carrot fruit potato .
-. ! ? pe ."
-potato bean vegetable flower seed
-. ! ? pe ."
-potato bean vegetable flower seed
-. tool weapon ! ..."
-tool weapon nail hand knife
-. implement instrument object example
-instrument object arm accessory item
-. ..." .... ? !
-tool knife weapon saw drill
-. ..." .... ? !
-tool knife weapon saw drill
-. car ! vehicle machine
-. bicycle car boat plane
-. car ! vehicle machine
-. bicycle car boat plane
-. truck ! .... vehicle
-car vehicle plane tractor boat
-. truck ! .... vehicle
-car vehicle plane tractor boat
-. ! ..." ? ....
-home . residence restaurant hotel
-. ! ..." ? ....
-home . residence restaurant hotel
-. home house ..." place
-home . castle house shelter
-. home house ..." place
-home . castle house shelter
+fish small  fresh large
+fish  trou fly salmon
+fish small  fresh large
+fish  trou fly salmon
+fish  large small type
+fish  salmon rock dog
+fish  large small type
+fish  salmon rock dog
+animal insect  in example
+insect  animal alien angel
+small  social tiny little
+bug  spider human fly
+insect animal  important in
+ insect animal apple angel
+social  small flying very
+ bird be flower bug
+bird small  song .
+ rose bird red fool
+bird small  song .
+ rose bird red fool
+bird small  song .
+spar bird  man par
+bird small  song .
+spar bird  man par
+tree  strong good great
+tree  man good pine
+tree  strong good great
+tree  man good pine
+tree small  wood plant
+tree  pine bush plant
+tree small  wood plant
+tree  pine bush plant
+rose  . beautiful flower
+rose  flower promise red
+ . expression open rose
+ orchid orange alb argument
+flower small  type bloom
+flower  rose da sunflower
+flower small  type bloom
+flower  rose da sunflower
+vegetable  root . sweet
+ carrot vegetable stick potato
+vegetable  root . sweet
+ carrot vegetable stick potato
+small  tiny little seed
+ flower pe potato seed
+small  tiny little seed
+ flower pe potato seed
+tool  hand heavy small
+ tool weapon nail hand
+ implement instrument iron object
+ an instrument . vil
+tool  machine hand power
+ tool weapon knife saw
+tool  machine hand power
+ tool weapon knife saw
+machine big  great very
+ house to home tool
+machine big  great very
+ house to home tool
+large vehicle big heavy 
+car  vehicle tractor truck
+large vehicle big heavy 
+car  vehicle tractor truck
+place building  type lodging
+home residence house  shelter
+place building  type lodging
+home residence house  shelter
+home  place shelter sanctuary
+home castle  for shelter
+home  place shelter sanctuary
+home castle  for shelter

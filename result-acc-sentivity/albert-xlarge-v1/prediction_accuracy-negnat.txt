@@ -9,9 +9,13 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.0625 (1/16)
+TRUE COMPLETION in top 5 predictions: 0.1875 (3/16)
 
 ITEMS PREDICTED CORRECTLY:
 
 Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: difficult,useful,painful,important,helpful
+   EXPECTED: difficult | PREDICTED: difficult,painful,easy,risky,uncomfortable
+Terrorist bomb attacks are really
+   EXPECTED: dangerous | PREDICTED: dangerous,scary,bad,illegal,important
+A baby bunny's fur is very
+   EXPECTED: soft | PREDICTED: thick,soft,thin,silky,long

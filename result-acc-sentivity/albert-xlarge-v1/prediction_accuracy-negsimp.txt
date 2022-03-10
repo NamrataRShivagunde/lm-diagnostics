@@ -9,11 +9,27 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.1111111111111111 (2/18)
+TRUE COMPLETION in top 5 predictions: 0.5555555555555556 (10/18)
 
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: species,type,small,large,fish
-A pea is a
-   EXPECTED: vegetable | PREDICTED: type,shrub,cultivar,flower,vegetable
+   EXPECTED: fish | PREDICTED: fish,catfish,trout,salmon,bird
+A salmon is a
+   EXPECTED: fish | PREDICTED: fish,salmon,protein,bird,bottle
+A sparrow is a
+   EXPECTED: bird | PREDICTED: sparrow,bird,tree,squirrel,variable
+An oak is a
+   EXPECTED: tree | PREDICTED: tree,character,cell,root,graph
+A pine is a
+   EXPECTED: tree | PREDICTED: tree,root,variable,polynomial,cell
+A carrot is a
+   EXPECTED: vegetable | PREDICTED: carrot,vegetable,root,protein,variable
+A car is a
+   EXPECTED: vehicle | PREDICTED: vehicle,car,locomotive,truck,bicycle
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,vehicle,locomotive,tractor,cab
+A hotel is a
+   EXPECTED: building | PREDICTED: hotel,restaurant,building,house,room
+A house is a
+   EXPECTED: building | PREDICTED: house,room,building,cell,compound
