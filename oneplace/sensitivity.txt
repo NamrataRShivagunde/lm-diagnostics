@@ -1448,3 +1448,1452 @@ True completion more probable in LESS NATURAL sentences: 0.5 (8/16)
 
 
 ----------------------------------------------------------------------------
+
+***
+MODEL: bert-base-uncased
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.5294117647058824 (18/34)
+  for high-constraint items: 0.4444444444444444 (8/18)
+  for low-constraint items: 0.625 (10/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: bert-base-uncased
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.5909090909090909 (26/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: -2.8741156458025256e-10
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: bert-base-uncased
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5555555555555556 (20/36)
+   in affirmative contexts: 1.0 (18/18)
+   in negative contexts: 0.1111111111111111 (2/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: bert-base-uncased
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5625 (18/32)
+   in affirmative contexts: 0.8125 (13/16)
+   in negative contexts: 0.3125 (5/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.625 (10/16)
+   in affirmative contexts: 0.75 (6/8)
+   in negative contexts: 0.5 (4/8)
+True completion more probable in LESS NATURAL sentences: 0.5 (8/16)
+   in affirmative contexts: 0.875 (7/8)
+   in negative contexts: 0.125 (1/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: bert-large-uncased
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.5 (17/34)
+  for high-constraint items: 0.4444444444444444 (8/18)
+  for low-constraint items: 0.5625 (9/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: bert-large-uncased
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.4318181818181818 (19/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: -2.049701322369462e-11
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: bert-large-uncased
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5555555555555556 (20/36)
+   in affirmative contexts: 1.0 (18/18)
+   in negative contexts: 0.1111111111111111 (2/18)
+True completion more probable than false -- difference threshold 0.01: 0.027777777777777776 (1/36)
+   in affirmative contexts: 0.05555555555555555 (1/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: bert-large-uncased
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5625 (18/32)
+   in affirmative contexts: 0.75 (12/16)
+   in negative contexts: 0.375 (6/16)
+True completion more probable than false -- difference threshold 0.01: 0.0625 (2/32)
+   in affirmative contexts: 0.125 (2/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.625 (10/16)
+   in affirmative contexts: 0.75 (6/8)
+   in negative contexts: 0.5 (4/8)
+True completion more probable in LESS NATURAL sentences: 0.5 (8/16)
+   in affirmative contexts: 0.75 (6/8)
+   in negative contexts: 0.25 (2/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-base
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.2647058823529412 (9/34)
+  for high-constraint items: 0.16666666666666666 (3/18)
+  for low-constraint items: 0.375 (6/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-base
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.5454545454545454 (24/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: 7.339144495731183e-10
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-base
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5 (18/36)
+   in affirmative contexts: 0.6666666666666666 (12/18)
+   in negative contexts: 0.3333333333333333 (6/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-base
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5 (16/32)
+   in affirmative contexts: 0.5625 (9/16)
+   in negative contexts: 0.4375 (7/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.5625 (9/16)
+   in affirmative contexts: 0.375 (3/8)
+   in negative contexts: 0.75 (6/8)
+True completion more probable in LESS NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.75 (6/8)
+   in negative contexts: 0.125 (1/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-large
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.29411764705882354 (10/34)
+  for high-constraint items: 0.16666666666666666 (3/18)
+  for low-constraint items: 0.4375 (7/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-large
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.5227272727272727 (23/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: 4.664385456572787e-07
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-large
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5 (18/36)
+   in affirmative contexts: 0.6666666666666666 (12/18)
+   in negative contexts: 0.3333333333333333 (6/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-large
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.46875 (15/32)
+   in affirmative contexts: 0.5 (8/16)
+   in negative contexts: 0.4375 (7/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.5 (8/16)
+   in affirmative contexts: 0.25 (2/8)
+   in negative contexts: 0.75 (6/8)
+True completion more probable in LESS NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.75 (6/8)
+   in negative contexts: 0.125 (1/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: distilbert-base-uncased
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.7058823529411765 (24/34)
+  for high-constraint items: 0.6666666666666666 (12/18)
+  for low-constraint items: 0.75 (12/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.4411764705882353 (15/34)
+  for high-constraint items: 0.3888888888888889 (7/18)
+  for low-constraint items: 0.5 (8/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: distilbert-base-uncased
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.6363636363636364 (28/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.18181818181818182 (8/44)
+
+AVG PROB DIFF: 0.0039419085289244486
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: distilbert-base-uncased
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5 (18/36)
+   in affirmative contexts: 1.0 (18/18)
+   in negative contexts: 0.0 (0/18)
+True completion more probable than false -- difference threshold 0.01: 0.4722222222222222 (17/36)
+   in affirmative contexts: 0.9444444444444444 (17/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: distilbert-base-uncased
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.53125 (17/32)
+   in affirmative contexts: 0.75 (12/16)
+   in negative contexts: 0.3125 (5/16)
+True completion more probable than false -- difference threshold 0.01: 0.21875 (7/32)
+   in affirmative contexts: 0.3125 (5/16)
+   in negative contexts: 0.125 (2/16)
+
+True completion more probable in NATURAL sentences: 0.625 (10/16)
+   in affirmative contexts: 0.625 (5/8)
+   in negative contexts: 0.625 (5/8)
+True completion more probable in LESS NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.875 (7/8)
+   in negative contexts: 0.0 (0/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-base-v1
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.058823529411764705 (2/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.125 (2/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-base-v1
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.4318181818181818 (19/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: -7.698075523295116e-07
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-base-v1
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.4722222222222222 (17/36)
+   in affirmative contexts: 0.7222222222222222 (13/18)
+   in negative contexts: 0.2222222222222222 (4/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-base-v1
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.4375 (14/32)
+   in affirmative contexts: 0.5625 (9/16)
+   in negative contexts: 0.3125 (5/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.375 (6/16)
+   in affirmative contexts: 0.5 (4/8)
+   in negative contexts: 0.25 (2/8)
+True completion more probable in LESS NATURAL sentences: 0.5 (8/16)
+   in affirmative contexts: 0.625 (5/8)
+   in negative contexts: 0.375 (3/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-large-v1
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.08823529411764706 (3/34)
+  for high-constraint items: 0.05555555555555555 (1/18)
+  for low-constraint items: 0.125 (2/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-large-v1
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.5454545454545454 (24/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: 4.597419754307194e-06
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-large-v1
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5 (18/36)
+   in affirmative contexts: 0.7222222222222222 (13/18)
+   in negative contexts: 0.2777777777777778 (5/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-large-v1
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.375 (12/32)
+   in affirmative contexts: 0.5 (8/16)
+   in negative contexts: 0.25 (4/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.1875 (3/16)
+   in affirmative contexts: 0.25 (2/8)
+   in negative contexts: 0.125 (1/8)
+True completion more probable in LESS NATURAL sentences: 0.5625 (9/16)
+   in affirmative contexts: 0.75 (6/8)
+   in negative contexts: 0.375 (3/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xlarge-v1
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.14705882352941177 (5/34)
+  for high-constraint items: 0.05555555555555555 (1/18)
+  for low-constraint items: 0.25 (4/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xlarge-v1
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.5227272727272727 (23/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: -2.671855605449671e-06
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xlarge-v1
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5833333333333334 (21/36)
+   in affirmative contexts: 0.7222222222222222 (13/18)
+   in negative contexts: 0.4444444444444444 (8/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xlarge-v1
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.375 (12/32)
+   in affirmative contexts: 0.5625 (9/16)
+   in negative contexts: 0.1875 (3/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.3125 (5/16)
+   in affirmative contexts: 0.375 (3/8)
+   in negative contexts: 0.25 (2/8)
+True completion more probable in LESS NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.75 (6/8)
+   in negative contexts: 0.125 (1/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xxlarge-v1
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.29411764705882354 (10/34)
+  for high-constraint items: 0.2222222222222222 (4/18)
+  for low-constraint items: 0.375 (6/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xxlarge-v1
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.45454545454545453 (20/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: 8.089808661343961e-08
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xxlarge-v1
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5555555555555556 (20/36)
+   in affirmative contexts: 0.9444444444444444 (17/18)
+   in negative contexts: 0.16666666666666666 (3/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xxlarge-v1
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.4375 (14/32)
+   in affirmative contexts: 0.4375 (7/16)
+   in negative contexts: 0.4375 (7/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.25 (2/8)
+   in negative contexts: 0.625 (5/8)
+True completion more probable in LESS NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.625 (5/8)
+   in negative contexts: 0.25 (2/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-base-v2
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.14705882352941177 (5/34)
+  for high-constraint items: 0.05555555555555555 (1/18)
+  for low-constraint items: 0.25 (4/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-base-v2
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.36363636363636365 (16/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: -1.7118278597617508e-05
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-base-v2
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.4722222222222222 (17/36)
+   in affirmative contexts: 0.6111111111111112 (11/18)
+   in negative contexts: 0.3333333333333333 (6/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-base-v2
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.375 (12/32)
+   in affirmative contexts: 0.5 (8/16)
+   in negative contexts: 0.25 (4/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.5 (4/8)
+   in negative contexts: 0.375 (3/8)
+True completion more probable in LESS NATURAL sentences: 0.3125 (5/16)
+   in affirmative contexts: 0.5 (4/8)
+   in negative contexts: 0.125 (1/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-large-v2
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.17647058823529413 (6/34)
+  for high-constraint items: 0.1111111111111111 (2/18)
+  for low-constraint items: 0.25 (4/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-large-v2
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.5681818181818182 (25/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: 5.101274242254947e-07
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-large-v2
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5 (18/36)
+   in affirmative contexts: 0.6111111111111112 (11/18)
+   in negative contexts: 0.3888888888888889 (7/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-large-v2
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.46875 (15/32)
+   in affirmative contexts: 0.5625 (9/16)
+   in negative contexts: 0.375 (6/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.625 (5/8)
+   in negative contexts: 0.25 (2/8)
+True completion more probable in LESS NATURAL sentences: 0.5 (8/16)
+   in affirmative contexts: 0.5 (4/8)
+   in negative contexts: 0.5 (4/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xlarge-v2
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.20588235294117646 (7/34)
+  for high-constraint items: 0.16666666666666666 (3/18)
+  for low-constraint items: 0.25 (4/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xlarge-v2
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.5 (22/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: 3.5488654781332874e-06
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xlarge-v2
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5 (18/36)
+   in affirmative contexts: 0.6111111111111112 (11/18)
+   in negative contexts: 0.3888888888888889 (7/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xlarge-v2
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.40625 (13/32)
+   in affirmative contexts: 0.5625 (9/16)
+   in negative contexts: 0.25 (4/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.375 (6/16)
+   in affirmative contexts: 0.375 (3/8)
+   in negative contexts: 0.375 (3/8)
+True completion more probable in LESS NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.75 (6/8)
+   in negative contexts: 0.125 (1/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xxlarge-v2
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.2647058823529412 (9/34)
+  for high-constraint items: 0.16666666666666666 (3/18)
+  for low-constraint items: 0.375 (6/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xxlarge-v2
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.5454545454545454 (24/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: 2.6875968133827594e-07
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xxlarge-v2
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5 (18/36)
+   in affirmative contexts: 0.8888888888888888 (16/18)
+   in negative contexts: 0.1111111111111111 (2/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: albert-xxlarge-v2
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.375 (12/32)
+   in affirmative contexts: 0.3125 (5/16)
+   in negative contexts: 0.4375 (7/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.25 (2/8)
+   in negative contexts: 0.625 (5/8)
+True completion more probable in LESS NATURAL sentences: 0.3125 (5/16)
+   in affirmative contexts: 0.375 (3/8)
+   in negative contexts: 0.25 (2/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.058823529411764705 (2/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.125 (2/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.45454545454545453 (20/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: -3.3213349032673084e-07
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.4444444444444444 (16/36)
+   in affirmative contexts: 0.5555555555555556 (10/18)
+   in negative contexts: 0.3333333333333333 (6/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-small
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.4375 (14/32)
+   in affirmative contexts: 0.4375 (7/16)
+   in negative contexts: 0.4375 (7/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.625 (5/8)
+   in negative contexts: 0.25 (2/8)
+True completion more probable in LESS NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.25 (2/8)
+   in negative contexts: 0.625 (5/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-base
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.14705882352941177 (5/34)
+  for high-constraint items: 0.05555555555555555 (1/18)
+  for low-constraint items: 0.25 (4/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-base
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.5909090909090909 (26/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: 2.667987510110689e-07
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-base
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5277777777777778 (19/36)
+   in affirmative contexts: 0.8333333333333334 (15/18)
+   in negative contexts: 0.2222222222222222 (4/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-base
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.375 (12/32)
+   in affirmative contexts: 0.5 (8/16)
+   in negative contexts: 0.25 (4/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.3125 (5/16)
+   in affirmative contexts: 0.5 (4/8)
+   in negative contexts: 0.125 (1/8)
+True completion more probable in LESS NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.5 (4/8)
+   in negative contexts: 0.375 (3/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-large
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.17647058823529413 (6/34)
+  for high-constraint items: 0.05555555555555555 (1/18)
+  for low-constraint items: 0.3125 (5/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-large
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.6363636363636364 (28/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: 9.655257572046851e-07
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-large
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.4166666666666667 (15/36)
+   in affirmative contexts: 0.7222222222222222 (13/18)
+   in negative contexts: 0.1111111111111111 (2/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-large
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.46875 (15/32)
+   in affirmative contexts: 0.5 (8/16)
+   in negative contexts: 0.4375 (7/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.5 (8/16)
+   in affirmative contexts: 0.625 (5/8)
+   in negative contexts: 0.375 (3/8)
+True completion more probable in LESS NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.375 (3/8)
+   in negative contexts: 0.5 (4/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-3b
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.17647058823529413 (6/34)
+  for high-constraint items: 0.05555555555555555 (1/18)
+  for low-constraint items: 0.3125 (5/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-3b
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.5 (22/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: 1.3394354530566426e-06
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-3b
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.3888888888888889 (14/36)
+   in affirmative contexts: 0.7222222222222222 (13/18)
+   in negative contexts: 0.05555555555555555 (1/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: t5-3b
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.4375 (14/32)
+   in affirmative contexts: 0.4375 (7/16)
+   in negative contexts: 0.4375 (7/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.375 (3/8)
+   in negative contexts: 0.5 (4/8)
+True completion more probable in LESS NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.5 (4/8)
+   in negative contexts: 0.375 (3/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.11764705882352941 (4/34)
+  for high-constraint items: 0.05555555555555555 (1/18)
+  for low-constraint items: 0.1875 (3/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.3409090909090909 (15/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: -2.7225221745394183e-05
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5277777777777778 (19/36)
+   in affirmative contexts: 0.6666666666666666 (12/18)
+   in negative contexts: 0.3888888888888889 (7/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.4375 (14/32)
+   in affirmative contexts: 0.5625 (9/16)
+   in negative contexts: 0.3125 (5/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.5 (8/16)
+   in affirmative contexts: 0.75 (6/8)
+   in negative contexts: 0.25 (2/8)
+True completion more probable in LESS NATURAL sentences: 0.375 (6/16)
+   in affirmative contexts: 0.375 (3/8)
+   in negative contexts: 0.375 (3/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2-medium
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.17647058823529413 (6/34)
+  for high-constraint items: 0.1111111111111111 (2/18)
+  for low-constraint items: 0.25 (4/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2-medium
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.36363636363636365 (16/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: -1.9193897790976084e-05
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2-medium
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.4166666666666667 (15/36)
+   in affirmative contexts: 0.6111111111111112 (11/18)
+   in negative contexts: 0.2222222222222222 (4/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2-medium
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5 (16/32)
+   in affirmative contexts: 0.5 (8/16)
+   in negative contexts: 0.5 (8/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.5625 (9/16)
+   in affirmative contexts: 0.5 (4/8)
+   in negative contexts: 0.625 (5/8)
+True completion more probable in LESS NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.5 (4/8)
+   in negative contexts: 0.375 (3/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2-large
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.29411764705882354 (10/34)
+  for high-constraint items: 0.2222222222222222 (4/18)
+  for low-constraint items: 0.375 (6/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2-large
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.45454545454545453 (20/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: 3.6431921175376786e-05
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2-large
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.4722222222222222 (17/36)
+   in affirmative contexts: 0.7777777777777778 (14/18)
+   in negative contexts: 0.16666666666666666 (3/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2-large
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.5 (16/32)
+   in affirmative contexts: 0.5 (8/16)
+   in negative contexts: 0.5 (8/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.5625 (9/16)
+   in affirmative contexts: 0.625 (5/8)
+   in negative contexts: 0.5 (4/8)
+True completion more probable in LESS NATURAL sentences: 0.4375 (7/16)
+   in affirmative contexts: 0.375 (3/8)
+   in negative contexts: 0.5 (4/8)
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2-xl
+***
+
+Sensitivity results:
+
+Expected word more probable than two inappropriate targets: 0.17647058823529413 (6/34)
+  for high-constraint items: 0.16666666666666666 (3/18)
+  for low-constraint items: 0.1875 (3/16)
+
+Expected word more probable than two inappropriate targets -- difference threshold 0.01: 0.0 (0/34)
+  for high-constraint items: 0.0 (0/18)
+  for low-constraint items: 0.0 (0/16)
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2-xl
+***
+
+Sensitivity results:
+
+Good completion more probable than role reversal: 0.5 (22/44)
+
+Good completion more probable than role reversal -- difference threshold 0.01: 0.0 (0/44)
+
+AVG PROB DIFF: 2.8031932058328575e-05
+AVG CLOZE DIFF: 0.23333333329545453
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2-xl
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.4722222222222222 (17/36)
+   in affirmative contexts: 0.6111111111111112 (11/18)
+   in negative contexts: 0.3333333333333333 (6/18)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/36)
+   in affirmative contexts: 0.0 (0/18)
+   in negative contexts: 0.0 (0/18)
+
+
+
+----------------------------------------------------------------------------
+
+***
+MODEL: gpt2-xl
+***
+
+Sensitivity results:
+
+True completion more probable than false: 0.59375 (19/32)
+   in affirmative contexts: 0.625 (10/16)
+   in negative contexts: 0.5625 (9/16)
+True completion more probable than false -- difference threshold 0.01: 0.0 (0/32)
+   in affirmative contexts: 0.0 (0/16)
+   in negative contexts: 0.0 (0/16)
+
+True completion more probable in NATURAL sentences: 0.6875 (11/16)
+   in affirmative contexts: 0.625 (5/8)
+   in negative contexts: 0.75 (6/8)
+True completion more probable in LESS NATURAL sentences: 0.5 (8/16)
+   in affirmative contexts: 0.625 (5/8)
+   in negative contexts: 0.375 (3/8)
+
+
+----------------------------------------------------------------------------

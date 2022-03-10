@@ -14,34 +14,34 @@ TRUE COMPLETION in top 5 predictions: 0.8888888888888888 (16/18)
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: trou,fish,small,species
+   EXPECTED: fish | PREDICTED: fish,great,good,trou,common
 A salmon is a
-   EXPECTED: fish | PREDICTED: salmon,fish,species,type
+   EXPECTED: fish | PREDICTED: salmon,fish,great,good,delicious
 An ant is an
-   EXPECTED: insect | PREDICTED: insect,animal,in,insects
+   EXPECTED: insect | PREDICTED: insect,animal,insects,organism
 A bee is an
-   EXPECTED: insect | PREDICTED: insect,animal,important,adult
+   EXPECTED: insect | PREDICTED: insect,animal,important,egg,edible
 A robin is a
-   EXPECTED: bird | PREDICTED: small,bird,species,common
+   EXPECTED: bird | PREDICTED: bird,common,predator,small,species
 A sparrow is a
-   EXPECTED: bird | PREDICTED: spar,bird,small,common
+   EXPECTED: bird | PREDICTED: common,bird,small,great,beautiful
 An oak is a
-   EXPECTED: tree | PREDICTED: tree,good,wood,beautiful
+   EXPECTED: tree | PREDICTED: beautiful,great,symbol,good,tree
 A pine is a
-   EXPECTED: tree | PREDICTED: tree,pine,good,very
+   EXPECTED: tree | PREDICTED: tree,good,great,beautiful,wood
 A rose is a
-   EXPECTED: flower | PREDICTED: rose,flower,beautiful,symbol
+   EXPECTED: flower | PREDICTED: symbol,rose,beautiful,flower,gift
 A daisy is a
-   EXPECTED: flower | PREDICTED: flower,da,beautiful,rose
+   EXPECTED: flower | PREDICTED: flower,beautiful,symbol,pretty,lovely
 A carrot is a
-   EXPECTED: vegetable | PREDICTED: carrot,good,vegetable,sweet
+   EXPECTED: vegetable | PREDICTED: carrot,good,vegetable,sweet,great
 A pea is a
-   EXPECTED: vegetable | PREDICTED: legume,small,fruit,vegetable
+   EXPECTED: vegetable | PREDICTED: vegetable,legume,fruit,flower,seed
 A hammer is a
-   EXPECTED: tool | PREDICTED: tool,sharp,small,type
+   EXPECTED: tool | PREDICTED: tool,sharp,metal,powerful
 A car is a
-   EXPECTED: vehicle | PREDICTED: car,vehicle,type,motor
+   EXPECTED: vehicle | PREDICTED: car,vehicle,good,motor,driver
 A truck is a
-   EXPECTED: vehicle | PREDICTED: truck,vehicle,type,car
+   EXPECTED: vehicle | PREDICTED: truck,vehicle,car,trailer,big
 A house is a
-   EXPECTED: building | PREDICTED: house,home,building,property
+   EXPECTED: building | PREDICTED: house,home,building,family,garden

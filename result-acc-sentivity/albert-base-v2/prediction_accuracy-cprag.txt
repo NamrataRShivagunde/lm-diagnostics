@@ -9,35 +9,17 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED TARGET in TOP 5 predictions: 0.4117647058823529 (14/34)
+EXPECTED TARGET in TOP 5 predictions: 0.14705882352941177 (5/34)
 
 ITEMS PREDICTED CORRECTLY:
 
-He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
-   EXPECTED: football | PREDICTED: football,futbol,golf,basketball,soccer
 Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
-   EXPECTED: baseball | PREDICTED: baseball,chess,boxing,basketball,yankees
+   EXPECTED: baseball | PREDICTED: joyah,evalle,bowling,baseball,yankees
 Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
-   EXPECTED: ferry | PREDICTED: ferry,ship,plane,boat,elevator
-Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
-   EXPECTED: plane | PREDICTED: plane,ship,airship,airplane,train
+   EXPECTED: ferry | PREDICTED: ferry,steamship,steamer,stagecoach,evalle
 The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
-   EXPECTED: cake | PREDICTED: cake,wreath,frost,candles,recipe
-She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
-   EXPECTED: necklace | PREDICTED: necklace,bracelet,gift,shirt,collar
-She wanted to make her eyelashes look really black and thick. So she asked to borrow her older friend’s
-   EXPECTED: mascara | PREDICTED: eyelashes,hair,mascara,pencil,scissor
-In the dorms, cutting your steak can be a huge struggle. They always give you such a poor quality
-   EXPECTED: knife | PREDICTED: steak,meal,burger,knife,recipe
-He journeyed to the African plains, hoping to get a photograph of the king of the beasts. Unfortunately, the whole time he was there he never saw a
-   EXPECTED: lion | PREDICTED: whale,photograph,statue,bird,lion
+   EXPECTED: cake | PREDICTED: recipe,cake,meal,entire,dough
 Barb loved the feel of the waves on her feet, but she hated to walk barefoot. As a compromise, she usually wore a pair of
-   EXPECTED: sandals | PREDICTED: sandals,socks,boots,shoes,sneakers
-By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
-   EXPECTED: boots | PREDICTED: socks,sandals,boots,shoes,jeans
+   EXPECTED: sandals | PREDICTED: socks,sandals,shoes,jeans,sneakers
 Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
-   EXPECTED: jeans | PREDICTED: jeans,socks,trousers,sandals,boots
-The snow had piled up on the drive so high that they couldn’t get the car out. When Albert woke up, his father handed him a
-   EXPECTED: shovel | PREDICTED: towel,shovel,handkerchief,cigarette,flashlight
-It seemed to catch every time she opened or closed her backpack. She decided she would have to replace the
-   EXPECTED: zipper | PREDICTED: backpack,zipper,bag,bottle,strap
+   EXPECTED: jeans | PREDICTED: socks,trousers,joyah,jeans,shirts

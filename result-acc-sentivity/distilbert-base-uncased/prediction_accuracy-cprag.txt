@@ -9,45 +9,19 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED TARGET in TOP 5 predictions: 0.5588235294117647 (19/34)
+EXPECTED TARGET in TOP 5 predictions: 0.17647058823529413 (6/34)
 
 ITEMS PREDICTED CORRECTLY:
 
-"Checkmate," Rosaline announced with glee. She was getting to be really good at
-   EXPECTED: chess | PREDICTED: acting,dancing,chess,flirting,cooking
-He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
-   EXPECTED: football | PREDICTED: football,golf,basketball,sorts,baseball
 Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
-   EXPECTED: baseball | PREDICTED: baseball,yankees,boxing,sports,pitching
-Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
-   EXPECTED: ferry | PREDICTED: plane,ferry,airplane,bus,boat
-The patient was in critical condition and the ambulance wouldn’t be fast enough. They decided they would have to use the
-   EXPECTED: helicopter | PREDICTED: ambulance,vehicle,wheelchair,restroom,helicopter
-Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
-   EXPECTED: plane | PREDICTED: ship,plane,airplane,boat,yacht
-The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
-   EXPECTED: cake | PREDICTED: cake,dishes,cookies,cakes,pancakes
-The little girl was happy that Santa Claus left nothing but crumbs on the plate. She decided he must have really enjoyed the
-   EXPECTED: cookies | PREDICTED: cookies,cake,pie,chocolate,food
-She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
-   EXPECTED: necklace | PREDICTED: necklace,bracelet,gift,scarf,pendant
-He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
-   EXPECTED: lipstick | PREDICTED: dress,color,shirt,outfit,lipstick
-Eleanor offered to fix her visitor some coffee. Then she realized she didn’t have a clean
-   EXPECTED: cup | PREDICTED: slate,coffee,mug,plate,cup
+   EXPECTED: baseball | PREDICTED: baseball,pitching.,;,yankees
 He journeyed to the African plains, hoping to get a photograph of the king of the beasts. Unfortunately, the whole time he was there he never saw a
-   EXPECTED: lion | PREDICTED: lion,dinosaur,tiger,camel,creature
-George was hiking in India when he saw the orange and black striped animal leap out at him. He sustained serious injuries before he managed to kill the
-   EXPECTED: tiger | PREDICTED: animal,tiger,deer,lion,elephant
+   EXPECTED: lion | PREDICTED: .!,;,lion,dinosaur
 Barb loved the feel of the waves on her feet, but she hated to walk barefoot. As a compromise, she usually wore a pair of
-   EXPECTED: sandals | PREDICTED: sandals,shorts,jeans,shoes,sneakers
+   EXPECTED: sandals | PREDICTED: .,sandals,shorts,jeans,shoes
 By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
-   EXPECTED: boots | PREDICTED: shoes,sneakers,boots,socks,sandals
+   EXPECTED: boots | PREDICTED: shoes,boots,sandals,socks,sneakers
 Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
-   EXPECTED: jeans | PREDICTED: jeans,glasses,shoes,boots,sunglasses
-As the afternoon progressed, it became hotter and hotter. Keith finally decided to put on a pair of
-   EXPECTED: shorts | PREDICTED: socks,sunglasses,shorts,jeans,shoes
-The snow had piled up on the drive so high that they couldn’t get the car out. When Albert woke up, his father handed him a
-   EXPECTED: shovel | PREDICTED: package,blanket,shovel,suitcase,letter
+   EXPECTED: jeans | PREDICTED: .,glasses,jeans,shoes,sunglasses
 At the zoo, my sister asked if they painted the black and white stripes on the animal. I explained to her that they were natural features of a
-   EXPECTED: zebra | PREDICTED: leopard,tiger,lion,zebra,dog
+   EXPECTED: zebra | PREDICTED: .,zebra,leopard,lion,;

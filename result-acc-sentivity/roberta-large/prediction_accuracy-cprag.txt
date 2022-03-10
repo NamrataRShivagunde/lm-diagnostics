@@ -9,63 +9,47 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED TARGET in TOP 5 predictions: 0.8235294117647058 (28/34)
+EXPECTED TARGET in TOP 5 predictions: 0.5882352941176471 (20/34)
 
 ITEMS PREDICTED CORRECTLY:
 
 "Checkmate," Rosaline announced with glee. She was getting to be really good at
-   EXPECTED: chess | PREDICTED: this,chess,it,that,these
+   EXPECTED: chess | PREDICTED: this,chess,the,it,fighting
 He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
-   EXPECTED: football | PREDICTED: football,basketball,rugby,baseball,ball
+   EXPECTED: football | PREDICTED: football,basketball,baseball,ball,rugby
 Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
-   EXPECTED: baseball | PREDICTED: baseball,sports,Baseball,Yankees,them
+   EXPECTED: baseball | PREDICTED: baseball,the,sports</s>.
 Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
-   EXPECTED: ferry | PREDICTED: ferry,bus,boat,plane,train
-The patient was in critical condition and the ambulance wouldn’t be fast enough. They decided they would have to use the
-   EXPECTED: helicopter | PREDICTED: helicopter,fire,ambulance,police,van
+   EXPECTED: ferry | PREDICTED: ferry,bus,boat</s>,plane
 Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
-   EXPECTED: plane | PREDICTED: plane,flight,airplane,train,bus
+   EXPECTED: plane | PREDICTED: plane,flight,airplane,train,aircraft
 The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
-   EXPECTED: cake | PREDICTED: cake,cakes,cookies,desserts,dessert
-The little girl was happy that Santa Claus left nothing but crumbs on the plate. She decided he must have really enjoyed the
-   EXPECTED: cookies | PREDICTED: meal,food,cookies,dinner,dessert
-He wanted to make his wife breakfast, but he burned piece after piece. I couldn’t believe he was ruining even the
-   EXPECTED: toast | PREDICTED: toast,coffee,eggs,food,basics
-She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
-   EXPECTED: necklace | PREDICTED: toy,necklace,ring,gift,scarf
-She wanted to make her eyelashes look really black and thick. So she asked to borrow her older friend’s
-   EXPECTED: mascara | PREDICTED: mascara,scissors,brush,makeup,kit
-He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
-   EXPECTED: lipstick | PREDICTED: color,lipstick,dress,makeup,shirt
+   EXPECTED: cake | PREDICTED: cake,cakes,dessert,desserts,pies
 Eleanor offered to fix her visitor some coffee. Then she realized she didn’t have a clean
-   EXPECTED: cup | PREDICTED: cup,mug,kitchen,kettle,plate
+   EXPECTED: cup | PREDICTED: cup,mug,kitchen,pot,coffee
 My aunt fixed my brother some cereal using her best china. Of course, the first thing he did was drop the
-   EXPECTED: bowl | PREDICTED: bowl,spoon,cereal,box,food
+   EXPECTED: bowl | PREDICTED: bowl,spoon,cereal,food,box
 At the dinner party, I wondered why my mother wasn’t eating her soup. Then I noticed that she didn’t have a
-   EXPECTED: spoon | PREDICTED: spoon,fork,bowl,knife,plate
+   EXPECTED: spoon | PREDICTED: spoon,bowl,knife,fork.
 In the dorms, cutting your steak can be a huge struggle. They always give you such a poor quality
-   EXPECTED: knife | PREDICTED: knife,steak,cut,slice,one
+   EXPECTED: knife | PREDICTED: knife,steak,cut.,one
 He journeyed to the African plains, hoping to get a photograph of the king of the beasts. Unfortunately, the whole time he was there he never saw a
-   EXPECTED: lion | PREDICTED: lion,buffalo,gorilla,Rhino,tiger
+   EXPECTED: lion | PREDICTED: lion,tiger,bull,wolf,buffalo
 George was hiking in India when he saw the orange and black striped animal leap out at him. He sustained serious injuries before he managed to kill the
-   EXPECTED: tiger | PREDICTED: tiger,animal,snake,creature,lion
-By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
-   EXPECTED: boots | PREDICTED: shoes,sneakers,socks,boots,trainers
+   EXPECTED: tiger | PREDICTED: animal,creature,tiger,beast,snake
 Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
-   EXPECTED: jeans | PREDICTED: them,jeans,shoes,sneakers,trainers
+   EXPECTED: jeans | PREDICTED: jeans,them.,shoes,pants
 As the afternoon progressed, it became hotter and hotter. Keith finally decided to put on a pair of
-   EXPECTED: shorts | PREDICTED: shorts,sunglasses,pants,sweats,jeans
-Pablo wanted to cut the lumber he had bought to make some shelves. He asked his neighbor if he could borrow her
-   EXPECTED: saw | PREDICTED: saw,axe,scissors,knife,tools
+   EXPECTED: shorts | PREDICTED: shorts,pants,jeans,sweats,sunglasses
 Tina lined up where she thought the nail should go. When she was satisfied, she asked Bruce to hand her the
-   EXPECTED: hammer | PREDICTED: nail,hammer,gun,nails,needle
+   EXPECTED: hammer | PREDICTED: nail,hammer,nails,gun,needle
 The snow had piled up on the drive so high that they couldn’t get the car out. When Albert woke up, his father handed him a
-   EXPECTED: shovel | PREDICTED: shovel,flashlight,shotgun,gun,cigarette
+   EXPECTED: shovel | PREDICTED: shovel,flashlight,map,knife,cigarette
 The yard was completely covered with a thick layer of dead leaves. Erica decided it was time to get out the
-   EXPECTED: rake | PREDICTED: rake,tractor,shovel,tools,camera
+   EXPECTED: rake | PREDICTED: rake,shovel,tractor,ladder,camera
 Fred went to the pantry and got out the homemade jelly his grandmother had brought. Fifteen minutes later, however, he was still struggling to open the
-   EXPECTED: jar | PREDICTED: jar,jars,door,lid,bottle
+   EXPECTED: jar | PREDICTED: jar,door,jars,can,container
 After they unpacked the new refrigerator, they let Billy have his fun. He played for days afterwards with the big
-   EXPECTED: box | PREDICTED: refrigerator,fridge,freezer,box,thing
+   EXPECTED: box | PREDICTED: refrigerator,fridge,box,freezer,thing
 It seemed to catch every time she opened or closed her backpack. She decided she would have to replace the
-   EXPECTED: zipper | PREDICTED: strap,zipper,belt,straps,clasp
+   EXPECTED: zipper | PREDICTED: strap,straps,zipper,bag,belt

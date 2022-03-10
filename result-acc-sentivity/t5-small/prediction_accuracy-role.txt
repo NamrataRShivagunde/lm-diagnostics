@@ -9,27 +9,25 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.09090909090909091 (8/88)
+EXPECTED WORD in top 5 predictions: 0.07954545454545454 (7/88)
   for cloze quartile 1: 0.08 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.08695652173913043 (0.233333333 upper, 23 items)
+  for cloze quartile 2: 0.043478260869565216 (0.233333333 upper, 23 items)
   for cloze quartile 3: 0.08695652173913043 (0.333333333 upper, 23 items)
   for cloze quartile 4: 0.11764705882352941 (0.766666667 upper, 17 items)
 
 ITEMS PREDICTED CORRECTLY:
 
 the historian documented which prince the assassin had 
-   EXPECTED: killed | PREDICTED: been,died,to,killed
+   EXPECTED: killed | PREDICTED: been,died,killed,to
 the restaurant owner forgot which customer the waitress had 
-   EXPECTED: served | PREDICTED: been,to,served,met
+   EXPECTED: served | PREDICTED: .,served,been,to
 Tracy announced which applicant the administrator had 
-   EXPECTED: chosen | PREDICTED: been,chosen,filed,requested
+   EXPECTED: chosen | PREDICTED: chosen,been,.,selected,to
 the royal cook asked which chef the lord had 
-   EXPECTED: requested,chosen,hired | PREDICTED: been,chosen,to,served
+   EXPECTED: requested,chosen,hired | PREDICTED: been,.,to,chosen,served
 the camper reported which bear the girl had 
-   EXPECTED: seen | PREDICTED: been,to,the,seen
-the costume designer confirmed which barber the actor had 
-   EXPECTED: used | PREDICTED: been,to,used,chosen
+   EXPECTED: seen | PREDICTED: .,been,to,seen
 the broadcaster explained which contestant the judge had 
-   EXPECTED: chosen,disqualified | PREDICTED: been,chosen,to,selected
+   EXPECTED: chosen,disqualified | PREDICTED: been,chosen,to,.,selected
 the committee member guessed which advisors the president had 
-   EXPECTED: appointed | PREDICTED: appointed,to,been,in
+   EXPECTED: appointed | PREDICTED: .,appointed,been,to

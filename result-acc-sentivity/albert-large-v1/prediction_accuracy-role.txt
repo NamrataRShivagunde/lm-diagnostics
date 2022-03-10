@@ -9,57 +9,11 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.26136363636363635 (23/88)
-  for cloze quartile 1: 0.32 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.13043478260869565 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.17391304347826086 (0.333333333 upper, 23 items)
-  for cloze quartile 4: 0.47058823529411764 (0.766666667 upper, 17 items)
+EXPECTED WORD in top 5 predictions: 0.0 (0/88)
+  for cloze quartile 1: 0.0 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.0 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.0 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.0 (0.766666667 upper, 17 items)
 
 ITEMS PREDICTED CORRECTLY:
 
-The librarian documented which journalist the celebrities had 
-   EXPECTED: avoided,hated,read,met | PREDICTED: interviewed,been,dated,met,contacted
-The librarian documented which celebrities the journalist had 
-   EXPECTED: interviewed | PREDICTED: interviewed,dated,met,seen,visited
-the old widower remembered which ghost the villager had 
-   EXPECTED: seen | PREDICTED: been,killed,slain,seen,murdered
-the historian documented which prince the assassin had 
-   EXPECTED: killed | PREDICTED: killed,slain,murdered,been,assassinated
-the judo master recognized which defender the assailant had 
-   EXPECTED: attacked | PREDICTED: been,shot,attacked,killed,fired
-the naturalist observed which deer the predators had 
-   EXPECTED: eaten,killed | PREDICTED: killed,attacked,eaten,bitten,been
-the restaurant owner forgot which customer the waitress had 
-   EXPECTED: served | PREDICTED: been,hired,called,served,gotten
-the nanny knew which housekeeper the billionaire had 
-   EXPECTED: hired | PREDICTED: hired,been,chosen,appointed,given
-Tracy announced which applicant the administrator had 
-   EXPECTED: chosen | PREDICTED: chosen,selected,hired,appointed,contacted
-the royal cook asked which chef the lord had 
-   EXPECTED: requested,chosen,hired | PREDICTED: hired,chosen,ordered,bought,appointed
-the sheriff recalled which locals the gangsters had 
-   EXPECTED: robbed | PREDICTED: raided,attacked,visited,killed,robbed
-the undead king recognized which zombie the woman had 
-   EXPECTED: killed | PREDICTED: killed,been,eaten,slain,murdered
-the opera composer revealed which singer the pirate had 
-   EXPECTED: kidnapped,murdered,killed | PREDICTED: killed,poisoned,sung,married,murdered
-The ape researcher identified which poacher the chimpanzee had 
-   EXPECTED: attacked | PREDICTED: killed,been,bitten,eaten,attacked
-The ape researcher identified which chimpanzee the poacher had 
-   EXPECTED: killed | PREDICTED: killed,been,bitten,eaten,taken
-the committee member guessed which president the advisors had 
-   EXPECTED: chosen | PREDICTED: appointed,named,chosen,hired,been
-the committee member guessed which advisors the president had 
-   EXPECTED: appointed | PREDICTED: hired,appointed,chosen,been,assigned
-the farmer indicated which donkey the townsperson had 
-   EXPECTED: stolen,ridden | PREDICTED: chosen,taken,purchased,stolen,killed
-the policeman knew which suspect the detective had 
-   EXPECTED: arrested | PREDICTED: killed,been,arrested,fired,identified
-the art critic identified which model the artist had 
-   EXPECTED: painted | PREDICTED: painted,designed,created,executed,chosen
-The cotton farmer wondered which master the slave had 
-   EXPECTED: killed | PREDICTED: been,killed,become,chosen,hired
-the four-year-old knew which dragon the hero had 
-   EXPECTED: slain | PREDICTED: killed,slain,defeated,chosen,destroyed
-the four-year-old knew which hero the dragon had 
-   EXPECTED: slain | PREDICTED: killed,slain,been,become,defeated

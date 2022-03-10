@@ -9,43 +9,41 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 1.0 (18/18)
+TRUE COMPLETION in top 5 predictions: 0.9444444444444444 (17/18)
 
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: trout,fish,salmon,mussel,sturgeon
+   EXPECTED: fish | PREDICTED: trout,freshwater,fish,sturgeon,nymph
 A salmon is a
-   EXPECTED: fish | PREDICTED: salmon,fish,trout,catfish,sturgeon
+   EXPECTED: fish | PREDICTED: trout,freshwater,salmon,fish,mammalian
 An ant is an
-   EXPECTED: insect | PREDICTED: insect,organism,animal,amphibian,idiot
+   EXPECTED: insect | PREDICTED: insect,edible,organism,extinct,animal
 A bee is an
-   EXPECTED: insect | PREDICTED: insect,organism,amphibian,animal,insects
+   EXPECTED: insect | PREDICTED: insect,edible,amphibian,organism,animal
 A robin is a
-   EXPECTED: bird | PREDICTED: bird,robin,warbler,woodpecker,seagull
+   EXPECTED: bird | PREDICTED: bird,female,migratory,warbler,small
 A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,sparrow,parrot,pigeon,magpie
+   EXPECTED: bird | PREDICTED: sparrow,female,bird,mammalian,chick
 An oak is a
-   EXPECTED: tree | PREDICTED: tree,conifer,hickory,deciduous,willow
+   EXPECTED: tree | PREDICTED: deciduous,hardwood,conifer,tree,hickory
 A pine is a
-   EXPECTED: tree | PREDICTED: tree,conifer,pine,redwood,twig
+   EXPECTED: tree | PREDICTED: deciduous,conifer,pine,hardwood,tree
 A rose is a
-   EXPECTED: flower | PREDICTED: rose,roses,flower,strawberry,grape
+   EXPECTED: flower | PREDICTED: flower,roses,bloom,bouquet,rose
 A daisy is a
-   EXPECTED: flower | PREDICTED: daisy,flower,sunflower,butterfly,strawberry
+   EXPECTED: flower | PREDICTED: flower,flowering,floral,sunflower,fragrant
 A carrot is a
-   EXPECTED: vegetable | PREDICTED: carrot,vegetable,potato,pumpkin,cucumber
+   EXPECTED: vegetable | PREDICTED: vegetable,carrot,potato,bulb,fruit
 A pea is a
-   EXPECTED: vegetable | PREDICTED: bean,vegetable,carrot,pumpkin,flower
+   EXPECTED: vegetable | PREDICTED: vegetable,conical,spherical,cultivar,flower
 A hammer is a
-   EXPECTED: tool | PREDICTED: hammer,tool,mallet,wrench,nail
+   EXPECTED: tool | PREDICTED: hammer,tool,weapon,mallet,wrench
 A saw is a
-   EXPECTED: tool | PREDICTED: knife,tool,blade,saw,razor
+   EXPECTED: tool | PREDICTED: knife,blade,tool,sharpened,scissor
 A car is a
-   EXPECTED: vehicle | PREDICTED: vehicle,car,machine,spaceship,thing
+   EXPECTED: vehicle | PREDICTED: vehicle,machine,thing,bike,truck
 A truck is a
-   EXPECTED: vehicle | PREDICTED: truck,vehicle,tractor,jeep,thing
-A hotel is a
-   EXPECTED: building | PREDICTED: hotel,motel,hostel,building,restaurant
+   EXPECTED: vehicle | PREDICTED: vehicle,mechanized,truck,tractor,heavier
 A house is a
-   EXPECTED: building | PREDICTED: house,mansion,palace,thing,building
+   EXPECTED: building | PREDICTED: habitation,building,house,dwell,structure

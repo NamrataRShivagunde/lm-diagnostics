@@ -9,37 +9,31 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.8333333333333334 (15/18)
+TRUE COMPLETION in top 5 predictions: 0.6666666666666666 (12/18)
 
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: fish,small,fresh,large
+   EXPECTED: fish | PREDICTED: .,fish,!,?,..."
 A salmon is a
-   EXPECTED: fish | PREDICTED: fish,large,small,type
+   EXPECTED: fish | PREDICTED: .,!,?,....,fish
 An ant is an
-   EXPECTED: insect | PREDICTED: animal,insect,in,example
+   EXPECTED: insect | PREDICTED: .,insect,animal,!
 A bee is an
-   EXPECTED: insect | PREDICTED: insect,animal,important,in
+   EXPECTED: insect | PREDICTED: insect,.,animal,!
 A robin is a
-   EXPECTED: bird | PREDICTED: bird,small,song,.
+   EXPECTED: bird | PREDICTED: bird,.,song,!
 A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,small,song,.
+   EXPECTED: bird | PREDICTED: .,bird,spar,!,?
 An oak is a
-   EXPECTED: tree | PREDICTED: tree,strong,good,great
+   EXPECTED: tree | PREDICTED: .,tree,!,?,..."
 A pine is a
-   EXPECTED: tree | PREDICTED: tree,small,wood,plant
-A rose is a
-   EXPECTED: flower | PREDICTED: rose,.,beautiful,flower
+   EXPECTED: tree | PREDICTED: .,?,!,tree,1.
 A daisy is a
-   EXPECTED: flower | PREDICTED: flower,small,type,bloom
-A carrot is a
-   EXPECTED: vegetable | PREDICTED: vegetable,root,.,sweet
+   EXPECTED: flower | PREDICTED: .,flower,!,plant,sunflower
 A hammer is a
-   EXPECTED: tool | PREDICTED: tool,hand,heavy,small
-A saw is a
-   EXPECTED: tool | PREDICTED: tool,machine,hand,power
+   EXPECTED: tool | PREDICTED: .,tool,weapon,!,..."
+A car is a
+   EXPECTED: vehicle | PREDICTED: .,car,!,vehicle,machine
 A truck is a
-   EXPECTED: vehicle | PREDICTED: large,vehicle,big,heavy
-A hotel is a
-   EXPECTED: building | PREDICTED: place,building,type,lodging
+   EXPECTED: vehicle | PREDICTED: .,truck,!,....,vehicle

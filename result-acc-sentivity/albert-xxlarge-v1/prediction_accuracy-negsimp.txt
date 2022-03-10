@@ -9,33 +9,39 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.7222222222222222 (13/18)
+TRUE COMPLETION in top 5 predictions: 0.8888888888888888 (16/18)
 
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: trout,fish,salmon,mussel,sturgeon
+   EXPECTED: fish | PREDICTED: freshwater,trout,fish,mammalian,salmon
 A salmon is a
-   EXPECTED: fish | PREDICTED: salmon,fish,trout,whale,sturgeon
+   EXPECTED: fish | PREDICTED: salmon,freshwater,trout,fish,mammalian
 An ant is an
-   EXPECTED: insect | PREDICTED: insect,grasshopper,assassin,hornet,elephant
+   EXPECTED: insect | PREDICTED: insect,edible,organism,intelligent,identifiable
 A bee is an
-   EXPECTED: insect | PREDICTED: insect,organism,animal,amphibian,assassin
+   EXPECTED: insect | PREDICTED: insect,edible,organism,amphibian,animal
 A robin is a
-   EXPECTED: bird | PREDICTED: robin,bird,seagull,woodpecker,magpie
+   EXPECTED: bird | PREDICTED: bird,warbler,woodpecker,female,chick
 A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,sparrow,magpie,woodpecker,parrot
+   EXPECTED: bird | PREDICTED: magpie,sparrow,bird,partridge,woodpecker
 An oak is a
-   EXPECTED: tree | PREDICTED: tree,conifer,maple,hickory,twig
+   EXPECTED: tree | PREDICTED: deciduous,conifer,tree,cultivar,genus
 A pine is a
-   EXPECTED: tree | PREDICTED: pine,tree,conifer,redwood,pear
+   EXPECTED: tree | PREDICTED: conifer,deciduous,tree,genus,cultivar
 A rose is a
-   EXPECTED: flower | PREDICTED: rose,roses,flower,bouquet,strawberry
+   EXPECTED: flower | PREDICTED: flower,roses,bouquet,rose,bloom
 A daisy is a
-   EXPECTED: flower | PREDICTED: daisy,flower,sunflower,lily,strawberry
+   EXPECTED: flower | PREDICTED: flower,daisy,bouquet,thistle,sunflower
 A carrot is a
-   EXPECTED: vegetable | PREDICTED: carrot,vegetable,potato,cucumber,pumpkin
+   EXPECTED: vegetable | PREDICTED: vegetable,carrot,potato,commodity,fruit
+A hammer is a
+   EXPECTED: tool | PREDICTED: hammer,tool,weapon,wrench,mallet
 A saw is a
-   EXPECTED: tool | PREDICTED: tool,saw,knife,blade,wrench
+   EXPECTED: tool | PREDICTED: knife,tool,blade,scissor,cutter
 A car is a
-   EXPECTED: vehicle | PREDICTED: car,vehicle,bike,thing,truck
+   EXPECTED: vehicle | PREDICTED: vehicle,thing,car,bike,spaceship
+A truck is a
+   EXPECTED: vehicle | PREDICTED: vehicle,truck,tractor,locomotive,motorcycle
+A house is a
+   EXPECTED: building | PREDICTED: habitation,house,building,place,thing
