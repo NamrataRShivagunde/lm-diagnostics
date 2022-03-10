@@ -9,7 +9,7 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED TARGET in TOP 5 predictions: 0.5588235294117647 (19/34)
+EXPECTED TARGET in TOP 5 predictions: 0.5882352941176471 (20/34)
 
 ITEMS PREDICTED CORRECTLY:
 
@@ -47,6 +47,8 @@ Everyone agreed that the stone-washed kind were out of style. But he continued t
    EXPECTED: jeans | PREDICTED: jeans,stone,shoes,Levi
 Pablo wanted to cut the lumber he had bought to make some shelves. He asked his neighbor if he could borrow her
    EXPECTED: saw | PREDICTED: saw,circular,table,chain
+After they unpacked the new refrigerator, they let Billy have his fun. He played for days afterwards with the big
+   EXPECTED: box | PREDICTED: box,,,new,plastic
 It seemed to catch every time she opened or closed her backpack. She decided she would have to replace the
    EXPECTED: zipper | PREDICTED: zipper,strap,buckle,latch
 One fell off her blouse and got lost, and she didn’t have any extras. She ended up searching all over town to find a matching
