@@ -9,75 +9,85 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.36363636363636365 (32/88)
-  for cloze quartile 1: 0.32 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.2608695652173913 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.43478260869565216 (0.333333333 upper, 23 items)
-  for cloze quartile 4: 0.47058823529411764 (0.766666667 upper, 17 items)
+EXPECTED WORD in top 5 predictions: 0.42045454545454547 (37/88)
+  for cloze quartile 1: 0.36 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.34782608695652173 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.4782608695652174 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.5294117647058824 (0.766666667 upper, 17 items)
 
 ITEMS PREDICTED CORRECTLY:
 
 The librarian documented which journalist the celebrities had 
-   EXPECTED: avoided,hated,read,met | PREDICTED: interviewed,been,met,worked
+   EXPECTED: avoided,hated,read,met | PREDICTED: interviewed,met,hired,.,written
 The librarian documented which celebrities the journalist had 
-   EXPECTED: interviewed | PREDICTED: interviewed,photographed,covered,met
+   EXPECTED: interviewed | PREDICTED: interviewed,met,photographed,.,visited
 the old widower remembered which ghost the villager had 
-   EXPECTED: seen | PREDICTED: been,seen,killed,said
+   EXPECTED: seen | PREDICTED: seen,been,killed,.,met
+the historian documented which assassin the prince had 
+   EXPECTED: hired | PREDICTED: killed,chosen,hired,executed,used
 the historian documented which prince the assassin had 
-   EXPECTED: killed | PREDICTED: killed,murdered,shot,as
+   EXPECTED: killed | PREDICTED: killed,murdered,shot,targeted,executed
 the judo master recognized which assailant the defender had 
-   EXPECTED: defeated,beaten | PREDICTED: been,defeated,just,to
+   EXPECTED: defeated,beaten | PREDICTED: been,just,defeated,to
 the judo master recognized which defender the assailant had 
-   EXPECTED: attacked | PREDICTED: attacked,chosen,used,been
+   EXPECTED: attacked | PREDICTED: attacked,been,hit,targeted
 the naturalist observed which deer the predators had 
-   EXPECTED: eaten,killed | PREDICTED: killed,eaten,taken,been
+   EXPECTED: eaten,killed | PREDICTED: killed,eaten,attacked,taken,targeted
 the restaurant owner forgot which customer the waitress had 
-   EXPECTED: served | PREDICTED: served,to,been,for
+   EXPECTED: served | PREDICTED: served,.,seen,been,to
 the nanny knew which billionaire the housekeeper had 
-   EXPECTED: worked for | PREDICTED: been,worked,just,hired
+   EXPECTED: worked for | PREDICTED: been,married,hired,worked,just
 the nanny knew which housekeeper the billionaire had 
-   EXPECTED: hired | PREDICTED: hired,chosen,employed,appointed
+   EXPECTED: hired | PREDICTED: hired,chosen,in,employed,selected
 Tracy announced which applicant the administrator had 
-   EXPECTED: chosen | PREDICTED: selected,chosen,hired,approved
+   EXPECTED: chosen | PREDICTED: selected,chosen,.,hired,rejected
+the birthday boy saw which clown the friend had 
+   EXPECTED: hired | PREDICTED: .,chosen,been,picked,hired
 the columnist publicized which celebrity the photographer had 
-   EXPECTED: photographed | PREDICTED: photographed,taken,shot,been,captured
+   EXPECTED: photographed | PREDICTED: photographed,shot,captured,taken,met
 the royal cook asked which chef the lord had 
-   EXPECTED: requested,chosen,hired | PREDICTED: appointed,chosen,been,hired
+   EXPECTED: requested,chosen,hired | PREDICTED: chosen,appointed,hired,employed,been
 the royal cook asked which lord the chef had 
-   EXPECTED: served | PREDICTED: been,served,cooked,come
+   EXPECTED: served | PREDICTED: served,been,met,married,.
 the aid worker realized which refugees the philanthropist had 
-   EXPECTED: helped | PREDICTED: helped,given,sent,sponsored
+   EXPECTED: helped | PREDICTED: helped,chosen,sponsored,donated
 the camper reported which bear the girl had 
-   EXPECTED: seen | PREDICTED: seen,been,caught,met
+   EXPECTED: seen | PREDICTED: .,seen,killed,named,met
 the camper reported which girl the bear had 
-   EXPECTED: eaten | PREDICTED: been,eaten,seen,caught
+   EXPECTED: eaten | PREDICTED: .,killed,eaten,chosen,seen
 the bird watcher saw which hawk the photographer had 
-   EXPECTED: photographed | PREDICTED: captured,taken,photographed,shot
+   EXPECTED: photographed | PREDICTED: captured,taken,photographed,caught,shot
 the costume designer confirmed which barber the actor had 
-   EXPECTED: used | PREDICTED: used,been,hired,worked
+   EXPECTED: used | PREDICTED: used,hired,chosen,worked,employed
 the investigator discovered which couple the abductor had 
-   EXPECTED: taken | PREDICTED: ab,taken,been,kid
+   EXPECTED: taken | PREDICTED: targeted,ab,killed,taken,been
 the undead king recognized which zombie the woman had 
-   EXPECTED: killed | PREDICTED: killed,been,turned,chosen
+   EXPECTED: killed | PREDICTED: been,killed,become,turned
 the broadcaster explained which contestant the judge had 
-   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,picked,decided
+   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,.,picked,decided
+the newscaster confirmed which policeman the fugitive had 
+   EXPECTED: shot | PREDICTED: been,killed,shot,met
 the newscaster confirmed which fugitive the policeman had 
-   EXPECTED: captured | PREDICTED: arrested,been,caught,captured
+   EXPECTED: captured | PREDICTED: arrested,been,captured,caught
+the opera composer revealed which singer the pirate had 
+   EXPECTED: kidnapped,murdered,killed | PREDICTED: chosen,hired,.,killed,been
 the producer observed which acrobats the viewers had 
-   EXPECTED: liked | PREDICTED: seen,liked,chosen,enjoyed
+   EXPECTED: liked | PREDICTED: seen,liked,chosen,enjoyed,preferred
 The ape researcher identified which poacher the chimpanzee had 
-   EXPECTED: attacked | PREDICTED: been,killed,come,attacked
+   EXPECTED: attacked | PREDICTED: been,killed,attacked,come
 The ape researcher identified which chimpanzee the poacher had 
-   EXPECTED: killed | PREDICTED: killed,targeted,been,taken
+   EXPECTED: killed | PREDICTED: killed,been,targeted,taken
 the committee member guessed which president the advisors had 
-   EXPECTED: chosen | PREDICTED: been,chosen,recommended,selected
+   EXPECTED: chosen | PREDICTED: chosen,recommended,been,selected
 the committee member guessed which advisors the president had 
-   EXPECTED: appointed | PREDICTED: appointed,chosen,hired,selected
+   EXPECTED: appointed | PREDICTED: chosen,hired,appointed,selected,.
 the parole officer confirmed which psychologist the delinquent had 
-   EXPECTED: seen | PREDICTED: been,seen,used,hired
+   EXPECTED: seen | PREDICTED: been,seen,used,worked,hired
 the parole officer confirmed which delinquent the psychologist had 
-   EXPECTED: seen | PREDICTED: seen,been,identified,worked
+   EXPECTED: seen | PREDICTED: seen,been,worked,assessed
 the policeman knew which suspect the detective had 
-   EXPECTED: arrested | PREDICTED: picked,arrested,been,identified
+   EXPECTED: arrested | PREDICTED: .,arrested,identified,picked,selected
+Teresa knew which parrot the neighbor had 
+   EXPECTED: bought | PREDICTED: .,!,?,bought,."
 the farmhand recorded which breeder the goats had 
-   EXPECTED: come from,belonged to | PREDICTED: been,come,crossed,had
+   EXPECTED: come from,belonged to | PREDICTED: come,.,been,met,visited

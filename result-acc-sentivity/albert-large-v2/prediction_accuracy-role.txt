@@ -9,63 +9,11 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.29545454545454547 (26/88)
-  for cloze quartile 1: 0.16 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.2608695652173913 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.34782608695652173 (0.333333333 upper, 23 items)
-  for cloze quartile 4: 0.47058823529411764 (0.766666667 upper, 17 items)
+EXPECTED WORD in top 5 predictions: 0.0 (0/88)
+  for cloze quartile 1: 0.0 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.0 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.0 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.0 (0.766666667 upper, 17 items)
 
 ITEMS PREDICTED CORRECTLY:
 
-The librarian documented which celebrities the journalist had 
-   EXPECTED: interviewed | PREDICTED: interviewed,photographed,befriended,contacted,met
-the old widower remembered which ghost the villager had 
-   EXPECTED: seen | PREDICTED: seen,slain,been,woken,led
-the historian documented which prince the assassin had 
-   EXPECTED: killed | PREDICTED: chosen,slain,been,killed,captured
-the naturalist observed which deer the predators had 
-   EXPECTED: eaten,killed | PREDICTED: eaten,slain,killed,slaughtered,hunted
-the restaurant owner forgot which customer the waitress had 
-   EXPECTED: served | PREDICTED: ordered,served,asked,substituted,addressed
-the nanny knew which housekeeper the billionaire had 
-   EXPECTED: hired | PREDICTED: hired,been,chosen,employed,gotten
-Tracy announced which applicant the administrator had 
-   EXPECTED: chosen | PREDICTED: selected,chosen,nominated,shortlisted,approved
-the birthday boy saw which clown the friend had 
-   EXPECTED: hired | PREDICTED: chosen,hired,dressed,gotten,invented
-the columnist publicized which celebrity the photographer had 
-   EXPECTED: photographed | PREDICTED: photographed,interviewed,been,seen,filmed
-the royal cook asked which chef the lord had 
-   EXPECTED: requested,chosen,hired | PREDICTED: chosen,hired,appointed,ordered,ordained
-the camper reported which bear the girl had 
-   EXPECTED: seen | PREDICTED: eaten,seen,caught,gotten,slain
-the camper reported which girl the bear had 
-   EXPECTED: eaten | PREDICTED: eaten,bitten,slain,killed,befriended
-the bird watcher saw which hawk the photographer had 
-   EXPECTED: photographed | PREDICTED: spotted,photographed,seen,shot,captured
-the investigator discovered which abductor the couple had 
-   EXPECTED: identified | PREDICTED: been,identified,found,arrested,murdered
-the undead king recognized which zombie the woman had 
-   EXPECTED: killed | PREDICTED: slain,eaten,killed,become,been
-the undead king recognized which woman the zombie had 
-   EXPECTED: eaten | PREDICTED: eaten,slain,killed,murdered,bitten
-the broadcaster explained which contestant the judge had 
-   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,picked,disqualified,nominated
-the newscaster confirmed which fugitive the policeman had 
-   EXPECTED: captured | PREDICTED: arrested,killed,detained,captured,caught
-The ape researcher identified which chimpanzee the poacher had 
-   EXPECTED: killed | PREDICTED: killed,eaten,bitten,slaughtered,slain
-the committee member guessed which president the advisors had 
-   EXPECTED: chosen | PREDICTED: nominated,chosen,elected,been,appointed
-the committee member guessed which advisors the president had 
-   EXPECTED: appointed | PREDICTED: hired,been,consulted,appointed,chosen
-the parole officer confirmed which psychologist the delinquent had 
-   EXPECTED: seen | PREDICTED: seen,hired,consulted,visited,been
-the policeman knew which suspect the detective had 
-   EXPECTED: arrested | PREDICTED: arrested,identified,caught,killed,detained
-the farmhand recorded which goats the breeder had 
-   EXPECTED: bred | PREDICTED: raised,bred,slaughtered,collected,purchased
-the four-year-old knew which dragon the hero had 
-   EXPECTED: slain | PREDICTED: slain,eaten,killed,captured,chosen
-the four-year-old knew which hero the dragon had 
-   EXPECTED: slain | PREDICTED: chosen,been,named,taken,slain

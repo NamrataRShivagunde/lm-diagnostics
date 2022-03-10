@@ -9,19 +9,7 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.375 (6/16)
+TRUE COMPLETION in top 5 predictions: 0.0 (0/16)
 
 ITEMS PREDICTED CORRECTLY:
 
-Secondhand furniture is very
-   EXPECTED: cheap | PREDICTED: expensive,affordable,inexpensive,cheap,rare
-Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: difficult,easy,hard,painful,satisfying
-Terrorist bomb attacks are really
-   EXPECTED: dangerous | PREDICTED: scary,rare,dangerous,deadly,bad
-Vitamins and proteins are very
-   EXPECTED: good | PREDICTED: important,good,useful,beneficial,helpful
-Rockets and missiles are very
-   EXPECTED: fast | PREDICTED: expensive,dangerous,powerful,fast,rare
-A baby bunny's fur is very
-   EXPECTED: soft | PREDICTED: soft,delicate,thick,fluffy,fuzzy
