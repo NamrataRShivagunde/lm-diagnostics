@@ -112,14 +112,13 @@ def get_predictions(input_sents,modelname,model,tokenizer,k=5,bert=True):
             softpred = torch.softmax(predictions[0, mi, :],0)
             top_inds = torch.argsort(softpred,descending=True)[:k].cpu().numpy()
             top_probs = [softpred[tgt_ind].item() for tgt_ind in top_inds]
-            top_tok_preds.append(tokenizer.decode(top_inds).strip())
 
-            # top_tok_preds = []
-            # i = 0
-            # while len(top_tok_preds) < k:
-            #     if tokenizer.decode(top_inds[i]).strip() not in stop_words:
-            #         top_tok_preds.append(tokenizer.decode(top_inds[i]).strip())
-            #     i += 1
+            top_tok_preds = []
+            i = 0
+            while len(top_tok_preds) < k:
+                # if tokenizer.decode(top_inds[i]).strip() not in stop_words:
+                top_tok_preds.append(tokenizer.decode(top_inds[i]).strip())
+                i += 1
 
         top_tok_preds = [re.sub('\<\/w\>','',e) for e in top_tok_preds]
 
