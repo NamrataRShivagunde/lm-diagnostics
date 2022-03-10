@@ -9,19 +9,23 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.375 (6/16)
+TRUE COMPLETION in top 5 predictions: 0.5 (8/16)
 
 ITEMS PREDICTED CORRECTLY:
 
 With proper equipment, scuba-diving is very
-   EXPECTED: safe | PREDICTED: safe,easy,enjoyable,rewarding,accessible
+   EXPECTED: safe | PREDICTED: safe,easy,enjoyable,simple,accessible
 In moderation, drinking red wine is
    EXPECTED: good | PREDICTED: fine,healthy,okay,good,great
 Drinking tap water in developing countries is very
-   EXPECTED: dangerous | PREDICTED: dangerous,safe,important,unsafe,common
+   EXPECTED: dangerous | PREDICTED: dangerous,safe,unsafe,important,common
+Secondhand furniture is very
+   EXPECTED: cheap | PREDICTED: .,popular,affordable,expensive,cheap
 Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: easy,difficult,hard,rewarding,simple
+   EXPECTED: difficult | PREDICTED: easy,difficult,simple,hard,rewarding
 Terrorist bomb attacks are really
-   EXPECTED: dangerous | PREDICTED: .,dangerous,rare,frightening,scary
+   EXPECTED: dangerous | PREDICTED: dangerous,rare,scary,frightening,terrible
+Vitamins and proteins are very
+   EXPECTED: good | PREDICTED: important,essential,helpful,useful,good
 A baby bunny's fur is very
-   EXPECTED: soft | PREDICTED: soft,fluffy,fine,short,thin
+   EXPECTED: soft | PREDICTED: soft,short,fine,fluffy,thin

@@ -9,41 +9,29 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.9444444444444444 (17/18)
+TRUE COMPLETION in top 5 predictions: 0.6111111111111112 (11/18)
 
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: fish,trout,fishery,surname,salmon
-A salmon is a
-   EXPECTED: fish | PREDICTED: fish,salmon,fishery,surname,trout
-An ant is an
-   EXPECTED: insect | PREDICTED: ant,insect,animal,organism,ants
+   EXPECTED: fish | PREDICTED: .,;,trout!,fish
 A bee is an
-   EXPECTED: insect | PREDICTED: insect,animal,organism,owl,entity
+   EXPECTED: insect | PREDICTED: insect,animal,;.,organism
 A robin is a
-   EXPECTED: bird | PREDICTED: bird,robin,dog,rooster,feather
+   EXPECTED: bird | PREDICTED: ;.!,robin,bird
 A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,sparrow,parrot,feather,lark
-An oak is a
-   EXPECTED: tree | PREDICTED: tree,shrub,landmark,plant,forest
-A pine is a
-   EXPECTED: tree | PREDICTED: tree,shrub,pine,plant,forest
+   EXPECTED: bird | PREDICTED: .,sparrow,bird,;!
 A rose is a
-   EXPECTED: flower | PREDICTED: flower,rose,daisy,shrub,perennial
-A daisy is a
-   EXPECTED: flower | PREDICTED: daisy,flower,plant,tree,shrub
+   EXPECTED: flower | PREDICTED: .,flower,rose,;!
 A carrot is a
-   EXPECTED: vegetable | PREDICTED: carrot,vegetable,flower,plant,feather
+   EXPECTED: vegetable | PREDICTED: carrot.,;!,vegetable
 A hammer is a
-   EXPECTED: tool | PREDICTED: hammer,tool,weapon,firearm,device
+   EXPECTED: tool | PREDICTED: hammer.,tool,;,weapon
 A saw is a
-   EXPECTED: tool | PREDICTED: tool,weapon,firearm,knife,blade
+   EXPECTED: tool | PREDICTED: .,tool,;,weapon!
 A car is a
-   EXPECTED: vehicle | PREDICTED: vehicle,motorcycle,bicycle,car,toy
-A truck is a
-   EXPECTED: vehicle | PREDICTED: vehicle,truck,tractor,pickup,motorcycle
+   EXPECTED: vehicle | PREDICTED: .,;,vehicle,car!
 A hotel is a
-   EXPECTED: building | PREDICTED: hotel,building,restaurant,landmark,pub
+   EXPECTED: building | PREDICTED: hotel.,;,building,business
 A house is a
-   EXPECTED: building | PREDICTED: dwelling,building,house,residence,property
+   EXPECTED: building | PREDICTED: .,;,house,dwelling,building

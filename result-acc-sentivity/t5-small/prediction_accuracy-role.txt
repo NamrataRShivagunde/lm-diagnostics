@@ -9,43 +9,41 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.18181818181818182 (16/88)
-  for cloze quartile 1: 0.16 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.13043478260869565 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.21739130434782608 (0.333333333 upper, 23 items)
+EXPECTED WORD in top 5 predictions: 0.17045454545454544 (15/88)
+  for cloze quartile 1: 0.12 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.17391304347826086 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.17391304347826086 (0.333333333 upper, 23 items)
   for cloze quartile 4: 0.23529411764705882 (0.766666667 upper, 17 items)
 
 ITEMS PREDICTED CORRECTLY:
 
-The librarian documented which journalist the celebrities had 
-   EXPECTED: avoided,hated,read,met | PREDICTED: .,become,made,chosen,met
 the old widower remembered which ghost the villager had 
-   EXPECTED: seen | PREDICTED: .,found,chosen,known,seen
+   EXPECTED: seen | PREDICTED: .,chosen,found,known,seen
 the historian documented which prince the assassin had 
-   EXPECTED: killed | PREDICTED: died,killed,.,murdered,served
+   EXPECTED: killed | PREDICTED: died,killed,.,served,taken
 the naturalist observed which deer the predators had 
-   EXPECTED: eaten,killed | PREDICTED: .,seen,eaten,found,known
+   EXPECTED: eaten,killed | PREDICTED: .,eaten,seen,found,taken
 the restaurant owner forgot which customer the waitress had 
-   EXPECTED: served | PREDICTED: .,served,asked,met,chosen
+   EXPECTED: served | PREDICTED: .,served,asked,chosen,met
 the nanny knew which housekeeper the billionaire had 
-   EXPECTED: hired | PREDICTED: .,worked,hired,always,appointed
+   EXPECTED: hired | PREDICTED: .,worked,left,ever,hired
 Tracy announced which applicant the administrator had 
-   EXPECTED: chosen | PREDICTED: chosen,.,selected,hired,appointed
+   EXPECTED: chosen | PREDICTED: chosen,.,selected,announced,appointed
 the royal cook asked which chef the lord had 
-   EXPECTED: requested,chosen,hired | PREDICTED: chosen,served,.,appointed,ever
+   EXPECTED: requested,chosen,hired | PREDICTED: .,chosen,served,appointed,ever
 the royal cook asked which lord the chef had 
-   EXPECTED: served | PREDICTED: appointed,chosen,.,served,named
-the aid worker realized which refugees the philanthropist had 
-   EXPECTED: helped | PREDICTED: helped,.,received,sent,brought
+   EXPECTED: served | PREDICTED: .,appointed,chosen,served,named
 the camper reported which bear the girl had 
-   EXPECTED: seen | PREDICTED: .,seen,died,left,shown
+   EXPECTED: seen | PREDICTED: .,seen,died,taken,gone
 the bird watcher saw which hawk the photographer had 
-   EXPECTED: photographed | PREDICTED: seen,.,photographed,taken,found
+   EXPECTED: photographed | PREDICTED: seen,.,photographed,visited,taken
 the costume designer confirmed which barber the actor had 
-   EXPECTED: used | PREDICTED: chosen,used,hired,worked,.
+   EXPECTED: used | PREDICTED: .,chosen,used,seen,found
+the investigator discovered which couple the abductor had 
+   EXPECTED: taken | PREDICTED: .,found,two,identified,taken
 the broadcaster explained which contestant the judge had 
-   EXPECTED: chosen,disqualified | PREDICTED: chosen,.,selected,asked,entered
+   EXPECTED: chosen,disqualified | PREDICTED: chosen,.,selected,entered,asked
 the committee member guessed which president the advisors had 
-   EXPECTED: chosen | PREDICTED: .,appointed,served,chosen,elected
+   EXPECTED: chosen | PREDICTED: appointed,elected,served,.,chosen
 the committee member guessed which advisors the president had 
-   EXPECTED: appointed | PREDICTED: .,appointed,served,met,chosen
+   EXPECTED: appointed | PREDICTED: .,appointed,chosen,selected,provided
