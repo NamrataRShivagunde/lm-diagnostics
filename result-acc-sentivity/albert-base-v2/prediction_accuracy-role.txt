@@ -9,11 +9,57 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.0 (0/88)
-  for cloze quartile 1: 0.0 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.0 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.0 (0.333333333 upper, 23 items)
-  for cloze quartile 4: 0.0 (0.766666667 upper, 17 items)
+EXPECTED WORD in top 5 predictions: 0.26136363636363635 (23/88)
+  for cloze quartile 1: 0.16 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.391304347826087 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.13043478260869565 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.4117647058823529 (0.766666667 upper, 17 items)
 
 ITEMS PREDICTED CORRECTLY:
 
+The librarian documented which celebrities the journalist had 
+   EXPECTED: interviewed | PREDICTED: written,done,authored,addressed,interviewed
+the old widower remembered which ghost the villager had 
+   EXPECTED: seen | PREDICTED: summoned,killed,slain,murdered,seen
+the historian documented which assassin the prince had 
+   EXPECTED: hired | PREDICTED: dispatched,killed,hired,encountered,murdered
+the historian documented which prince the assassin had 
+   EXPECTED: killed | PREDICTED: killed,murdered,assassinated,slain,dispatched
+the judo master recognized which defender the assailant had 
+   EXPECTED: attacked | PREDICTED: attacked,assaulted,been,taken,summoned
+the naturalist observed which deer the predators had 
+   EXPECTED: eaten,killed | PREDICTED: attacked,killed,spotted,bitten,slaughtered
+the nanny knew which housekeeper the billionaire had 
+   EXPECTED: hired | PREDICTED: hired,chosen,appointed,replaced,been
+the birthday boy saw which clown the friend had 
+   EXPECTED: hired | PREDICTED: nicknamed,named,hired,been,spotted
+the columnist publicized which celebrity the photographer had 
+   EXPECTED: photographed | PREDICTED: photographed,interviewed,contacted,spotted,chosen
+the police officer noted which jeweler the burglar had 
+   EXPECTED: robbed | PREDICTED: robbed,hired,stolen,raided,taken
+the royal cook asked which chef the lord had 
+   EXPECTED: requested,chosen,hired | PREDICTED: chosen,appointed,ordained,ordered,instructed
+the bird watcher saw which hawk the photographer had 
+   EXPECTED: photographed | PREDICTED: photographed,spotted,seen,flown,picked
+the bird watcher saw which photographer the hawk had 
+   EXPECTED: attacked | PREDICTED: taken,flown,attacked,spotted,been
+the costume designer confirmed which barber the actor had 
+   EXPECTED: used | PREDICTED: chosen,worn,invented,taken,used
+the investigator discovered which abductor the couple had 
+   EXPECTED: identified | PREDICTED: befriended,been,contacted,identified,murdered
+the undead king recognized which zombie the woman had 
+   EXPECTED: killed | PREDICTED: attacked,killed,murdered,slain,stabbed
+the broadcaster explained which contestant the judge had 
+   EXPECTED: chosen,disqualified | PREDICTED: dismissed,named,fired,disqualified,asked
+the family counselor understood which daughter the stepparent had 
+   EXPECTED: abused | PREDICTED: adopted,chosen,abused,remarried,born
+the opera composer revealed which singer the pirate had 
+   EXPECTED: kidnapped,murdered,killed | PREDICTED: auditioned,hired,chosen,replaced,murdered
+The ape researcher identified which chimpanzee the poacher had 
+   EXPECTED: killed | PREDICTED: killed,attacked,bitten,slaughtered,taken
+the committee member guessed which president the advisors had 
+   EXPECTED: chosen | PREDICTED: chosen,appointed,nominated,named,drafted
+the committee member guessed which advisors the president had 
+   EXPECTED: appointed | PREDICTED: appointed,appoint,hired,chosen,consulted
+the farmhand recorded which goats the breeder had 
+   EXPECTED: bred | PREDICTED: bred,slaughtered,planted,harvested,picked

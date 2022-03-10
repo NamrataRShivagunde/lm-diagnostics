@@ -9,25 +9,23 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.5625 (9/16)
+TRUE COMPLETION in top 5 predictions: 0.5 (8/16)
 
 ITEMS PREDICTED CORRECTLY:
 
 With proper equipment, scuba-diving is very
-   EXPECTED: safe | PREDICTED: easy,simple,safe,fun,effective
+   EXPECTED: safe | PREDICTED: easy,simple,safe,fun,dangerous
 Traveling in Baghdad is very
-   EXPECTED: dangerous | PREDICTED: expensive,difficult,dangerous,easy,different
+   EXPECTED: dangerous | PREDICTED: difficult,expensive,dangerous,different,hard
 In moderation, drinking red wine is
-   EXPECTED: good | PREDICTED: good,fine,best,delicious,healthy
+   EXPECTED: good | PREDICTED: fine,recommended,good,OK,okay
 Drinking tap water in developing countries is very
-   EXPECTED: dangerous | PREDICTED: expensive,difficult,dangerous,risky,common
+   EXPECTED: dangerous | PREDICTED: expensive,difficult,risky,dangerous,common
 Secondhand furniture is very
-   EXPECTED: cheap | PREDICTED: expensive,cheap,popular,common,rare
+   EXPECTED: cheap | PREDICTED: expensive,cheap,common,popular,rare
 Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: easy,difficult,hard,simple,effective
+   EXPECTED: difficult | PREDICTED: easy,difficult,hard,effective,simple
 Terrorist bomb attacks are really
-   EXPECTED: dangerous | PREDICTED: bad,scary,rare,dangerous,common
-Rockets and missiles are very
-   EXPECTED: fast | PREDICTED: powerful,different,dangerous,similar,fast
+   EXPECTED: dangerous | PREDICTED: bad,rare,common,dangerous,scary
 A baby bunny's fur is very
-   EXPECTED: soft | PREDICTED: soft,thick,pretty,long,cute
+   EXPECTED: soft | PREDICTED: soft,thick,fine,fluffy,delicate

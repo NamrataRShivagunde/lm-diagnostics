@@ -9,11 +9,19 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.0 (0/88)
+EXPECTED WORD in top 5 predictions: 0.045454545454545456 (4/88)
   for cloze quartile 1: 0.0 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.0 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.0 (0.333333333 upper, 23 items)
-  for cloze quartile 4: 0.0 (0.766666667 upper, 17 items)
+  for cloze quartile 2: 0.043478260869565216 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.08695652173913043 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.058823529411764705 (0.766666667 upper, 17 items)
 
 ITEMS PREDICTED CORRECTLY:
 
+the columnist publicized which celebrity the photographer had 
+   EXPECTED: photographed | PREDICTED: iced_____________ied,photographed
+the camper reported which bear the girl had 
+   EXPECTED: seen | PREDICTED: icedikedickedied,seen
+the undead king recognized which zombie the woman had 
+   EXPECTED: killed | PREDICTED: icedickedardedied,killed
+the parole officer confirmed which psychologist the delinquent had 
+   EXPECTED: seen | PREDICTED: seen,withiced,to,visited

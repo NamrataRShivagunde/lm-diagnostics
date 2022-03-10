@@ -9,51 +9,65 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED TARGET in TOP 5 predictions: 0.6470588235294118 (22/34)
+EXPECTED TARGET in TOP 5 predictions: 0.8529411764705882 (29/34)
 
 ITEMS PREDICTED CORRECTLY:
 
 "Checkmate," Rosaline announced with glee. She was getting to be really good at
-   EXPECTED: chess | PREDICTED: evalle,chess,betting,poker,guessing
+   EXPECTED: chess | PREDICTED: chess,snooker,this,guessing,betting
+Justin put a second house on Park Place. He and his sister often spent hours playing
+   EXPECTED: monopoly | PREDICTED: monopoly,atari,nintendo,battleship,dolls
 He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
-   EXPECTED: football | PREDICTED: football,lacrosse,basketball,softball,baseball
+   EXPECTED: football | PREDICTED: football,lacrosse,basketball,softball,soccer
 Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
-   EXPECTED: baseball | PREDICTED: baseball,yankees,yankee,sports,athletics
+   EXPECTED: baseball | PREDICTED: baseball,athletics,sports,yankees,basketball
 Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
-   EXPECTED: ferry | PREDICTED: ferry,shuttle,northbound,amtrak,ferries
+   EXPECTED: ferry | PREDICTED: ferry,ferries,seaplane,greyhound,lifeboat
 The patient was in critical condition and the ambulance wouldn’t be fast enough. They decided they would have to use the
-   EXPECTED: helicopter | PREDICTED: ambulance,helicopter,chopper,helicopters,evalle
+   EXPECTED: helicopter | PREDICTED: helicopter,helicopters,chopper,ambulance,seaplane
 Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
    EXPECTED: plane | PREDICTED: plane,airplane,aeroplane,flight,airliner
 The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
-   EXPECTED: cake | PREDICTED: cake,decorations,bouquet,cookies,wedding
+   EXPECTED: cake | PREDICTED: cake,cookies,decorations,dresses,candles
 The little girl was happy that Santa Claus left nothing but crumbs on the plate. She decided he must have really enjoyed the
-   EXPECTED: cookies | PREDICTED: meal,cookies,dessert,cake,feast
+   EXPECTED: cookies | PREDICTED: cookies,cookie,cake,meal,dessert
+He wanted to make his wife breakfast, but he burned piece after piece. I couldn’t believe he was ruining even the
+   EXPECTED: toast | PREDICTED: bread,dough,eggs,cookies,toast
+She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
+   EXPECTED: necklace | PREDICTED: necklace,scarf,bracelet,handkerchief,shirt
+She wanted to make her eyelashes look really black and thick. So she asked to borrow her older friend’s
+   EXPECTED: mascara | PREDICTED: mascara,lashes,eyelashes,sunglasses,shades
+He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
+   EXPECTED: lipstick | PREDICTED: lipstick,perfume,blouse,shirt,necklace
+Eleanor offered to fix her visitor some coffee. Then she realized she didn’t have a clean
+   EXPECTED: cup | PREDICTED: mug,cup,napkin,pot,saucer
 My aunt fixed my brother some cereal using her best china. Of course, the first thing he did was drop the
    EXPECTED: bowl | PREDICTED: cereal,saucer,spoon,bowl,dish
 At the dinner party, I wondered why my mother wasn’t eating her soup. Then I noticed that she didn’t have a
-   EXPECTED: spoon | PREDICTED: spoon,fork,napkin,bowl,plate
+   EXPECTED: spoon | PREDICTED: spoon,napkin,fork,straw,bowl
+In the dorms, cutting your steak can be a huge struggle. They always give you such a poor quality
+   EXPECTED: knife | PREDICTED: knife,steak,razor,blade,knives
 He journeyed to the African plains, hoping to get a photograph of the king of the beasts. Unfortunately, the whole time he was there he never saw a
-   EXPECTED: lion | PREDICTED: lion,cheetah,leopard,rhino,crocodile
+   EXPECTED: lion | PREDICTED: lion,rhino,cheetah,leopard,crocodile
 George was hiking in India when he saw the orange and black striped animal leap out at him. He sustained serious injuries before he managed to kill the
-   EXPECTED: tiger | PREDICTED: animal,lion,cheetah,tiger,leopard
+   EXPECTED: tiger | PREDICTED: animal,predator,crocodile,tiger,lion
 Barb loved the feel of the waves on her feet, but she hated to walk barefoot. As a compromise, she usually wore a pair of
-   EXPECTED: sandals | PREDICTED: sandals,sneakers,socks,flip,shoes
+   EXPECTED: sandals | PREDICTED: sandals,sneakers,socks,pumps,shoes
 By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
-   EXPECTED: boots | PREDICTED: sneakers,socks,shoes,boots,sandals
-Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
-   EXPECTED: jeans | PREDICTED: jeans,trousers,sandals,shoes,sneakers
+   EXPECTED: boots | PREDICTED: sneakers,sandals,boots,shoes,socks
 As the afternoon progressed, it became hotter and hotter. Keith finally decided to put on a pair of
-   EXPECTED: shorts | PREDICTED: shorts,jeans,shirts,pants,sneakers
+   EXPECTED: shorts | PREDICTED: shorts,jeans,sneakers,pants,sunglasses
+Pablo wanted to cut the lumber he had bought to make some shelves. He asked his neighbor if he could borrow her
+   EXPECTED: saw | PREDICTED: saw,sawmillsaw,axe,drill
 Tina lined up where she thought the nail should go. When she was satisfied, she asked Bruce to hand her the
-   EXPECTED: hammer | PREDICTED: nail,nails,hammer,knife,mallet
+   EXPECTED: hammer | PREDICTED: nail,nails,hammer,mallet,knife
 The yard was completely covered with a thick layer of dead leaves. Erica decided it was time to get out the
-   EXPECTED: rake | PREDICTED: shovel,broom,pitchfork,rake,hose
+   EXPECTED: rake | PREDICTED: broom,pitchfork,rake,shovel,hose
 Fred went to the pantry and got out the homemade jelly his grandmother had brought. Fifteen minutes later, however, he was still struggling to open the
-   EXPECTED: jar | PREDICTED: jelly,wrapper,bottle,jar,packet
+   EXPECTED: jar | PREDICTED: jelly,wrapper,jar,bottle,packet
 It seemed to catch every time she opened or closed her backpack. She decided she would have to replace the
-   EXPECTED: zipper | PREDICTED: zipper,strap,buckle,clasp,zip
+   EXPECTED: zipper | PREDICTED: strap,zipper,buckle,clasp,holster
 “I’m an animal like Eeyore!" the child exclaimed. His mother wondered why he was pretending to be a
-   EXPECTED: donkey | PREDICTED: animal,raccoon,dinosaur,donkey,mammal
+   EXPECTED: donkey | PREDICTED: monkey,pig,animal,donkey,lion
 At the zoo, my sister asked if they painted the black and white stripes on the animal. I explained to her that they were natural features of a
-   EXPECTED: zebra | PREDICTED: cheetah,zebra,leopard,deer,mammal
+   EXPECTED: zebra | PREDICTED: zebra,cheetah,leopard,chameleon,tortoise

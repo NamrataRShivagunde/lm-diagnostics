@@ -14,28 +14,28 @@ TRUE COMPLETION in top 5 predictions: 0.7222222222222222 (13/18)
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: fish,trout,species,freshwater,natural
+   EXPECTED: fish | PREDICTED: fish,trout,species,mineral,protein
 A salmon is a
-   EXPECTED: fish | PREDICTED: fish,salmon,freshwater,food,species
+   EXPECTED: fish | PREDICTED: fish,salmon,protein,mineral,whale
 A bee is an
-   EXPECTED: insect | PREDICTED: insect,animal,adult,organism,annual
+   EXPECTED: insect | PREDICTED: insect,annual,edible,aquatic,animal
 A robin is a
-   EXPECTED: bird | PREDICTED: bird,robin,human,deer,character
+   EXPECTED: bird | PREDICTED: robin,noun,bird,tree,character
 A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,sparrow,small,human,tree
+   EXPECTED: bird | PREDICTED: sparrow,bird,tree,cuckoo,tortoise
 An oak is a
-   EXPECTED: tree | PREDICTED: tree,plant,common.,small
+   EXPECTED: tree | PREDICTED: tree,oak,plant,substance,place
 A pine is a
-   EXPECTED: tree | PREDICTED: tree,pine,wood,hardwood,common
+   EXPECTED: tree | PREDICTED: tree,pine,substance,grape,leaf
 A rose is a
-   EXPECTED: flower | PREDICTED: tree,flower,flowering,plant,rose
+   EXPECTED: flower | PREDICTED: tree,rose,flower,grape,leaf
 A daisy is a
-   EXPECTED: flower | PREDICTED: flower,daisy,plant,flowering,common
+   EXPECTED: flower | PREDICTED: daisy,tree,flower,butterfly,sunflower
 A carrot is a
-   EXPECTED: vegetable | PREDICTED: vegetable,carrot,plant,food,root
+   EXPECTED: vegetable | PREDICTED: carrot,vegetable,tree,potato,nut
 A hammer is a
-   EXPECTED: tool | PREDICTED: hammer,tool,weapon,metal,particle
+   EXPECTED: tool | PREDICTED: hammer,symbol,tool,particle,device
 A car is a
-   EXPECTED: vehicle | PREDICTED: vehicle,car,motor,person,automobile
+   EXPECTED: vehicle | PREDICTED: car,vehicle,truck,driver,bicycle
 A truck is a
-   EXPECTED: vehicle | PREDICTED: truck,vehicle,transportation,pickup,single
+   EXPECTED: vehicle | PREDICTED: truck,vehicle,car,locomotive,pickup

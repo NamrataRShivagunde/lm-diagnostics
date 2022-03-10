@@ -14,18 +14,18 @@ TRUE COMPLETION in top 5 predictions: 0.5 (8/16)
 ITEMS PREDICTED CORRECTLY:
 
 With proper equipment, scuba-diving is very
-   EXPECTED: safe | PREDICTED: safe,easy,fun,enjoyable,rewarding
+   EXPECTED: safe | PREDICTED: safe,easy,enjoyable,fun,rewarding
 Traveling in Baghdad is very
-   EXPECTED: dangerous | PREDICTED: difficult,expensive,dangerous,complicated,risky
-In moderation, drinking red wine is
-   EXPECTED: good | PREDICTED: fine,safe,good,healthy,okay
+   EXPECTED: dangerous | PREDICTED: difficult,expensive,dangerous,complicated,easy
 Drinking tap water in developing countries is very
-   EXPECTED: dangerous | PREDICTED: dangerous,expensive,risky,unhealthy,difficult
+   EXPECTED: dangerous | PREDICTED: dangerous,expensive,risky,common,unhealthy
 Most smokers find that quitting is very
    EXPECTED: difficult | PREDICTED: difficult,hard,challenging,tough,easy
+Old computers may be
+   EXPECTED: slow | PREDICTED: affected,vulnerable,slower,slow,damaged
 Terrorist bomb attacks are really
-   EXPECTED: dangerous | PREDICTED: scary,dangerous,bad,rare,stupid
+   EXPECTED: dangerous | PREDICTED: bad,scary,dangerous,frightening,rare
 A baby bunny's fur is very
-   EXPECTED: soft | PREDICTED: soft,long,fluffy,short,fuzzy
+   EXPECTED: soft | PREDICTED: soft,long,fluffy,short,thick
 Businessman Donald Trump is really
-   EXPECTED: rich | PREDICTED: rich,smart,stupid…,dumb
+   EXPECTED: rich | PREDICTED: rich,smart,stupid,dumb,funny

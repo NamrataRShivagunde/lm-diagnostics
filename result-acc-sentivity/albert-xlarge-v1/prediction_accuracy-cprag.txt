@@ -9,29 +9,35 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED TARGET in TOP 5 predictions: 0.3235294117647059 (11/34)
+EXPECTED TARGET in TOP 5 predictions: 0.4117647058823529 (14/34)
 
 ITEMS PREDICTED CORRECTLY:
 
-He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
-   EXPECTED: football | PREDICTED: football,basketball,soccer,play,baseball
 Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
-   EXPECTED: baseball | PREDICTED: baseball,sports,the,sporting,wrestling
+   EXPECTED: baseball | PREDICTED: baseball,hil,sports,soccer,gim
 Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
-   EXPECTED: ferry | PREDICTED: ferry,boat,shuttle,train,bus
+   EXPECTED: ferry | PREDICTED: ferry,boat,ship,bus,shuttle
 The patient was in critical condition and the ambulance wouldn’t be fast enough. They decided they would have to use the
-   EXPECTED: helicopter | PREDICTED: ambulance,paramedic,emergency,wheelchair,helicopter
+   EXPECTED: helicopter | PREDICTED: ambulance,helicopter,bus,wheelchair,bike
 Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
-   EXPECTED: plane | PREDICTED: plane,airline,first,train,hotel
+   EXPECTED: plane | PREDICTED: plane,airline,flight,bus,taxi
 The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
-   EXPECTED: cake | PREDICTED: cake,ice,dishes,cookies,kitchen
+   EXPECTED: cake | PREDICTED: cake,cookies,dishes,candles,ice
+She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
+   EXPECTED: necklace | PREDICTED: bracelet,necklace,ring,badge,guitar
+He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
+   EXPECTED: lipstick | PREDICTED: dress,lipstick,shirt,mask,thing
+Eleanor offered to fix her visitor some coffee. Then she realized she didn’t have a clean
+   EXPECTED: cup | PREDICTED: mug,cup,pot,coffee,drink
 My aunt fixed my brother some cereal using her best china. Of course, the first thing he did was drop the
-   EXPECTED: bowl | PREDICTED: cereal,microwave,bowl,basket,bottle
+   EXPECTED: bowl | PREDICTED: bowl,bread,dough,lid,pan
 At the dinner party, I wondered why my mother wasn’t eating her soup. Then I noticed that she didn’t have a
-   EXPECTED: spoon | PREDICTED: plate,tray,spoon,dish,bowl
+   EXPECTED: spoon | PREDICTED: spoon,bowl,tray,fork,plate
+He journeyed to the African plains, hoping to get a photograph of the king of the beasts. Unfortunately, the whole time he was there he never saw a
+   EXPECTED: lion | PREDICTED: lion,bird,rhino,horse,tiger
 Barb loved the feel of the waves on her feet, but she hated to walk barefoot. As a compromise, she usually wore a pair of
-   EXPECTED: sandals | PREDICTED: jeans,shorts,sandals,heels,black
-Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
-   EXPECTED: jeans | PREDICTED: jeans,boots,shoes,sandals,gloves
+   EXPECTED: sandals | PREDICTED: jeans,shorts,sandals,heels,sneakers
+By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
+   EXPECTED: boots | PREDICTED: socks,boots,shoes,sneakers,shorts
 As the afternoon progressed, it became hotter and hotter. Keith finally decided to put on a pair of
-   EXPECTED: shorts | PREDICTED: jeans,boxer,sweat,shorts,sunglasses
+   EXPECTED: shorts | PREDICTED: socks,jeans,shorts,pants,sunglasses
