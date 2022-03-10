@@ -1,340 +1,6 @@
 
 
 ***
-MODEL: roberta-base
-***
-
---
-k = 5
---
-
-Prediction accuracies:
-EXPECTED TARGET in TOP 5 predictions: 0.7058823529411765 (24/34)
-
-ITEMS PREDICTED CORRECTLY:
-
-"Checkmate," Rosaline announced with glee. She was getting to be really good at
-   EXPECTED: chess | PREDICTED: it,this,that,chess,everything
-He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
-   EXPECTED: football | PREDICTED: football,catch,ball,basketball,golf
-Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
-   EXPECTED: baseball | PREDICTED: baseball,sports,Yankees,pitching,them
-Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
-   EXPECTED: ferry | PREDICTED: ferry,bus,plane,boat,shuttle
-The patient was in critical condition and the ambulance wouldn’t be fast enough. They decided they would have to use the
-   EXPECTED: helicopter | PREDICTED: helicopter,air,helicopters,van,CPR
-Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
-   EXPECTED: plane | PREDICTED: plane,flight,airplane,train,ship
-The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
-   EXPECTED: cake | PREDICTED: cake,cakes,icing,pies,cookies
-The little girl was happy that Santa Claus left nothing but crumbs on the plate. She decided he must have really enjoyed the
-   EXPECTED: cookies | PREDICTED: cookies,visit,trip,experience,presents
-He wanted to make his wife breakfast, but he burned piece after piece. I couldn’t believe he was ruining even the
-   EXPECTED: toast | PREDICTED: bacon,eggs,toast,cereal,bread
-She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
-   EXPECTED: necklace | PREDICTED: toy,gift.,leash,necklace
-She wanted to make her eyelashes look really black and thick. So she asked to borrow her older friend’s
-   EXPECTED: mascara | PREDICTED: mascara,glasses,makeup,sunglasses,brush
-He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
-   EXPECTED: lipstick | PREDICTED: lipstick,shirt,dress,perfume,top
-Eleanor offered to fix her visitor some coffee. Then she realized she didn’t have a clean
-   EXPECTED: cup | PREDICTED: cup,mug,plate,purse,one
-My aunt fixed my brother some cereal using her best china. Of course, the first thing he did was drop the
-   EXPECTED: bowl | PREDICTED: spoon,cereal,bowl,lid,fork
-At the dinner party, I wondered why my mother wasn’t eating her soup. Then I noticed that she didn’t have a
-   EXPECTED: spoon | PREDICTED: spoon,fork,knife,phone,coat
-In the dorms, cutting your steak can be a huge struggle. They always give you such a poor quality
-   EXPECTED: knife | PREDICTED: steak.,cut,knife,meat
-He journeyed to the African plains, hoping to get a photograph of the king of the beasts. Unfortunately, the whole time he was there he never saw a
-   EXPECTED: lion | PREDICTED: lion,king,thing,man,creature
-George was hiking in India when he saw the orange and black striped animal leap out at him. He sustained serious injuries before he managed to kill the
-   EXPECTED: tiger | PREDICTED: animal,creature,beast,snake,tiger
-By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
-   EXPECTED: boots | PREDICTED: boots,shoes,socks,sneakers,feet
-Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
-   EXPECTED: jeans | PREDICTED: jeans,glasses,shoes,pants,trousers
-As the afternoon progressed, it became hotter and hotter. Keith finally decided to put on a pair of
-   EXPECTED: shorts | PREDICTED: shorts,pants,jeans,sunglasses,socks
-Tina lined up where she thought the nail should go. When she was satisfied, she asked Bruce to hand her the
-   EXPECTED: hammer | PREDICTED: scissors,nail,tip,money,hammer
-The snow had piled up on the drive so high that they couldn’t get the car out. When Albert woke up, his father handed him a
-   EXPECTED: shovel | PREDICTED: shovel,blanket,flashlight,map,newspaper
-Fred went to the pantry and got out the homemade jelly his grandmother had brought. Fifteen minutes later, however, he was still struggling to open the
-   EXPECTED: jar | PREDICTED: jar,jars,can,lid,bottle
-----------------------------------------------------------------------------
-
-***
-MODEL: roberta-base
-***
-
---
-k = 5
---
-
-Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.0 (0/88)
-  for cloze quartile 1: 0.0 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.0 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.0 (0.333333333 upper, 23 items)
-  for cloze quartile 4: 0.0 (0.766666667 upper, 17 items)
-
-ITEMS PREDICTED CORRECTLY:
-
-----------------------------------------------------------------------------
-
-***
-MODEL: roberta-base
-***
-
---
-k = 5
---
-
-Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.9444444444444444 (17/18)
-
-ITEMS PREDICTED CORRECTLY:
-
-A trout is a
-   EXPECTED: fish | PREDICTED: fish,trout,rainbow,frog,salmon
-A salmon is a
-   EXPECTED: fish | PREDICTED: salmon,fish,whale,trout,bird
-An ant is an
-   EXPECTED: insect | PREDICTED: ant,insect,animal,organism,individual
-A bee is an
-   EXPECTED: insect | PREDICTED: insect,ant,organism,animal,apple
-A robin is a
-   EXPECTED: bird | PREDICTED: rob,robber,bird,rabbit,thief
-A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,hawk,butterfly,cat,moth
-An oak is a
-   EXPECTED: tree | PREDICTED: tree,pine,forest,wood,thorn
-A pine is a
-   EXPECTED: tree | PREDICTED: tree,pine,forest,mushroom,mountain
-A rose is a
-   EXPECTED: flower | PREDICTED: rose,tree,flower,thorn,garden
-A daisy is a
-   EXPECTED: flower | PREDICTED: flower,weed,butterfly,rose,bird
-A carrot is a
-   EXPECTED: vegetable | PREDICTED: carrot,tree,vegetable,banana,stick
-A hammer is a
-   EXPECTED: tool | PREDICTED: nail,sword,tool,hammer,weapon
-A saw is a
-   EXPECTED: tool | PREDICTED: saw,tool,weapon,sword,hammer
-A car is a
-   EXPECTED: vehicle | PREDICTED: car,vehicle,house,machine,person
-A truck is a
-   EXPECTED: vehicle | PREDICTED: truck,car,vehicle,tank,horse
-A hotel is a
-   EXPECTED: building | PREDICTED: hotel,city,building,house,business
-A house is a
-   EXPECTED: building | PREDICTED: house,lot,garden,building,castle
-----------------------------------------------------------------------------
-
-***
-MODEL: roberta-base
-***
-
---
-k = 5
---
-
-Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.5625 (9/16)
-
-ITEMS PREDICTED CORRECTLY:
-
-With proper equipment, scuba-diving is very
-   EXPECTED: safe | PREDICTED: easy,simple,safe,fun,effective
-Traveling in Baghdad is very
-   EXPECTED: dangerous | PREDICTED: expensive,difficult,dangerous,easy,hard
-In moderation, drinking red wine is
-   EXPECTED: good | PREDICTED: fine,good,recommended,OK,okay
-Drinking tap water in developing countries is very
-   EXPECTED: dangerous | PREDICTED: expensive,difficult,dangerous,risky,common
-Secondhand furniture is very
-   EXPECTED: cheap | PREDICTED: expensive,cheap,popular,common,rare
-Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: easy,difficult,hard,effective,popular
-Terrorist bomb attacks are really
-   EXPECTED: dangerous | PREDICTED: bad,rare,common,scary,dangerous
-Rockets and missiles are very
-   EXPECTED: fast | PREDICTED: powerful,different,dangerous,similar,fast
-A baby bunny's fur is very
-   EXPECTED: soft | PREDICTED: soft,thick,fine,fluffy,long
-----------------------------------------------------------------------------
-
-***
-MODEL: roberta-large
-***
-
---
-k = 5
---
-
-Prediction accuracies:
-EXPECTED TARGET in TOP 5 predictions: 0.8235294117647058 (28/34)
-
-ITEMS PREDICTED CORRECTLY:
-
-"Checkmate," Rosaline announced with glee. She was getting to be really good at
-   EXPECTED: chess | PREDICTED: this,chess,it,that,these
-He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
-   EXPECTED: football | PREDICTED: football,basketball,rugby,baseball,ball
-Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
-   EXPECTED: baseball | PREDICTED: baseball,sports,Baseball,Yankees,them
-Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
-   EXPECTED: ferry | PREDICTED: ferry,bus,boat,plane,train
-The patient was in critical condition and the ambulance wouldn’t be fast enough. They decided they would have to use the
-   EXPECTED: helicopter | PREDICTED: helicopter,fire,ambulance,police,van
-Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
-   EXPECTED: plane | PREDICTED: plane,flight,airplane,train,bus
-The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
-   EXPECTED: cake | PREDICTED: cake,cakes,cookies,desserts,dessert
-The little girl was happy that Santa Claus left nothing but crumbs on the plate. She decided he must have really enjoyed the
-   EXPECTED: cookies | PREDICTED: meal,food,cookies,dinner,dessert
-He wanted to make his wife breakfast, but he burned piece after piece. I couldn’t believe he was ruining even the
-   EXPECTED: toast | PREDICTED: toast,coffee,eggs,food,basics
-She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
-   EXPECTED: necklace | PREDICTED: toy,necklace,ring,gift,scarf
-She wanted to make her eyelashes look really black and thick. So she asked to borrow her older friend’s
-   EXPECTED: mascara | PREDICTED: mascara,scissors,brush,makeup,kit
-He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
-   EXPECTED: lipstick | PREDICTED: color,lipstick,dress,makeup,shirt
-Eleanor offered to fix her visitor some coffee. Then she realized she didn’t have a clean
-   EXPECTED: cup | PREDICTED: cup,mug,kitchen,kettle,plate
-My aunt fixed my brother some cereal using her best china. Of course, the first thing he did was drop the
-   EXPECTED: bowl | PREDICTED: bowl,spoon,cereal,box,food
-At the dinner party, I wondered why my mother wasn’t eating her soup. Then I noticed that she didn’t have a
-   EXPECTED: spoon | PREDICTED: spoon,fork,bowl,knife,plate
-In the dorms, cutting your steak can be a huge struggle. They always give you such a poor quality
-   EXPECTED: knife | PREDICTED: knife,steak,cut,slice,one
-He journeyed to the African plains, hoping to get a photograph of the king of the beasts. Unfortunately, the whole time he was there he never saw a
-   EXPECTED: lion | PREDICTED: lion,buffalo,gorilla,Rhino,tiger
-George was hiking in India when he saw the orange and black striped animal leap out at him. He sustained serious injuries before he managed to kill the
-   EXPECTED: tiger | PREDICTED: tiger,animal,snake,creature,lion
-By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
-   EXPECTED: boots | PREDICTED: shoes,sneakers,socks,boots,trainers
-Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
-   EXPECTED: jeans | PREDICTED: them,jeans,shoes,sneakers,trainers
-As the afternoon progressed, it became hotter and hotter. Keith finally decided to put on a pair of
-   EXPECTED: shorts | PREDICTED: shorts,sunglasses,pants,sweats,jeans
-Pablo wanted to cut the lumber he had bought to make some shelves. He asked his neighbor if he could borrow her
-   EXPECTED: saw | PREDICTED: saw,axe,scissors,knife,tools
-Tina lined up where she thought the nail should go. When she was satisfied, she asked Bruce to hand her the
-   EXPECTED: hammer | PREDICTED: nail,hammer,gun,nails,needle
-The snow had piled up on the drive so high that they couldn’t get the car out. When Albert woke up, his father handed him a
-   EXPECTED: shovel | PREDICTED: shovel,flashlight,shotgun,gun,cigarette
-The yard was completely covered with a thick layer of dead leaves. Erica decided it was time to get out the
-   EXPECTED: rake | PREDICTED: rake,tractor,shovel,tools,camera
-Fred went to the pantry and got out the homemade jelly his grandmother had brought. Fifteen minutes later, however, he was still struggling to open the
-   EXPECTED: jar | PREDICTED: jar,jars,door,lid,bottle
-After they unpacked the new refrigerator, they let Billy have his fun. He played for days afterwards with the big
-   EXPECTED: box | PREDICTED: refrigerator,fridge,freezer,box,thing
-It seemed to catch every time she opened or closed her backpack. She decided she would have to replace the
-   EXPECTED: zipper | PREDICTED: strap,zipper,belt,straps,clasp
-----------------------------------------------------------------------------
-
-***
-MODEL: roberta-large
-***
-
---
-k = 5
---
-
-Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.0 (0/88)
-  for cloze quartile 1: 0.0 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.0 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.0 (0.333333333 upper, 23 items)
-  for cloze quartile 4: 0.0 (0.766666667 upper, 17 items)
-
-ITEMS PREDICTED CORRECTLY:
-
-----------------------------------------------------------------------------
-
-***
-MODEL: roberta-large
-***
-
---
-k = 5
---
-
-Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.9444444444444444 (17/18)
-
-ITEMS PREDICTED CORRECTLY:
-
-A trout is a
-   EXPECTED: fish | PREDICTED: fish,trout,predator,bird,salmon
-A salmon is a
-   EXPECTED: fish | PREDICTED: fish,salmon,trout,predator,bird
-An ant is an
-   EXPECTED: insect | PREDICTED: ant,insect,animal,egg,elephant
-A bee is an
-   EXPECTED: insect | PREDICTED: insect,ant,animal,observer,antenna
-A robin is a
-   EXPECTED: bird | PREDICTED: bird,crow,raven,chicken,friend
-A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,hawk,crow,chicken,pigeon
-An oak is a
-   EXPECTED: tree | PREDICTED: tree,maple,wood,forest,log
-A pine is a
-   EXPECTED: tree | PREDICTED: tree,pine,forest,cone,wood
-A rose is a
-   EXPECTED: flower | PREDICTED: rose,flower,Rose,bloom,garden
-A daisy is a
-   EXPECTED: flower | PREDICTED: flower,rose,weed,rainbow,bloom
-A carrot is a
-   EXPECTED: vegetable | PREDICTED: carrot,vegetable,stick,fruit,weed
-A hammer is a
-   EXPECTED: tool | PREDICTED: hammer,tool,weapon,nail,key
-A saw is a
-   EXPECTED: tool | PREDICTED: tool,saw,blade,knife,hammer
-A car is a
-   EXPECTED: vehicle | PREDICTED: car,vehicle,machine,truck,thing
-A truck is a
-   EXPECTED: vehicle | PREDICTED: truck,car,vehicle,bus,tractor
-A hotel is a
-   EXPECTED: building | PREDICTED: hotel,business,restaurant,building,place
-A house is a
-   EXPECTED: building | PREDICTED: house,home,building,structure,dwelling
-----------------------------------------------------------------------------
-
-***
-MODEL: roberta-large
-***
-
---
-k = 5
---
-
-Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.5 (8/16)
-
-ITEMS PREDICTED CORRECTLY:
-
-With proper equipment, scuba-diving is very
-   EXPECTED: safe | PREDICTED: safe,easy,fun,enjoyable,rewarding
-Traveling in Baghdad is very
-   EXPECTED: dangerous | PREDICTED: difficult,expensive,dangerous,complicated,risky
-In moderation, drinking red wine is
-   EXPECTED: good | PREDICTED: safe,fine,healthy,recommended,good
-Drinking tap water in developing countries is very
-   EXPECTED: dangerous | PREDICTED: dangerous,risky,expensive,unhealthy,common
-Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: difficult,hard,challenging,tough,painful
-Terrorist bomb attacks are really
-   EXPECTED: dangerous | PREDICTED: scary,bad,dangerous,rare,frightening
-A baby bunny's fur is very
-   EXPECTED: soft | PREDICTED: soft,long,fluffy,short,fuzzy
-Businessman Donald Trump is really
-   EXPECTED: rich | PREDICTED: rich,smart,stupid,dumb,sick
-----------------------------------------------------------------------------
-
-***
 MODEL: bert-base-uncased
 ***
 
@@ -742,6 +408,340 @@ Terrorist bomb attacks are really
    EXPECTED: dangerous | PREDICTED: dangerous,bad,rare,common,scary
 A baby bunny's fur is very
    EXPECTED: soft | PREDICTED: soft,thick,long,dense,silky
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-base
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED TARGET in TOP 5 predictions: 0.7058823529411765 (24/34)
+
+ITEMS PREDICTED CORRECTLY:
+
+"Checkmate," Rosaline announced with glee. She was getting to be really good at
+   EXPECTED: chess | PREDICTED: it,this,that,chess,everything
+He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
+   EXPECTED: football | PREDICTED: football,catch,ball,basketball,golf
+Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
+   EXPECTED: baseball | PREDICTED: baseball,sports,Yankees,pitching,them
+Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
+   EXPECTED: ferry | PREDICTED: ferry,bus,plane,boat,shuttle
+The patient was in critical condition and the ambulance wouldn’t be fast enough. They decided they would have to use the
+   EXPECTED: helicopter | PREDICTED: helicopter,air,helicopters,van,CPR
+Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
+   EXPECTED: plane | PREDICTED: plane,flight,airplane,train,ship
+The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
+   EXPECTED: cake | PREDICTED: cake,cakes,icing,pies,cookies
+The little girl was happy that Santa Claus left nothing but crumbs on the plate. She decided he must have really enjoyed the
+   EXPECTED: cookies | PREDICTED: cookies,visit,trip,experience,presents
+He wanted to make his wife breakfast, but he burned piece after piece. I couldn’t believe he was ruining even the
+   EXPECTED: toast | PREDICTED: bacon,eggs,toast,cereal,bread
+She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
+   EXPECTED: necklace | PREDICTED: toy,gift.,leash,necklace
+She wanted to make her eyelashes look really black and thick. So she asked to borrow her older friend’s
+   EXPECTED: mascara | PREDICTED: mascara,glasses,makeup,sunglasses,brush
+He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
+   EXPECTED: lipstick | PREDICTED: lipstick,shirt,dress,perfume,top
+Eleanor offered to fix her visitor some coffee. Then she realized she didn’t have a clean
+   EXPECTED: cup | PREDICTED: cup,mug,plate,purse,one
+My aunt fixed my brother some cereal using her best china. Of course, the first thing he did was drop the
+   EXPECTED: bowl | PREDICTED: spoon,cereal,bowl,lid,fork
+At the dinner party, I wondered why my mother wasn’t eating her soup. Then I noticed that she didn’t have a
+   EXPECTED: spoon | PREDICTED: spoon,fork,knife,phone,coat
+In the dorms, cutting your steak can be a huge struggle. They always give you such a poor quality
+   EXPECTED: knife | PREDICTED: steak.,cut,knife,meat
+He journeyed to the African plains, hoping to get a photograph of the king of the beasts. Unfortunately, the whole time he was there he never saw a
+   EXPECTED: lion | PREDICTED: lion,king,thing,man,creature
+George was hiking in India when he saw the orange and black striped animal leap out at him. He sustained serious injuries before he managed to kill the
+   EXPECTED: tiger | PREDICTED: animal,creature,beast,snake,tiger
+By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
+   EXPECTED: boots | PREDICTED: boots,shoes,socks,sneakers,feet
+Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
+   EXPECTED: jeans | PREDICTED: jeans,glasses,shoes,pants,trousers
+As the afternoon progressed, it became hotter and hotter. Keith finally decided to put on a pair of
+   EXPECTED: shorts | PREDICTED: shorts,pants,jeans,sunglasses,socks
+Tina lined up where she thought the nail should go. When she was satisfied, she asked Bruce to hand her the
+   EXPECTED: hammer | PREDICTED: scissors,nail,tip,money,hammer
+The snow had piled up on the drive so high that they couldn’t get the car out. When Albert woke up, his father handed him a
+   EXPECTED: shovel | PREDICTED: shovel,blanket,flashlight,map,newspaper
+Fred went to the pantry and got out the homemade jelly his grandmother had brought. Fifteen minutes later, however, he was still struggling to open the
+   EXPECTED: jar | PREDICTED: jar,jars,can,lid,bottle
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-base
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED WORD in top 5 predictions: 0.0 (0/88)
+  for cloze quartile 1: 0.0 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.0 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.0 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.0 (0.766666667 upper, 17 items)
+
+ITEMS PREDICTED CORRECTLY:
+
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-base
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.9444444444444444 (17/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+A trout is a
+   EXPECTED: fish | PREDICTED: fish,trout,rainbow,frog,salmon
+A salmon is a
+   EXPECTED: fish | PREDICTED: salmon,fish,whale,trout,bird
+An ant is an
+   EXPECTED: insect | PREDICTED: ant,insect,animal,organism,individual
+A bee is an
+   EXPECTED: insect | PREDICTED: insect,ant,organism,animal,apple
+A robin is a
+   EXPECTED: bird | PREDICTED: rob,robber,bird,rabbit,thief
+A sparrow is a
+   EXPECTED: bird | PREDICTED: bird,hawk,butterfly,cat,moth
+An oak is a
+   EXPECTED: tree | PREDICTED: tree,pine,forest,wood,thorn
+A pine is a
+   EXPECTED: tree | PREDICTED: tree,pine,forest,mushroom,mountain
+A rose is a
+   EXPECTED: flower | PREDICTED: rose,tree,flower,thorn,garden
+A daisy is a
+   EXPECTED: flower | PREDICTED: flower,weed,butterfly,rose,bird
+A carrot is a
+   EXPECTED: vegetable | PREDICTED: carrot,tree,vegetable,banana,stick
+A hammer is a
+   EXPECTED: tool | PREDICTED: nail,sword,tool,hammer,weapon
+A saw is a
+   EXPECTED: tool | PREDICTED: saw,tool,weapon,sword,hammer
+A car is a
+   EXPECTED: vehicle | PREDICTED: car,vehicle,house,machine,person
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,car,vehicle,tank,horse
+A hotel is a
+   EXPECTED: building | PREDICTED: hotel,city,building,house,business
+A house is a
+   EXPECTED: building | PREDICTED: house,lot,garden,building,castle
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-base
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.5625 (9/16)
+
+ITEMS PREDICTED CORRECTLY:
+
+With proper equipment, scuba-diving is very
+   EXPECTED: safe | PREDICTED: easy,simple,safe,fun,effective
+Traveling in Baghdad is very
+   EXPECTED: dangerous | PREDICTED: expensive,difficult,dangerous,easy,hard
+In moderation, drinking red wine is
+   EXPECTED: good | PREDICTED: fine,good,recommended,OK,okay
+Drinking tap water in developing countries is very
+   EXPECTED: dangerous | PREDICTED: expensive,difficult,dangerous,risky,common
+Secondhand furniture is very
+   EXPECTED: cheap | PREDICTED: expensive,cheap,popular,common,rare
+Most smokers find that quitting is very
+   EXPECTED: difficult | PREDICTED: easy,difficult,hard,effective,popular
+Terrorist bomb attacks are really
+   EXPECTED: dangerous | PREDICTED: bad,rare,common,scary,dangerous
+Rockets and missiles are very
+   EXPECTED: fast | PREDICTED: powerful,different,dangerous,similar,fast
+A baby bunny's fur is very
+   EXPECTED: soft | PREDICTED: soft,thick,fine,fluffy,long
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-large
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED TARGET in TOP 5 predictions: 0.8235294117647058 (28/34)
+
+ITEMS PREDICTED CORRECTLY:
+
+"Checkmate," Rosaline announced with glee. She was getting to be really good at
+   EXPECTED: chess | PREDICTED: this,chess,it,that,these
+He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
+   EXPECTED: football | PREDICTED: football,basketball,rugby,baseball,ball
+Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
+   EXPECTED: baseball | PREDICTED: baseball,sports,Baseball,Yankees,them
+Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
+   EXPECTED: ferry | PREDICTED: ferry,bus,boat,plane,train
+The patient was in critical condition and the ambulance wouldn’t be fast enough. They decided they would have to use the
+   EXPECTED: helicopter | PREDICTED: helicopter,fire,ambulance,police,van
+Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
+   EXPECTED: plane | PREDICTED: plane,flight,airplane,train,bus
+The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
+   EXPECTED: cake | PREDICTED: cake,cakes,cookies,desserts,dessert
+The little girl was happy that Santa Claus left nothing but crumbs on the plate. She decided he must have really enjoyed the
+   EXPECTED: cookies | PREDICTED: meal,food,cookies,dinner,dessert
+He wanted to make his wife breakfast, but he burned piece after piece. I couldn’t believe he was ruining even the
+   EXPECTED: toast | PREDICTED: toast,coffee,eggs,food,basics
+She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
+   EXPECTED: necklace | PREDICTED: toy,necklace,ring,gift,scarf
+She wanted to make her eyelashes look really black and thick. So she asked to borrow her older friend’s
+   EXPECTED: mascara | PREDICTED: mascara,scissors,brush,makeup,kit
+He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
+   EXPECTED: lipstick | PREDICTED: color,lipstick,dress,makeup,shirt
+Eleanor offered to fix her visitor some coffee. Then she realized she didn’t have a clean
+   EXPECTED: cup | PREDICTED: cup,mug,kitchen,kettle,plate
+My aunt fixed my brother some cereal using her best china. Of course, the first thing he did was drop the
+   EXPECTED: bowl | PREDICTED: bowl,spoon,cereal,box,food
+At the dinner party, I wondered why my mother wasn’t eating her soup. Then I noticed that she didn’t have a
+   EXPECTED: spoon | PREDICTED: spoon,fork,bowl,knife,plate
+In the dorms, cutting your steak can be a huge struggle. They always give you such a poor quality
+   EXPECTED: knife | PREDICTED: knife,steak,cut,slice,one
+He journeyed to the African plains, hoping to get a photograph of the king of the beasts. Unfortunately, the whole time he was there he never saw a
+   EXPECTED: lion | PREDICTED: lion,buffalo,gorilla,Rhino,tiger
+George was hiking in India when he saw the orange and black striped animal leap out at him. He sustained serious injuries before he managed to kill the
+   EXPECTED: tiger | PREDICTED: tiger,animal,snake,creature,lion
+By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
+   EXPECTED: boots | PREDICTED: shoes,sneakers,socks,boots,trainers
+Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
+   EXPECTED: jeans | PREDICTED: them,jeans,shoes,sneakers,trainers
+As the afternoon progressed, it became hotter and hotter. Keith finally decided to put on a pair of
+   EXPECTED: shorts | PREDICTED: shorts,sunglasses,pants,sweats,jeans
+Pablo wanted to cut the lumber he had bought to make some shelves. He asked his neighbor if he could borrow her
+   EXPECTED: saw | PREDICTED: saw,axe,scissors,knife,tools
+Tina lined up where she thought the nail should go. When she was satisfied, she asked Bruce to hand her the
+   EXPECTED: hammer | PREDICTED: nail,hammer,gun,nails,needle
+The snow had piled up on the drive so high that they couldn’t get the car out. When Albert woke up, his father handed him a
+   EXPECTED: shovel | PREDICTED: shovel,flashlight,shotgun,gun,cigarette
+The yard was completely covered with a thick layer of dead leaves. Erica decided it was time to get out the
+   EXPECTED: rake | PREDICTED: rake,tractor,shovel,tools,camera
+Fred went to the pantry and got out the homemade jelly his grandmother had brought. Fifteen minutes later, however, he was still struggling to open the
+   EXPECTED: jar | PREDICTED: jar,jars,door,lid,bottle
+After they unpacked the new refrigerator, they let Billy have his fun. He played for days afterwards with the big
+   EXPECTED: box | PREDICTED: refrigerator,fridge,freezer,box,thing
+It seemed to catch every time she opened or closed her backpack. She decided she would have to replace the
+   EXPECTED: zipper | PREDICTED: strap,zipper,belt,straps,clasp
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-large
+***
+
+--
+k = 5
+--
+
+Prediction accuracies:
+EXPECTED WORD in top 5 predictions: 0.0 (0/88)
+  for cloze quartile 1: 0.0 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.0 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.0 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.0 (0.766666667 upper, 17 items)
+
+ITEMS PREDICTED CORRECTLY:
+
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-large
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.9444444444444444 (17/18)
+
+ITEMS PREDICTED CORRECTLY:
+
+A trout is a
+   EXPECTED: fish | PREDICTED: fish,trout,predator,bird,salmon
+A salmon is a
+   EXPECTED: fish | PREDICTED: fish,salmon,trout,predator,bird
+An ant is an
+   EXPECTED: insect | PREDICTED: ant,insect,animal,egg,elephant
+A bee is an
+   EXPECTED: insect | PREDICTED: insect,ant,animal,observer,antenna
+A robin is a
+   EXPECTED: bird | PREDICTED: bird,crow,raven,chicken,friend
+A sparrow is a
+   EXPECTED: bird | PREDICTED: bird,hawk,crow,chicken,pigeon
+An oak is a
+   EXPECTED: tree | PREDICTED: tree,maple,wood,forest,log
+A pine is a
+   EXPECTED: tree | PREDICTED: tree,pine,forest,cone,wood
+A rose is a
+   EXPECTED: flower | PREDICTED: rose,flower,Rose,bloom,garden
+A daisy is a
+   EXPECTED: flower | PREDICTED: flower,rose,weed,rainbow,bloom
+A carrot is a
+   EXPECTED: vegetable | PREDICTED: carrot,vegetable,stick,fruit,weed
+A hammer is a
+   EXPECTED: tool | PREDICTED: hammer,tool,weapon,nail,key
+A saw is a
+   EXPECTED: tool | PREDICTED: tool,saw,blade,knife,hammer
+A car is a
+   EXPECTED: vehicle | PREDICTED: car,vehicle,machine,truck,thing
+A truck is a
+   EXPECTED: vehicle | PREDICTED: truck,car,vehicle,bus,tractor
+A hotel is a
+   EXPECTED: building | PREDICTED: hotel,business,restaurant,building,place
+A house is a
+   EXPECTED: building | PREDICTED: house,home,building,structure,dwelling
+----------------------------------------------------------------------------
+
+***
+MODEL: roberta-large
+***
+
+--
+k = 5
+--
+
+Prediction 'accuracy' (affirmative contexts only):
+TRUE COMPLETION in top 5 predictions: 0.5 (8/16)
+
+ITEMS PREDICTED CORRECTLY:
+
+With proper equipment, scuba-diving is very
+   EXPECTED: safe | PREDICTED: safe,easy,fun,enjoyable,rewarding
+Traveling in Baghdad is very
+   EXPECTED: dangerous | PREDICTED: difficult,expensive,dangerous,complicated,risky
+In moderation, drinking red wine is
+   EXPECTED: good | PREDICTED: safe,fine,healthy,recommended,good
+Drinking tap water in developing countries is very
+   EXPECTED: dangerous | PREDICTED: dangerous,risky,expensive,unhealthy,common
+Most smokers find that quitting is very
+   EXPECTED: difficult | PREDICTED: difficult,hard,challenging,tough,painful
+Terrorist bomb attacks are really
+   EXPECTED: dangerous | PREDICTED: scary,bad,dangerous,rare,frightening
+A baby bunny's fur is very
+   EXPECTED: soft | PREDICTED: soft,long,fluffy,short,fuzzy
+Businessman Donald Trump is really
+   EXPECTED: rich | PREDICTED: rich,smart,stupid,dumb,sick
 ----------------------------------------------------------------------------
 
 ***
@@ -2526,9 +2526,9 @@ EXPECTED TARGET in TOP 5 predictions: 0.20588235294117646 (7/34)
 ITEMS PREDICTED CORRECTLY:
 
 He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
-   EXPECTED: football | PREDICTED: football,game,play,action,games
+   EXPECTED: football | PREDICTED: the,football,his,game
 Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
-   EXPECTED: baseball | PREDICTED: baseball,Yankee,Baseball,playing,winning
+   EXPECTED: baseball | PREDICTED: baseball,the,Yankee,Baseball
 Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
    EXPECTED: ferry | PREDICTED: ferry,island,boat,bus,board
 Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
@@ -2538,7 +2538,7 @@ The day before the wedding, the kitchen was just covered with frosting. Annette�
 By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
    EXPECTED: boots | PREDICTED: shoes,hiking,socks,boots,pair
 It seemed to catch every time she opened or closed her backpack. She decided she would have to replace the
-   EXPECTED: zipper | PREDICTED: backpack,bag,zipper,pack,bags
+   EXPECTED: zipper | PREDICTED: backpack,bag,zipper,pack
 ----------------------------------------------------------------------------
 
 ***
@@ -2550,42 +2550,30 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.1590909090909091 (14/88)
-  for cloze quartile 1: 0.12 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.13043478260869565 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.17391304347826086 (0.333333333 upper, 23 items)
-  for cloze quartile 4: 0.23529411764705882 (0.766666667 upper, 17 items)
+EXPECTED WORD in top 5 predictions: 0.09090909090909091 (8/88)
+  for cloze quartile 1: 0.08 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.08695652173913043 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.08695652173913043 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.11764705882352941 (0.766666667 upper, 17 items)
 
 ITEMS PREDICTED CORRECTLY:
 
-the old widower remembered which ghost the villager had 
-   EXPECTED: seen | PREDICTED: known,found,seen,chosen,called
 the historian documented which prince the assassin had 
-   EXPECTED: killed | PREDICTED: died,killed,taken,done,served
-the naturalist observed which deer the predators had 
-   EXPECTED: eaten,killed | PREDICTED: seen,eaten,known,found,taken
+   EXPECTED: killed | PREDICTED: been,died,to,killed
 the restaurant owner forgot which customer the waitress had 
-   EXPECTED: served | PREDICTED: served,met,asked,chosen,ever
-the nanny knew which housekeeper the billionaire had 
-   EXPECTED: hired | PREDICTED: worked,appointed,hired,left,called
+   EXPECTED: served | PREDICTED: been,to,served,met
 Tracy announced which applicant the administrator had 
-   EXPECTED: chosen | PREDICTED: chosen,filed,requested,announced,named
+   EXPECTED: chosen | PREDICTED: been,chosen,filed,requested
 the royal cook asked which chef the lord had 
-   EXPECTED: requested,chosen,hired | PREDICTED: chosen,served,appointed,asked,ever
-the royal cook asked which lord the chef had 
-   EXPECTED: served | PREDICTED: appointed,chosen,served,named,become
+   EXPECTED: requested,chosen,hired | PREDICTED: been,chosen,to,served
 the camper reported which bear the girl had 
-   EXPECTED: seen | PREDICTED: seen,reported,said,died,.
-the bird watcher saw which hawk the photographer had 
-   EXPECTED: photographed | PREDICTED: seen,saw,photographed,found,.
+   EXPECTED: seen | PREDICTED: been,to,the,seen
 the costume designer confirmed which barber the actor had 
-   EXPECTED: used | PREDICTED: used,chosen,seen,hired,known
+   EXPECTED: used | PREDICTED: been,to,used,chosen
 the broadcaster explained which contestant the judge had 
-   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,asked,entered,named
-the committee member guessed which president the advisors had 
-   EXPECTED: chosen | PREDICTED: appointed,served,elected,chosen,named
+   EXPECTED: chosen,disqualified | PREDICTED: been,chosen,to,selected
 the committee member guessed which advisors the president had 
-   EXPECTED: appointed | PREDICTED: appointed,given,chosen,served,included
+   EXPECTED: appointed | PREDICTED: appointed,to,been,in
 ----------------------------------------------------------------------------
 
 ***
@@ -2597,30 +2585,26 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.5555555555555556 (10/18)
+TRUE COMPLETION in top 5 predictions: 0.4444444444444444 (8/18)
 
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: trou,fish,good,great,source
+   EXPECTED: fish | PREDICTED: trou,fish,good,very
 A salmon is a
-   EXPECTED: fish | PREDICTED: salmon,fish,great,good,popular
+   EXPECTED: fish | PREDICTED: salmon,fish,great,good
 A bee is an
-   EXPECTED: insect | PREDICTED: animal,insect,ancient,excellent,Indian
+   EXPECTED: insect | PREDICTED: be,animal,insect,ancient
 A pine is a
-   EXPECTED: tree | PREDICTED: pine,tree,wood,natural,beautiful
+   EXPECTED: tree | PREDICTED: pine,tree,wood,natural
 A rose is a
-   EXPECTED: flower | PREDICTED: rose,flower,Rose,beautiful,gold
-A carrot is a
-   EXPECTED: vegetable | PREDICTED: carrot,good,sweet,bit,vegetable
-A hammer is a
-   EXPECTED: tool | PREDICTED: good,great,simple,tool,Hammer
+   EXPECTED: flower | PREDICTED: rose,flower,Rose,beautiful
 A saw is a
-   EXPECTED: tool | PREDICTED: saw,tool,simple,standard,single
+   EXPECTED: tool | PREDICTED: saw,tool,simple,standard
 A car is a
-   EXPECTED: vehicle | PREDICTED: car,vehicle,luxury,good,great
+   EXPECTED: vehicle | PREDICTED: car,vehicle,luxury,good
 A truck is a
-   EXPECTED: vehicle | PREDICTED: truck,vehicle,good,great,car
+   EXPECTED: vehicle | PREDICTED: truck,vehicle,good,great
 ----------------------------------------------------------------------------
 
 ***
@@ -2632,18 +2616,16 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.25 (4/16)
+TRUE COMPLETION in top 5 predictions: 0.1875 (3/16)
 
 ITEMS PREDICTED CORRECTLY:
 
-In moderation, drinking red wine is
-   EXPECTED: good | PREDICTED: recommended,consumed,good,fine,necessary
 Most smokers find that quitting is very
    EXPECTED: difficult | PREDICTED: difficult,important,dangerous,expensive,easy
 Vitamins and proteins are very
    EXPECTED: good | PREDICTED: important,good,effective,high,essential
 A baby bunny's fur is very
-   EXPECTED: soft | PREDICTED: cute,fluffy,good,soft,nice
+   EXPECTED: soft | PREDICTED: cute,fluffy,good,soft
 ----------------------------------------------------------------------------
 
 ***
@@ -2655,14 +2637,14 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED TARGET in TOP 5 predictions: 0.4117647058823529 (14/34)
+EXPECTED TARGET in TOP 5 predictions: 0.38235294117647056 (13/34)
 
 ITEMS PREDICTED CORRECTLY:
 
 He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
    EXPECTED: football | PREDICTED: football,golf,rugby,basketball,catch
 Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
-   EXPECTED: baseball | PREDICTED: baseball,sports,football,Yankee,Baseball
+   EXPECTED: baseball | PREDICTED: baseball,sports,the,football,Yankee
 Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
    EXPECTED: ferry | PREDICTED: ferry,bus,plane,train,boat
 Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
@@ -2670,23 +2652,21 @@ Amy was very anxious about traveling abroad for the first time. She felt surpris
 The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
    EXPECTED: cake | PREDICTED: cake,frosting,cupcake,cakes,wedding
 She wanted to make her eyelashes look really black and thick. So she asked to borrow her older friend’s
-   EXPECTED: mascara | PREDICTED: eye,mascara,black,hair,eyebrow
-He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
-   EXPECTED: lipstick | PREDICTED: red,color,lipstick,.,shirt
+   EXPECTED: mascara | PREDICTED: eye,mascara,black,hair
 Eleanor offered to fix her visitor some coffee. Then she realized she didn’t have a clean
    EXPECTED: cup | PREDICTED: coffee,cup,kitchen,room,house
 My aunt fixed my brother some cereal using her best china. Of course, the first thing he did was drop the
-   EXPECTED: bowl | PREDICTED: cereal,bowl,food,rice,box
+   EXPECTED: bowl | PREDICTED: cereal,bowl,food,rice
 At the dinner party, I wondered why my mother wasn’t eating her soup. Then I noticed that she didn’t have a
-   EXPECTED: spoon | PREDICTED: soup,bowl,spoon,vegetable,plate
+   EXPECTED: spoon | PREDICTED: soup,bowl,spoon,vegetable
 By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
    EXPECTED: boots | PREDICTED: shoes,socks,boots,hiking,sandal
 Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
    EXPECTED: jeans | PREDICTED: shoes,jeans,boots,sandal,pants
 Pablo wanted to cut the lumber he had bought to make some shelves. He asked his neighbor if he could borrow her
-   EXPECTED: saw | PREDICTED: lumber,.,wood,saw,cutting
+   EXPECTED: saw | PREDICTED: lumber.,wood,saw
 It seemed to catch every time she opened or closed her backpack. She decided she would have to replace the
-   EXPECTED: zipper | PREDICTED: bag,backpack,plastic,zipper,strap
+   EXPECTED: zipper | PREDICTED: bag,backpack,plastic,zipper
 ----------------------------------------------------------------------------
 
 ***
@@ -2698,74 +2678,54 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.3409090909090909 (30/88)
-  for cloze quartile 1: 0.28 (0.166666667 upper, 25 items)
+EXPECTED WORD in top 5 predictions: 0.22727272727272727 (20/88)
+  for cloze quartile 1: 0.12 (0.166666667 upper, 25 items)
   for cloze quartile 2: 0.17391304347826086 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.391304347826087 (0.333333333 upper, 23 items)
-  for cloze quartile 4: 0.5882352941176471 (0.766666667 upper, 17 items)
+  for cloze quartile 3: 0.21739130434782608 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.47058823529411764 (0.766666667 upper, 17 items)
 
 ITEMS PREDICTED CORRECTLY:
 
-The librarian documented which journalist the celebrities had 
-   EXPECTED: avoided,hated,read,met | PREDICTED: hired,worked,chosen,interviewed,met
 The librarian documented which celebrities the journalist had 
-   EXPECTED: interviewed | PREDICTED: interviewed,met,covered,worked,photographed
+   EXPECTED: interviewed | PREDICTED: interviewed,met,covered,worked
 the old widower remembered which ghost the villager had 
-   EXPECTED: seen | PREDICTED: .,passed,seen,killed,heard
+   EXPECTED: seen | PREDICTED: been.,passed,seen
 the firefighter reported which victim the paramedic had 
-   EXPECTED: saved | PREDICTED: treated,helped,saved,taken,seen
+   EXPECTED: saved | PREDICTED: treated,helped,saved,taken
 the historian documented which prince the assassin had 
-   EXPECTED: killed | PREDICTED: murdered,killed,chosen,.,met
-the judo master recognized which defender the assailant had 
-   EXPECTED: attacked | PREDICTED: attacked,.,chosen,taken,used
+   EXPECTED: killed | PREDICTED: been,murdered,killed,chosen
 the naturalist observed which deer the predators had 
-   EXPECTED: eaten,killed | PREDICTED: eaten,killed,.,pre,caught
+   EXPECTED: eaten,killed | PREDICTED: eaten,been,killed.
 the restaurant owner forgot which customer the waitress had 
-   EXPECTED: served | PREDICTED: served,.,?,ordered,eaten
-the nanny knew which billionaire the housekeeper had 
-   EXPECTED: worked for | PREDICTED: become,made,.,married,worked
-the nanny knew which housekeeper the billionaire had 
-   EXPECTED: hired | PREDICTED: hired,.,chosen,named,?
-the researcher learned which whale the biologist had 
-   EXPECTED: studied | PREDICTED: found,observed,identified,studied,seen
+   EXPECTED: served | PREDICTED: served,been,to.
 Tracy announced which applicant the administrator had 
-   EXPECTED: chosen | PREDICTED: selected,approved,chosen,hired,accepted
+   EXPECTED: chosen | PREDICTED: selected,approved,chosen,hired
 the columnist publicized which celebrity the photographer had 
-   EXPECTED: photographed | PREDICTED: photographed,taken,shot,chosen,captured
+   EXPECTED: photographed | PREDICTED: photographed,taken,shot,been
 the royal cook asked which chef the lord had 
-   EXPECTED: requested,chosen,hired | PREDICTED: chosen,.,appointed,cooked,served
+   EXPECTED: requested,chosen,hired | PREDICTED: chosen,been.,appointed
 the royal cook asked which lord the chef had 
-   EXPECTED: served | PREDICTED: chosen,served,visited,come,cooked
+   EXPECTED: served | PREDICTED: been,chosen,to,served
 the aid worker realized which refugees the philanthropist had 
-   EXPECTED: helped | PREDICTED: helped,given,saved,supported,sent
+   EXPECTED: helped | PREDICTED: helped,been,given,saved
 the camper reported which bear the girl had 
-   EXPECTED: seen | PREDICTED: picked,.,found,seen,brought
-the camper reported which girl the bear had 
-   EXPECTED: eaten | PREDICTED: seen,found,picked,eaten,killed
+   EXPECTED: seen | PREDICTED: picked.,found,seen
 the bird watcher saw which hawk the photographer had 
-   EXPECTED: photographed | PREDICTED: photographed,captured,seen,caught,taken
+   EXPECTED: photographed | PREDICTED: photographed,captured,seen,caught
 the costume designer confirmed which barber the actor had 
-   EXPECTED: used | PREDICTED: chosen,used,hired,selected,seen
+   EXPECTED: used | PREDICTED: chosen,used,hired,been
 the investigator discovered which couple the abductor had 
-   EXPECTED: taken | PREDICTED: ab,taken,kid,stolen,married
+   EXPECTED: taken | PREDICTED: ab,been,taken,kid
 the undead king recognized which zombie the woman had 
-   EXPECTED: killed | PREDICTED: killed,.,become,eaten,chosen
+   EXPECTED: killed | PREDICTED: killed,been.,become
 the broadcaster explained which contestant the judge had 
-   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,picked,decided,named
-the newscaster confirmed which fugitive the policeman had 
-   EXPECTED: captured | PREDICTED: arrested,identified,become,captured,found
-The ape researcher identified which poacher the chimpanzee had 
-   EXPECTED: attacked | PREDICTED: come,killed,become,attacked,met
+   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,to,picked
 The ape researcher identified which chimpanzee the poacher had 
-   EXPECTED: killed | PREDICTED: killed,targeted,attacked,taken,captured
+   EXPECTED: killed | PREDICTED: killed,targeted,attacked,taken
 the committee member guessed which president the advisors had 
-   EXPECTED: chosen | PREDICTED: chosen,.,appointed,selected,named
-the committee member guessed which advisors the president had 
-   EXPECTED: appointed | PREDICTED: chosen,appointed,.,hired,named
+   EXPECTED: chosen | PREDICTED: chosen,been.,appointed
 the policeman knew which suspect the detective had 
-   EXPECTED: arrested | PREDICTED: identified,.,arrested,found,made
-the farmhand recorded which breeder the goats had 
-   EXPECTED: come from,belonged to | PREDICTED: come,.,taken,purchased,chosen
+   EXPECTED: arrested | PREDICTED: identified.,been,arrested
 ----------------------------------------------------------------------------
 
 ***
@@ -2782,37 +2742,37 @@ TRUE COMPLETION in top 5 predictions: 0.8888888888888888 (16/18)
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: trou,fish,small,species,large
+   EXPECTED: fish | PREDICTED: trou,fish,small,species
 A salmon is a
-   EXPECTED: fish | PREDICTED: salmon,fish,species,type,wild
+   EXPECTED: fish | PREDICTED: salmon,fish,species,type
 An ant is an
-   EXPECTED: insect | PREDICTED: insect,animal,insects,alien,organism
+   EXPECTED: insect | PREDICTED: insect,animal,in,insects
 A bee is an
-   EXPECTED: insect | PREDICTED: insect,animal,important,adult,insects
+   EXPECTED: insect | PREDICTED: insect,animal,important,adult
 A robin is a
-   EXPECTED: bird | PREDICTED: small,bird,species,common,large
+   EXPECTED: bird | PREDICTED: small,bird,species,common
 A sparrow is a
-   EXPECTED: bird | PREDICTED: spar,bird,small,common,large
+   EXPECTED: bird | PREDICTED: spar,bird,small,common
 An oak is a
-   EXPECTED: tree | PREDICTED: tree,good,wood,beautiful,natural
+   EXPECTED: tree | PREDICTED: tree,good,wood,beautiful
 A pine is a
-   EXPECTED: tree | PREDICTED: tree,pine,good,wood,great
+   EXPECTED: tree | PREDICTED: tree,pine,good,very
 A rose is a
-   EXPECTED: flower | PREDICTED: rose,flower,beautiful,symbol,plant
+   EXPECTED: flower | PREDICTED: rose,flower,beautiful,symbol
 A daisy is a
-   EXPECTED: flower | PREDICTED: flower,da,beautiful,rose,plant
+   EXPECTED: flower | PREDICTED: flower,da,beautiful,rose
 A carrot is a
-   EXPECTED: vegetable | PREDICTED: carrot,good,vegetable,sweet,great
+   EXPECTED: vegetable | PREDICTED: carrot,good,vegetable,sweet
 A pea is a
-   EXPECTED: vegetable | PREDICTED: legume,small,fruit,vegetable,plant
+   EXPECTED: vegetable | PREDICTED: legume,small,fruit,vegetable
 A hammer is a
-   EXPECTED: tool | PREDICTED: tool,sharp,small,type,metal
+   EXPECTED: tool | PREDICTED: tool,sharp,small,type
 A car is a
-   EXPECTED: vehicle | PREDICTED: car,vehicle,type,motor,person
+   EXPECTED: vehicle | PREDICTED: car,vehicle,type,motor
 A truck is a
-   EXPECTED: vehicle | PREDICTED: truck,vehicle,type,car,big
+   EXPECTED: vehicle | PREDICTED: truck,vehicle,type,car
 A house is a
-   EXPECTED: building | PREDICTED: house,home,building,property,place
+   EXPECTED: building | PREDICTED: house,home,building,property
 ----------------------------------------------------------------------------
 
 ***
@@ -2824,7 +2784,7 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.375 (6/16)
+TRUE COMPLETION in top 5 predictions: 0.3125 (5/16)
 
 ITEMS PREDICTED CORRECTLY:
 
@@ -2834,8 +2794,6 @@ Secondhand furniture is very
    EXPECTED: cheap | PREDICTED: popular,rare,affordable,expensive,cheap
 Most smokers find that quitting is very
    EXPECTED: difficult | PREDICTED: difficult,helpful,easy,beneficial,effective
-Terrorist bomb attacks are really
-   EXPECTED: dangerous | PREDICTED: bad,happening,common,dangerous,deadly
 Vitamins and proteins are very
    EXPECTED: good | PREDICTED: important,essential,beneficial,helpful,good
 A baby bunny's fur is very
@@ -2851,44 +2809,42 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED TARGET in TOP 5 predictions: 0.5294117647058824 (18/34)
+EXPECTED TARGET in TOP 5 predictions: 0.5 (17/34)
 
 ITEMS PREDICTED CORRECTLY:
 
 He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
-   EXPECTED: football | PREDICTED: football,golf,basketball,soccer,baseball
+   EXPECTED: football | PREDICTED: football,golf,basketball,soccer
 Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
-   EXPECTED: baseball | PREDICTED: baseball,sports,New,Yankee,Baseball
+   EXPECTED: baseball | PREDICTED: the,baseball,sports,New,Yankee
 Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
-   EXPECTED: ferry | PREDICTED: ferry,boat,bus,island,car
+   EXPECTED: ferry | PREDICTED: ferry,boat,bus,island
 The patient was in critical condition and the ambulance wouldn’t be fast enough. They decided they would have to use the
-   EXPECTED: helicopter | PREDICTED: helicopter,ambulance,air,hospital,fire
+   EXPECTED: helicopter | PREDICTED: helicopter,ambulance,air,hospital
 Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
    EXPECTED: plane | PREDICTED: plane,flight,airplane,train,aircraft
 The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
-   EXPECTED: cake | PREDICTED: cake,wedding,cakes,frosting,cupcake
+   EXPECTED: cake | PREDICTED: cake,wedding,cakes,frosting
 The little girl was happy that Santa Claus left nothing but crumbs on the plate. She decided he must have really enjoyed the
-   EXPECTED: cookies | PREDICTED: meal,cookies,food,little,Christmas
-She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
-   EXPECTED: necklace | PREDICTED: little,gift,new,necklace,.
+   EXPECTED: cookies | PREDICTED: meal,cookies,food,little
 She wanted to make her eyelashes look really black and thick. So she asked to borrow her older friend’s
-   EXPECTED: mascara | PREDICTED: mascara,eye,makeup,black,eyebrow
+   EXPECTED: mascara | PREDICTED: mascara,eye,makeup,black
 He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
-   EXPECTED: lipstick | PREDICTED: red,dress,shirt,lipstick,color
+   EXPECTED: lipstick | PREDICTED: red,dress,shirt,lipstick
 Eleanor offered to fix her visitor some coffee. Then she realized she didn’t have a clean
-   EXPECTED: cup | PREDICTED: cup,kitchen,dish,plate,pot
+   EXPECTED: cup | PREDICTED: cup,kitchen,dish,plate
 My aunt fixed my brother some cereal using her best china. Of course, the first thing he did was drop the
    EXPECTED: bowl | PREDICTED: cereal,bowl,whole,spoon,entire
 At the dinner party, I wondered why my mother wasn’t eating her soup. Then I noticed that she didn’t have a
-   EXPECTED: spoon | PREDICTED: spoon,soup,bowl,plate,knife
+   EXPECTED: spoon | PREDICTED: spoon,soup,bowl,plate
 In the dorms, cutting your steak can be a huge struggle. They always give you such a poor quality
-   EXPECTED: knife | PREDICTED: steak,cut,knife,piece,slice
+   EXPECTED: knife | PREDICTED: steak,cut,of,knife
 By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
    EXPECTED: boots | PREDICTED: hiking,shoes,boots,socks,sandal
 Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
-   EXPECTED: jeans | PREDICTED: shoes,jeans,boots,sandal,old
+   EXPECTED: jeans | PREDICTED: shoes,jeans,boots,sandal
 Pablo wanted to cut the lumber he had bought to make some shelves. He asked his neighbor if he could borrow her
-   EXPECTED: saw | PREDICTED: saw,wood,hand,la,tools
+   EXPECTED: saw | PREDICTED: saw,wood,hand,la
 It seemed to catch every time she opened or closed her backpack. She decided she would have to replace the
    EXPECTED: zipper | PREDICTED: strap,latch,bag,zipper,backpack
 ----------------------------------------------------------------------------
@@ -2902,82 +2858,78 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.38636363636363635 (34/88)
+EXPECTED WORD in top 5 predictions: 0.36363636363636365 (32/88)
   for cloze quartile 1: 0.32 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.30434782608695654 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.4782608695652174 (0.333333333 upper, 23 items)
+  for cloze quartile 2: 0.2608695652173913 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.43478260869565216 (0.333333333 upper, 23 items)
   for cloze quartile 4: 0.47058823529411764 (0.766666667 upper, 17 items)
 
 ITEMS PREDICTED CORRECTLY:
 
 The librarian documented which journalist the celebrities had 
-   EXPECTED: avoided,hated,read,met | PREDICTED: interviewed,met,worked,hired,written
+   EXPECTED: avoided,hated,read,met | PREDICTED: interviewed,been,met,worked
 The librarian documented which celebrities the journalist had 
-   EXPECTED: interviewed | PREDICTED: interviewed,photographed,covered,met,interview
+   EXPECTED: interviewed | PREDICTED: interviewed,photographed,covered,met
 the old widower remembered which ghost the villager had 
-   EXPECTED: seen | PREDICTED: seen,killed,said,summon,called
-the historian documented which assassin the prince had 
-   EXPECTED: hired | PREDICTED: killed,executed,chosen,appointed,hired
+   EXPECTED: seen | PREDICTED: been,seen,killed,said
 the historian documented which prince the assassin had 
-   EXPECTED: killed | PREDICTED: killed,murdered,shot,targeted,executed
+   EXPECTED: killed | PREDICTED: killed,murdered,shot,as
 the judo master recognized which assailant the defender had 
-   EXPECTED: defeated,beaten | PREDICTED: defeated,attacked,encountered,taken,hit
+   EXPECTED: defeated,beaten | PREDICTED: been,defeated,just,to
 the judo master recognized which defender the assailant had 
-   EXPECTED: attacked | PREDICTED: attacked,chosen,used,hit,targeted
+   EXPECTED: attacked | PREDICTED: attacked,chosen,used,been
 the naturalist observed which deer the predators had 
-   EXPECTED: eaten,killed | PREDICTED: killed,eaten,taken,attacked,already
+   EXPECTED: eaten,killed | PREDICTED: killed,eaten,taken,been
 the restaurant owner forgot which customer the waitress had 
-   EXPECTED: served | PREDICTED: served,service,.,seen,taken
+   EXPECTED: served | PREDICTED: served,to,been,for
 the nanny knew which billionaire the housekeeper had 
-   EXPECTED: worked for | PREDICTED: worked,hired,met,married,chosen
+   EXPECTED: worked for | PREDICTED: been,worked,just,hired
 the nanny knew which housekeeper the billionaire had 
-   EXPECTED: hired | PREDICTED: hired,chosen,employed,appointed,selected
+   EXPECTED: hired | PREDICTED: hired,chosen,employed,appointed
 Tracy announced which applicant the administrator had 
-   EXPECTED: chosen | PREDICTED: selected,chosen,hired,approved,appointed
+   EXPECTED: chosen | PREDICTED: selected,chosen,hired,approved
 the columnist publicized which celebrity the photographer had 
-   EXPECTED: photographed | PREDICTED: photographed,taken,shot,captured,snappe
+   EXPECTED: photographed | PREDICTED: photographed,taken,shot,been,captured
 the royal cook asked which chef the lord had 
-   EXPECTED: requested,chosen,hired | PREDICTED: appointed,chosen,hired,employed,asked
+   EXPECTED: requested,chosen,hired | PREDICTED: appointed,chosen,been,hired
 the royal cook asked which lord the chef had 
-   EXPECTED: served | PREDICTED: served,cooked,come,worked,asked
+   EXPECTED: served | PREDICTED: been,served,cooked,come
 the aid worker realized which refugees the philanthropist had 
-   EXPECTED: helped | PREDICTED: helped,given,sent,sponsored,donated
+   EXPECTED: helped | PREDICTED: helped,given,sent,sponsored
 the camper reported which bear the girl had 
-   EXPECTED: seen | PREDICTED: seen,caught,met,named,brought
+   EXPECTED: seen | PREDICTED: seen,been,caught,met
 the camper reported which girl the bear had 
-   EXPECTED: eaten | PREDICTED: eaten,seen,caught,met,killed
+   EXPECTED: eaten | PREDICTED: been,eaten,seen,caught
 the bird watcher saw which hawk the photographer had 
-   EXPECTED: photographed | PREDICTED: captured,taken,photographed,shot,caught
+   EXPECTED: photographed | PREDICTED: captured,taken,photographed,shot
 the costume designer confirmed which barber the actor had 
-   EXPECTED: used | PREDICTED: used,hired,worked,seen,chosen
+   EXPECTED: used | PREDICTED: used,been,hired,worked
 the investigator discovered which couple the abductor had 
-   EXPECTED: taken | PREDICTED: ab,taken,kid,killed,targeted
+   EXPECTED: taken | PREDICTED: ab,taken,been,kid
 the undead king recognized which zombie the woman had 
-   EXPECTED: killed | PREDICTED: killed,turned,chosen,become,seen
-the undead king recognized which woman the zombie had 
-   EXPECTED: eaten | PREDICTED: killed,chosen,murdered,attacked,eaten
+   EXPECTED: killed | PREDICTED: killed,been,turned,chosen
 the broadcaster explained which contestant the judge had 
-   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,picked,decided,given
+   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,picked,decided
 the newscaster confirmed which fugitive the policeman had 
-   EXPECTED: captured | PREDICTED: arrested,caught,captured,killed,found
+   EXPECTED: captured | PREDICTED: arrested,been,caught,captured
 the producer observed which acrobats the viewers had 
-   EXPECTED: liked | PREDICTED: seen,liked,chosen,enjoyed,watched
+   EXPECTED: liked | PREDICTED: seen,liked,chosen,enjoyed
 The ape researcher identified which poacher the chimpanzee had 
-   EXPECTED: attacked | PREDICTED: killed,come,attacked,taken,eaten
+   EXPECTED: attacked | PREDICTED: been,killed,come,attacked
 The ape researcher identified which chimpanzee the poacher had 
-   EXPECTED: killed | PREDICTED: killed,targeted,taken,shot,attacked
+   EXPECTED: killed | PREDICTED: killed,targeted,been,taken
 the committee member guessed which president the advisors had 
-   EXPECTED: chosen | PREDICTED: chosen,recommended,selected,advised,picked
+   EXPECTED: chosen | PREDICTED: been,chosen,recommended,selected
 the committee member guessed which advisors the president had 
-   EXPECTED: appointed | PREDICTED: appointed,chosen,hired,selected,picked
+   EXPECTED: appointed | PREDICTED: appointed,chosen,hired,selected
 the parole officer confirmed which psychologist the delinquent had 
-   EXPECTED: seen | PREDICTED: seen,used,hired,employed,worked
+   EXPECTED: seen | PREDICTED: been,seen,used,hired
 the parole officer confirmed which delinquent the psychologist had 
-   EXPECTED: seen | PREDICTED: seen,identified,worked,assessed,examined
+   EXPECTED: seen | PREDICTED: seen,been,identified,worked
 the policeman knew which suspect the detective had 
-   EXPECTED: arrested | PREDICTED: picked,arrested,identified,selected,chosen
+   EXPECTED: arrested | PREDICTED: picked,arrested,been,identified
 the farmhand recorded which breeder the goats had 
-   EXPECTED: come from,belonged to | PREDICTED: come,crossed,came,gone,produced
+   EXPECTED: come from,belonged to | PREDICTED: been,come,crossed,had
 ----------------------------------------------------------------------------
 
 ***
@@ -2994,39 +2946,39 @@ TRUE COMPLETION in top 5 predictions: 0.9444444444444444 (17/18)
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: fish,trou,small,salmon,common
+   EXPECTED: fish | PREDICTED: fish,trou,small,salmon
 A salmon is a
-   EXPECTED: fish | PREDICTED: salmon,fish,small,good,wild
+   EXPECTED: fish | PREDICTED: salmon,fish,small,very
 An ant is an
-   EXPECTED: insect | PREDICTED: insect,animal,organism,herb,.
+   EXPECTED: insect | PREDICTED: insect,an,animal,in
 A bee is an
-   EXPECTED: insect | PREDICTED: insect,important,example,amazing,excellent
+   EXPECTED: insect | PREDICTED: insect,important,example,amazing
 A robin is a
-   EXPECTED: bird | PREDICTED: bird,small,common,species,type
+   EXPECTED: bird | PREDICTED: bird,small,very,common
 A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,small,spar,type,common
+   EXPECTED: bird | PREDICTED: bird,small,spar,type
 An oak is a
-   EXPECTED: tree | PREDICTED: tree,great,good,beautiful,large
+   EXPECTED: tree | PREDICTED: tree,very,great,good
 A pine is a
-   EXPECTED: tree | PREDICTED: tree,pine,wood,good,beautiful
+   EXPECTED: tree | PREDICTED: tree,pine,very,wood
 A rose is a
-   EXPECTED: flower | PREDICTED: rose,flower,beautiful,symbol,Rose
+   EXPECTED: flower | PREDICTED: rose,flower,beautiful,symbol
 A daisy is a
-   EXPECTED: flower | PREDICTED: da,flower,beautiful,rose,bloom
+   EXPECTED: flower | PREDICTED: da,flower,beautiful,rose
 A carrot is a
-   EXPECTED: vegetable | PREDICTED: carrot,vegetable,good,fruit,sweet
+   EXPECTED: vegetable | PREDICTED: carrot,vegetable,very,good
 A pea is a
-   EXPECTED: vegetable | PREDICTED: vegetable,small,pe,plant,flower
+   EXPECTED: vegetable | PREDICTED: vegetable,small,pe,plant
 A hammer is a
-   EXPECTED: tool | PREDICTED: tool,heavy,small,large,type
+   EXPECTED: tool | PREDICTED: tool,heavy,small,large
 A saw is a
-   EXPECTED: tool | PREDICTED: saw,tool,machine,small,blade
+   EXPECTED: tool | PREDICTED: saw,tool,very,machine
 A car is a
-   EXPECTED: vehicle | PREDICTED: machine,vehicle,tool,symbol,great
+   EXPECTED: vehicle | PREDICTED: machine,vehicle,very,tool
 A truck is a
-   EXPECTED: vehicle | PREDICTED: vehicle,big,large,heavy,truck
+   EXPECTED: vehicle | PREDICTED: vehicle,big,large,heavy
 A house is a
-   EXPECTED: building | PREDICTED: home,house,place,building,family
+   EXPECTED: building | PREDICTED: home,house,place,building
 ----------------------------------------------------------------------------
 
 ***
@@ -3045,17 +2997,17 @@ ITEMS PREDICTED CORRECTLY:
 With proper equipment, scuba-diving is very
    EXPECTED: safe | PREDICTED: safe,easy,enjoyable,fun,affordable
 In moderation, drinking red wine is
-   EXPECTED: good | PREDICTED: good,healthy,fine,recommended,safe
+   EXPECTED: good | PREDICTED: good,healthy,fine,recommended
 Drinking tap water in developing countries is very
-   EXPECTED: dangerous | PREDICTED: dangerous,difficult,expensive,important,poor
+   EXPECTED: dangerous | PREDICTED: dangerous,difficult,expensive,important
 Secondhand furniture is very
    EXPECTED: cheap | PREDICTED: popular,cheap,useful,affordable,common
 Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: easy,difficult,hard,simple,tough
+   EXPECTED: difficult | PREDICTED: easy,difficult,hard,simple
 Terrorist bomb attacks are really
-   EXPECTED: dangerous | PREDICTED: happening,dangerous,scary,really,bad
+   EXPECTED: dangerous | PREDICTED: happening,dangerous,very,scary
 A baby bunny's fur is very
-   EXPECTED: soft | PREDICTED: soft,delicate,fluffy,fine,thin
+   EXPECTED: soft | PREDICTED: soft,delicate,fluffy,fine
 ----------------------------------------------------------------------------
 
 ***
@@ -3067,50 +3019,48 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED TARGET in TOP 5 predictions: 0.5882352941176471 (20/34)
+EXPECTED TARGET in TOP 5 predictions: 0.5588235294117647 (19/34)
 
 ITEMS PREDICTED CORRECTLY:
 
 He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
    EXPECTED: football | PREDICTED: football,baseball,basketball,soccer,American
 Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
-   EXPECTED: baseball | PREDICTED: baseball,sports,New,Yankee,Baseball
+   EXPECTED: baseball | PREDICTED: baseball,the,sports,New,all
 Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
-   EXPECTED: ferry | PREDICTED: ferry,bus,boat,local,shuttle
+   EXPECTED: ferry | PREDICTED: ferry,bus,boat,local
 The patient was in critical condition and the ambulance wouldn’t be fast enough. They decided they would have to use the
-   EXPECTED: helicopter | PREDICTED: helicopter,air,fire,Air,C
+   EXPECTED: helicopter | PREDICTED: helicopter,air,fire,Air
 Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
-   EXPECTED: plane | PREDICTED: plane,airplane,flight,aircraft,train
+   EXPECTED: plane | PREDICTED: plane,airplane,flight,aircraft
 The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
-   EXPECTED: cake | PREDICTED: wedding,cake,beautiful,cakes,delicious
+   EXPECTED: cake | PREDICTED: wedding,cake,beautiful,cakes
 The little girl was happy that Santa Claus left nothing but crumbs on the plate. She decided he must have really enjoyed the
-   EXPECTED: cookies | PREDICTED: cookies,cookie,meal,food,cake
+   EXPECTED: cookies | PREDICTED: cookies,cookie,meal,food
 She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
-   EXPECTED: necklace | PREDICTED: new,little,necklace,beautiful,present
+   EXPECTED: necklace | PREDICTED: new,to,little,necklace
 She wanted to make her eyelashes look really black and thick. So she asked to borrow her older friend’s
-   EXPECTED: mascara | PREDICTED: mascara,eye,black,old,makeup
+   EXPECTED: mascara | PREDICTED: mascara,eye,black,old
 He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
-   EXPECTED: lipstick | PREDICTED: red,color,lipstick,dress,shirt
+   EXPECTED: lipstick | PREDICTED: red,color,lipstick,dress
 Eleanor offered to fix her visitor some coffee. Then she realized she didn’t have a clean
-   EXPECTED: cup | PREDICTED: pot,cup,coffee,kitchen,pan
+   EXPECTED: cup | PREDICTED: pot,cup,coffee,kitchen
 My aunt fixed my brother some cereal using her best china. Of course, the first thing he did was drop the
-   EXPECTED: bowl | PREDICTED: bowl,cereal,china,whole,plate
+   EXPECTED: bowl | PREDICTED: bowl,cereal,china,whole
 At the dinner party, I wondered why my mother wasn’t eating her soup. Then I noticed that she didn’t have a
-   EXPECTED: spoon | PREDICTED: spoon,soup,bowl,plate,knife
+   EXPECTED: spoon | PREDICTED: spoon,for,soup,bowl
 In the dorms, cutting your steak can be a huge struggle. They always give you such a poor quality
-   EXPECTED: knife | PREDICTED: steak,cut,meat,knife,piece
+   EXPECTED: knife | PREDICTED: steak,of,cut,meat,knife
 By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
    EXPECTED: boots | PREDICTED: hiking,shoes,boots,sneakers,walking
 Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
-   EXPECTED: jeans | PREDICTED: jeans,stone,shoes,Levi,den
+   EXPECTED: jeans | PREDICTED: jeans,stone,shoes,Levi
 Pablo wanted to cut the lumber he had bought to make some shelves. He asked his neighbor if he could borrow her
-   EXPECTED: saw | PREDICTED: saw,circular,table,chain,band
-After they unpacked the new refrigerator, they let Billy have his fun. He played for days afterwards with the big
-   EXPECTED: box | PREDICTED: box,,,new,plastic,toys
+   EXPECTED: saw | PREDICTED: saw,circular,table,chain
 It seemed to catch every time she opened or closed her backpack. She decided she would have to replace the
-   EXPECTED: zipper | PREDICTED: zipper,strap,buckle,latch,lock
+   EXPECTED: zipper | PREDICTED: zipper,strap,buckle,latch
 One fell off her blouse and got lost, and she didn’t have any extras. She ended up searching all over town to find a matching
-   EXPECTED: button | PREDICTED: one,pair,button,pin,set
+   EXPECTED: button | PREDICTED: one,pair,button,pin
 ----------------------------------------------------------------------------
 
 ***
@@ -3122,104 +3072,92 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.5113636363636364 (45/88)
+EXPECTED WORD in top 5 predictions: 0.4431818181818182 (39/88)
   for cloze quartile 1: 0.4 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.43478260869565216 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.6086956521739131 (0.333333333 upper, 23 items)
+  for cloze quartile 2: 0.30434782608695654 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.4782608695652174 (0.333333333 upper, 23 items)
   for cloze quartile 4: 0.6470588235294118 (0.766666667 upper, 17 items)
 
 ITEMS PREDICTED CORRECTLY:
 
 The librarian documented which journalist the celebrities had 
-   EXPECTED: avoided,hated,read,met | PREDICTED: read,interviewed,met,visited,worked
+   EXPECTED: avoided,hated,read,met | PREDICTED: been,read,interviewed,met
 The librarian documented which celebrities the journalist had 
-   EXPECTED: interviewed | PREDICTED: interviewed,covered,met,written,visited
+   EXPECTED: interviewed | PREDICTED: interviewed,covered,met,written
 the old widower remembered which ghost the villager had 
-   EXPECTED: seen | PREDICTED: seen,mentioned,described,called,talked
-the historian documented which assassin the prince had 
-   EXPECTED: hired | PREDICTED: killed,chosen,murdered,hired,executed
+   EXPECTED: seen | PREDICTED: seen,been,mentioned,described
 the historian documented which prince the assassin had 
-   EXPECTED: killed | PREDICTED: killed,murdered,targeted,shot,attacked
+   EXPECTED: killed | PREDICTED: killed,been,murdered,targeted
 the judo master recognized which assailant the defender had 
-   EXPECTED: defeated,beaten | PREDICTED: defeated,faced,engaged,struck,attacked
+   EXPECTED: defeated,beaten | PREDICTED: been,just,defeated,to
 the judo master recognized which defender the assailant had 
-   EXPECTED: attacked | PREDICTED: attacked,targeted,struck,hit,intended
+   EXPECTED: attacked | PREDICTED: been,attacked,targeted,struck
 the naturalist observed which deer the predators had 
-   EXPECTED: eaten,killed | PREDICTED: killed,eaten,attacked,targeted,taken
+   EXPECTED: eaten,killed | PREDICTED: killed,been,eaten,attacked
 the naturalist observed which predators the deer had 
-   EXPECTED: avoided | PREDICTED: avoided,encountered,faced,survived,experienced
+   EXPECTED: avoided | PREDICTED: avoided,to,encountered,been
 the restaurant owner forgot which customer the waitress had 
-   EXPECTED: served | PREDICTED: served,attended,brought,forgotten,helped
+   EXPECTED: served | PREDICTED: served,been,just,attended
 the nanny knew which billionaire the housekeeper had 
-   EXPECTED: worked for | PREDICTED: worked,married,served,met,killed
+   EXPECTED: worked for | PREDICTED: been,worked,married,served
 the nanny knew which housekeeper the billionaire had 
-   EXPECTED: hired | PREDICTED: hired,chosen,employed,fired,.
+   EXPECTED: hired | PREDICTED: hired,chosen,employed,been
 the researcher learned which biologist the whale had 
-   EXPECTED: eaten | PREDICTED: attacked,killed,eaten,injured,struck
+   EXPECTED: eaten | PREDICTED: attacked,been,killed,eaten
 Tracy announced which applicant the administrator had 
    EXPECTED: chosen | PREDICTED: selected,chosen,rejected,approved,accepted
-the birthday boy saw which clown the friend had 
-   EXPECTED: hired | PREDICTED: chosen,picked,brought,selected,hired
 the columnist publicized which celebrity the photographer had 
-   EXPECTED: photographed | PREDICTED: photographed,shot,captured,taken,snappe
+   EXPECTED: photographed | PREDICTED: photographed,shot,captured,taken,been
 the royal cook asked which chef the lord had 
-   EXPECTED: requested,chosen,hired | PREDICTED: chosen,hired,employed,used,appointed
+   EXPECTED: requested,chosen,hired | PREDICTED: chosen,hired,employed,used,been
 the royal cook asked which lord the chef had 
-   EXPECTED: served | PREDICTED: served,cooked,killed,worked,married
+   EXPECTED: served | PREDICTED: served,been,just,cooked
 the wildlife curator mentioned which zookeeper the ape had 
-   EXPECTED: attacked | PREDICTED: attacked,killed,recently,taken,eaten
+   EXPECTED: attacked | PREDICTED: been,attacked,killed,just
 the aid worker realized which refugees the philanthropist had 
-   EXPECTED: helped | PREDICTED: helped,sponsored,chosen,supported,taken
+   EXPECTED: helped | PREDICTED: been,helped,sponsored,chosen
 the camper reported which bear the girl had 
-   EXPECTED: seen | PREDICTED: seen,killed,caught,shot,captured
+   EXPECTED: seen | PREDICTED: seen,killed,been,caught
 the camper reported which girl the bear had 
-   EXPECTED: eaten | PREDICTED: attacked,killed,eaten,taken,chase
-the dance instructor noticed which onlookers the performers had 
-   EXPECTED: impressed | PREDICTED: caught,touched,captured,drawn,impressed
+   EXPECTED: eaten | PREDICTED: attacked,killed,eaten,been
 the bird watcher saw which hawk the photographer had 
-   EXPECTED: photographed | PREDICTED: captured,photographed,taken,shot,caught
+   EXPECTED: photographed | PREDICTED: captured,photographed,been,taken,shot
 the bird watcher saw which photographer the hawk had 
-   EXPECTED: attacked | PREDICTED: attacked,targeted,taken,chosen,picked
+   EXPECTED: attacked | PREDICTED: been,attacked,targeted,taken
 the costume designer confirmed which barber the actor had 
-   EXPECTED: used | PREDICTED: used,visited,seen,gone,chosen
+   EXPECTED: used | PREDICTED: used,visited,been,seen,gone
 the undead king recognized which zombie the woman had 
-   EXPECTED: killed | PREDICTED: killed,become,turned,captured,shot
-the undead king recognized which woman the zombie had 
-   EXPECTED: eaten | PREDICTED: killed,attacked,taken,eaten,captured
+   EXPECTED: killed | PREDICTED: been,killed,become,just,turned
 the broadcaster explained which contestant the judge had 
-   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,picked,decided,eliminated
+   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,picked,been
 the newscaster confirmed which policeman the fugitive had 
-   EXPECTED: shot | PREDICTED: shot,killed,murdered,attacked,targeted
+   EXPECTED: shot | PREDICTED: shot,killed,been,murdered
 the newscaster confirmed which fugitive the policeman had 
-   EXPECTED: captured | PREDICTED: captured,arrested,shot,caught,taken
+   EXPECTED: captured | PREDICTED: captured,been,arrested,shot
 the opera composer revealed which singer the pirate had 
-   EXPECTED: kidnapped,murdered,killed | PREDICTED: killed,stolen,captured,im,murdered
-the producer observed which acrobats the viewers had 
-   EXPECTED: liked | PREDICTED: chosen,selected,liked,preferred,enjoyed
-the producer observed which viewers the acrobats had 
-   EXPECTED: impressed | PREDICTED: drawn,captured,impressed,caught,managed
+   EXPECTED: kidnapped,murdered,killed | PREDICTED: been,killed,stolen,captured
 The ape researcher identified which poacher the chimpanzee had 
-   EXPECTED: attacked | PREDICTED: killed,attacked,shot,taken,eaten
+   EXPECTED: attacked | PREDICTED: been,killed,attacked,shot
 The ape researcher identified which chimpanzee the poacher had 
-   EXPECTED: killed | PREDICTED: killed,shot,taken,captured,stolen
+   EXPECTED: killed | PREDICTED: killed,been,shot,taken
 the committee member guessed which president the advisors had 
-   EXPECTED: chosen | PREDICTED: chosen,selected,recommended,met,picked
+   EXPECTED: chosen | PREDICTED: chosen,been,selected,recommended
 the committee member guessed which advisors the president had 
-   EXPECTED: appointed | PREDICTED: chosen,selected,hired,appointed,picked
+   EXPECTED: appointed | PREDICTED: chosen,selected,hired,appointed
 the farmer indicated which donkey the townsperson had 
-   EXPECTED: stolen,ridden | PREDICTED: bought,stolen,chosen,purchased,used
+   EXPECTED: stolen,ridden | PREDICTED: bought,stolen,been,chosen
 the parole officer confirmed which psychologist the delinquent had 
-   EXPECTED: seen | PREDICTED: seen,used,worked,visited,met
+   EXPECTED: seen | PREDICTED: seen,been,used,worked
 the parole officer confirmed which delinquent the psychologist had 
-   EXPECTED: seen | PREDICTED: treated,seen,worked,examined,recommended
+   EXPECTED: seen | PREDICTED: been,treated,seen,worked
 the policeman knew which suspect the detective had 
-   EXPECTED: arrested | PREDICTED: arrested,captured,killed,identified,picked
+   EXPECTED: arrested | PREDICTED: been,arrested,captured,killed
 Teresa knew which parrot the neighbor had 
-   EXPECTED: bought | PREDICTED: .,bought,brought,seen,kept
+   EXPECTED: bought | PREDICTED: .,bought,brought,been
 the art critic identified which model the artist had 
-   EXPECTED: painted | PREDICTED: used,chosen,painted,drawn,worked
+   EXPECTED: painted | PREDICTED: used,chosen,been,painted
 the farmhand recorded which breeder the goats had 
-   EXPECTED: come from,belonged to | PREDICTED: come,crossed,received,came,seen
+   EXPECTED: come from,belonged to | PREDICTED: been,come,crossed,received
 ----------------------------------------------------------------------------
 
 ***
@@ -3231,42 +3169,40 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.8888888888888888 (16/18)
+TRUE COMPLETION in top 5 predictions: 0.8333333333333334 (15/18)
 
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: fish,small,fresh,large,type
+   EXPECTED: fish | PREDICTED: fish,small,fresh,large
 A salmon is a
-   EXPECTED: fish | PREDICTED: fish,large,small,type,marine
+   EXPECTED: fish | PREDICTED: fish,large,small,type
 An ant is an
-   EXPECTED: insect | PREDICTED: animal,insect,example,.,organism
+   EXPECTED: insect | PREDICTED: animal,insect,in,example
 A bee is an
-   EXPECTED: insect | PREDICTED: insect,animal,important,.,interesting
+   EXPECTED: insect | PREDICTED: insect,animal,important,in
 A robin is a
-   EXPECTED: bird | PREDICTED: bird,small,song,.,male
+   EXPECTED: bird | PREDICTED: bird,small,song.
 A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,small,song,.,spar
+   EXPECTED: bird | PREDICTED: bird,small,song.
 An oak is a
-   EXPECTED: tree | PREDICTED: tree,strong,good,great,.
+   EXPECTED: tree | PREDICTED: tree,strong,good,great
 A pine is a
-   EXPECTED: tree | PREDICTED: tree,small,wood,plant,type
+   EXPECTED: tree | PREDICTED: tree,small,wood,plant
 A rose is a
-   EXPECTED: flower | PREDICTED: rose,.,beautiful,flower,gift
+   EXPECTED: flower | PREDICTED: rose.,beautiful,flower
 A daisy is a
-   EXPECTED: flower | PREDICTED: flower,small,type,bloom,beautiful
+   EXPECTED: flower | PREDICTED: flower,small,type,bloom
 A carrot is a
-   EXPECTED: vegetable | PREDICTED: vegetable,root,.,sweet,healthy
+   EXPECTED: vegetable | PREDICTED: vegetable,root.,sweet
 A hammer is a
-   EXPECTED: tool | PREDICTED: tool,hand,heavy,small,common
+   EXPECTED: tool | PREDICTED: tool,hand,heavy,small
 A saw is a
-   EXPECTED: tool | PREDICTED: tool,machine,hand,power,small
-A car is a
-   EXPECTED: vehicle | PREDICTED: machine,big,great,vehicle,major
+   EXPECTED: tool | PREDICTED: tool,machine,hand,power
 A truck is a
-   EXPECTED: vehicle | PREDICTED: large,vehicle,big,heavy,huge
+   EXPECTED: vehicle | PREDICTED: large,vehicle,big,heavy
 A hotel is a
-   EXPECTED: building | PREDICTED: place,building,type,lodging,private
+   EXPECTED: building | PREDICTED: place,building,type,lodging
 ----------------------------------------------------------------------------
 
 ***
@@ -3283,15 +3219,15 @@ TRUE COMPLETION in top 5 predictions: 0.625 (10/16)
 ITEMS PREDICTED CORRECTLY:
 
 With proper equipment, scuba-diving is very
-   EXPECTED: safe | PREDICTED: safe,easy,simple,enjoyable,much
+   EXPECTED: safe | PREDICTED: safe,easy,simple,enjoyable
 In moderation, drinking red wine is
-   EXPECTED: good | PREDICTED: good,healthy,fine,considered,actually
+   EXPECTED: good | PREDICTED: good,healthy,not,fine
 Drinking tap water in developing countries is very
-   EXPECTED: dangerous | PREDICTED: dangerous,common,important,safe,unsafe
+   EXPECTED: dangerous | PREDICTED: dangerous,common,important,safe
 Secondhand furniture is very
-   EXPECTED: cheap | PREDICTED: popular,common,affordable,cheap,expensive
+   EXPECTED: cheap | PREDICTED: popular,common,affordable,cheap
 Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: easy,difficult,simple,hard,rewarding
+   EXPECTED: difficult | PREDICTED: easy,difficult,simple,hard
 Bulletproof vests are very
    EXPECTED: safe | PREDICTED: popular,important,effective,useful,safe
 Terrorist bomb attacks are really
@@ -3299,9 +3235,9 @@ Terrorist bomb attacks are really
 Vitamins and proteins are very
    EXPECTED: good | PREDICTED: important,essential,good,useful,valuable
 A baby bunny's fur is very
-   EXPECTED: soft | PREDICTED: soft,fine,short,thin,delicate
+   EXPECTED: soft | PREDICTED: soft,fine,short,thin
 Businessman Donald Trump is really
-   EXPECTED: rich | PREDICTED: rich,good,famous,wealthy,smart
+   EXPECTED: rich | PREDICTED: the,rich,good,not
 ----------------------------------------------------------------------------
 
 ***
@@ -3448,55 +3384,6 @@ ITEMS PREDICTED CORRECTLY:
 ----------------------------------------------------------------------------
 
 ***
-MODEL: gpt2-large
-***
-
---
-k = 5
---
-
-Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.0 (0/88)
-  for cloze quartile 1: 0.0 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.0 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.0 (0.333333333 upper, 23 items)
-  for cloze quartile 4: 0.0 (0.766666667 upper, 17 items)
-
-ITEMS PREDICTED CORRECTLY:
-
-----------------------------------------------------------------------------
-
-***
-MODEL: gpt2-large
-***
-
---
-k = 5
---
-
-Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.0 (0/18)
-
-ITEMS PREDICTED CORRECTLY:
-
-----------------------------------------------------------------------------
-
-***
-MODEL: gpt2-large
-***
-
---
-k = 5
---
-
-Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.0 (0/16)
-
-ITEMS PREDICTED CORRECTLY:
-
-----------------------------------------------------------------------------
-
-***
 MODEL: gpt2-xl
 ***
 
@@ -3512,7 +3399,7 @@ ITEMS PREDICTED CORRECTLY:
 ----------------------------------------------------------------------------
 
 ***
-MODEL: gpt2-xl
+MODEL: t5-3b
 ***
 
 --
@@ -3520,117 +3407,52 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.03409090909090909 (3/88)
-  for cloze quartile 1: 0.0 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.043478260869565216 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.0 (0.333333333 upper, 23 items)
-  for cloze quartile 4: 0.11764705882352941 (0.766666667 upper, 17 items)
+EXPECTED TARGET in TOP 5 predictions: 0.5588235294117647 (19/34)
 
 ITEMS PREDICTED CORRECTLY:
 
-The librarian documented which celebrities the journalist had 
-   EXPECTED: interviewed | PREDICTED: ied,ided,iced,",interviewed
-the naturalist observed which deer the predators had 
-   EXPECTED: eaten,killed | PREDICTED: ided,[,killed,.,(
-The ape researcher identified which chimpanzee the poacher had 
-   EXPECTED: killed | PREDICTED: ied,iced,captured,ired,killed
-----------------------------------------------------------------------------
-
-***
-MODEL: gpt2-xl
-***
-
---
-k = 5
---
-
-Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.0 (0/18)
-
-ITEMS PREDICTED CORRECTLY:
-
-----------------------------------------------------------------------------
-
-***
-MODEL: gpt2-xl
-***
-
---
-k = 5
---
-
-Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.0 (0/16)
-
-ITEMS PREDICTED CORRECTLY:
-
-----------------------------------------------------------------------------
-
-***
-MODEL: roberta-base
-***
-
---
-k = 5
---
-
-Prediction accuracies:
-EXPECTED TARGET in TOP 5 predictions: 0.7058823529411765 (24/34)
-
-ITEMS PREDICTED CORRECTLY:
-
-"Checkmate," Rosaline announced with glee. She was getting to be really good at
-   EXPECTED: chess | PREDICTED: it,this,that,chess,everything
 He caught the pass and scored another touchdown. There was nothing he enjoyed more than a good game of
-   EXPECTED: football | PREDICTED: football,catch,ball,basketball,golf
+   EXPECTED: football | PREDICTED: football,baseball,basketball,soccer,American
 Rich couldn’t count the number of Yankees games he had seen with his father. They both shared a lifelong interest in
-   EXPECTED: baseball | PREDICTED: baseball,sports,Yankees,pitching,them
+   EXPECTED: baseball | PREDICTED: baseball,the,sports,New,all
 Getting both himself and his car to work on the neighboring island was time-consuming. Every morning he drove for a few minutes and then boarded the
-   EXPECTED: ferry | PREDICTED: ferry,bus,plane,boat,shuttle
+   EXPECTED: ferry | PREDICTED: ferry,bus,boat,local
 The patient was in critical condition and the ambulance wouldn’t be fast enough. They decided they would have to use the
-   EXPECTED: helicopter | PREDICTED: helicopter,air,helicopters,van,CPR
+   EXPECTED: helicopter | PREDICTED: helicopter,air,fire,Air
 Amy was very anxious about traveling abroad for the first time. She felt surprisingly better, however, when she actually boarded the
-   EXPECTED: plane | PREDICTED: plane,flight,airplane,train,ship
+   EXPECTED: plane | PREDICTED: plane,airplane,flight,aircraft
 The day before the wedding, the kitchen was just covered with frosting. Annette’s sister was responsible for making the
-   EXPECTED: cake | PREDICTED: cake,cakes,icing,pies,cookies
+   EXPECTED: cake | PREDICTED: wedding,cake,beautiful,cakes
 The little girl was happy that Santa Claus left nothing but crumbs on the plate. She decided he must have really enjoyed the
-   EXPECTED: cookies | PREDICTED: cookies,visit,trip,experience,presents
-He wanted to make his wife breakfast, but he burned piece after piece. I couldn’t believe he was ruining even the
-   EXPECTED: toast | PREDICTED: bacon,eggs,toast,cereal,bread
+   EXPECTED: cookies | PREDICTED: cookies,cookie,meal,food
 She keeps twirling it around and around under her collar. Stephanie seems really happy that Dan gave her that
-   EXPECTED: necklace | PREDICTED: toy,gift.,leash,necklace
+   EXPECTED: necklace | PREDICTED: new,to,little,necklace
 She wanted to make her eyelashes look really black and thick. So she asked to borrow her older friend’s
-   EXPECTED: mascara | PREDICTED: mascara,glasses,makeup,sunglasses,brush
+   EXPECTED: mascara | PREDICTED: mascara,eye,black,old
 He complained that after she kissed him, he couldn’t get the red color off his face. He finally just asked her to stop wearing that
-   EXPECTED: lipstick | PREDICTED: lipstick,shirt,dress,perfume,top
+   EXPECTED: lipstick | PREDICTED: red,color,lipstick,dress
 Eleanor offered to fix her visitor some coffee. Then she realized she didn’t have a clean
-   EXPECTED: cup | PREDICTED: cup,mug,plate,purse,one
+   EXPECTED: cup | PREDICTED: pot,cup,coffee,kitchen
 My aunt fixed my brother some cereal using her best china. Of course, the first thing he did was drop the
-   EXPECTED: bowl | PREDICTED: spoon,cereal,bowl,lid,fork
+   EXPECTED: bowl | PREDICTED: bowl,cereal,china,whole
 At the dinner party, I wondered why my mother wasn’t eating her soup. Then I noticed that she didn’t have a
-   EXPECTED: spoon | PREDICTED: spoon,fork,knife,phone,coat
+   EXPECTED: spoon | PREDICTED: spoon,for,soup,bowl
 In the dorms, cutting your steak can be a huge struggle. They always give you such a poor quality
-   EXPECTED: knife | PREDICTED: steak.,cut,knife,meat
-He journeyed to the African plains, hoping to get a photograph of the king of the beasts. Unfortunately, the whole time he was there he never saw a
-   EXPECTED: lion | PREDICTED: lion,king,thing,man,creature
-George was hiking in India when he saw the orange and black striped animal leap out at him. He sustained serious injuries before he managed to kill the
-   EXPECTED: tiger | PREDICTED: animal,creature,beast,snake,tiger
+   EXPECTED: knife | PREDICTED: steak,of,cut,meat,knife
 By the end of the day, the hiker’s feet were extremely cold and wet. It was the last time he would ever buy a cheap pair of
-   EXPECTED: boots | PREDICTED: boots,shoes,socks,sneakers,feet
+   EXPECTED: boots | PREDICTED: hiking,shoes,boots,sneakers,walking
 Everyone agreed that the stone-washed kind were out of style. But he continued to wear the same old pair of
-   EXPECTED: jeans | PREDICTED: jeans,glasses,shoes,pants,trousers
-As the afternoon progressed, it became hotter and hotter. Keith finally decided to put on a pair of
-   EXPECTED: shorts | PREDICTED: shorts,pants,jeans,sunglasses,socks
-Tina lined up where she thought the nail should go. When she was satisfied, she asked Bruce to hand her the
-   EXPECTED: hammer | PREDICTED: scissors,nail,tip,money,hammer
-The snow had piled up on the drive so high that they couldn’t get the car out. When Albert woke up, his father handed him a
-   EXPECTED: shovel | PREDICTED: shovel,blanket,flashlight,map,newspaper
-Fred went to the pantry and got out the homemade jelly his grandmother had brought. Fifteen minutes later, however, he was still struggling to open the
-   EXPECTED: jar | PREDICTED: jar,jars,can,lid,bottle
+   EXPECTED: jeans | PREDICTED: jeans,stone,shoes,Levi
+Pablo wanted to cut the lumber he had bought to make some shelves. He asked his neighbor if he could borrow her
+   EXPECTED: saw | PREDICTED: saw,circular,table,chain
+It seemed to catch every time she opened or closed her backpack. She decided she would have to replace the
+   EXPECTED: zipper | PREDICTED: zipper,strap,buckle,latch
+One fell off her blouse and got lost, and she didn’t have any extras. She ended up searching all over town to find a matching
+   EXPECTED: button | PREDICTED: one,pair,button,pin
 ----------------------------------------------------------------------------
 
 ***
-MODEL: roberta-base
+MODEL: t5-3b
 ***
 
 --
@@ -3638,18 +3460,96 @@ k = 5
 --
 
 Prediction accuracies:
-EXPECTED WORD in top 5 predictions: 0.0 (0/88)
-  for cloze quartile 1: 0.0 (0.166666667 upper, 25 items)
-  for cloze quartile 2: 0.0 (0.233333333 upper, 23 items)
-  for cloze quartile 3: 0.0 (0.333333333 upper, 23 items)
-  for cloze quartile 4: 0.0 (0.766666667 upper, 17 items)
+EXPECTED WORD in top 5 predictions: 0.4431818181818182 (39/88)
+  for cloze quartile 1: 0.4 (0.166666667 upper, 25 items)
+  for cloze quartile 2: 0.30434782608695654 (0.233333333 upper, 23 items)
+  for cloze quartile 3: 0.4782608695652174 (0.333333333 upper, 23 items)
+  for cloze quartile 4: 0.6470588235294118 (0.766666667 upper, 17 items)
 
 ITEMS PREDICTED CORRECTLY:
 
+The librarian documented which journalist the celebrities had 
+   EXPECTED: avoided,hated,read,met | PREDICTED: been,read,interviewed,met
+The librarian documented which celebrities the journalist had 
+   EXPECTED: interviewed | PREDICTED: interviewed,covered,met,written
+the old widower remembered which ghost the villager had 
+   EXPECTED: seen | PREDICTED: seen,been,mentioned,described
+the historian documented which prince the assassin had 
+   EXPECTED: killed | PREDICTED: killed,been,murdered,targeted
+the judo master recognized which assailant the defender had 
+   EXPECTED: defeated,beaten | PREDICTED: been,just,defeated,to
+the judo master recognized which defender the assailant had 
+   EXPECTED: attacked | PREDICTED: been,attacked,targeted,struck
+the naturalist observed which deer the predators had 
+   EXPECTED: eaten,killed | PREDICTED: killed,been,eaten,attacked
+the naturalist observed which predators the deer had 
+   EXPECTED: avoided | PREDICTED: avoided,to,encountered,been
+the restaurant owner forgot which customer the waitress had 
+   EXPECTED: served | PREDICTED: served,been,just,attended
+the nanny knew which billionaire the housekeeper had 
+   EXPECTED: worked for | PREDICTED: been,worked,married,served
+the nanny knew which housekeeper the billionaire had 
+   EXPECTED: hired | PREDICTED: hired,chosen,employed,been
+the researcher learned which biologist the whale had 
+   EXPECTED: eaten | PREDICTED: attacked,been,killed,eaten
+Tracy announced which applicant the administrator had 
+   EXPECTED: chosen | PREDICTED: selected,chosen,rejected,approved,accepted
+the columnist publicized which celebrity the photographer had 
+   EXPECTED: photographed | PREDICTED: photographed,shot,captured,taken,been
+the royal cook asked which chef the lord had 
+   EXPECTED: requested,chosen,hired | PREDICTED: chosen,hired,employed,used,been
+the royal cook asked which lord the chef had 
+   EXPECTED: served | PREDICTED: served,been,just,cooked
+the wildlife curator mentioned which zookeeper the ape had 
+   EXPECTED: attacked | PREDICTED: been,attacked,killed,just
+the aid worker realized which refugees the philanthropist had 
+   EXPECTED: helped | PREDICTED: been,helped,sponsored,chosen
+the camper reported which bear the girl had 
+   EXPECTED: seen | PREDICTED: seen,killed,been,caught
+the camper reported which girl the bear had 
+   EXPECTED: eaten | PREDICTED: attacked,killed,eaten,been
+the bird watcher saw which hawk the photographer had 
+   EXPECTED: photographed | PREDICTED: captured,photographed,been,taken,shot
+the bird watcher saw which photographer the hawk had 
+   EXPECTED: attacked | PREDICTED: been,attacked,targeted,taken
+the costume designer confirmed which barber the actor had 
+   EXPECTED: used | PREDICTED: used,visited,been,seen,gone
+the undead king recognized which zombie the woman had 
+   EXPECTED: killed | PREDICTED: been,killed,become,just,turned
+the broadcaster explained which contestant the judge had 
+   EXPECTED: chosen,disqualified | PREDICTED: chosen,selected,picked,been
+the newscaster confirmed which policeman the fugitive had 
+   EXPECTED: shot | PREDICTED: shot,killed,been,murdered
+the newscaster confirmed which fugitive the policeman had 
+   EXPECTED: captured | PREDICTED: captured,been,arrested,shot
+the opera composer revealed which singer the pirate had 
+   EXPECTED: kidnapped,murdered,killed | PREDICTED: been,killed,stolen,captured
+The ape researcher identified which poacher the chimpanzee had 
+   EXPECTED: attacked | PREDICTED: been,killed,attacked,shot
+The ape researcher identified which chimpanzee the poacher had 
+   EXPECTED: killed | PREDICTED: killed,been,shot,taken
+the committee member guessed which president the advisors had 
+   EXPECTED: chosen | PREDICTED: chosen,been,selected,recommended
+the committee member guessed which advisors the president had 
+   EXPECTED: appointed | PREDICTED: chosen,selected,hired,appointed
+the farmer indicated which donkey the townsperson had 
+   EXPECTED: stolen,ridden | PREDICTED: bought,stolen,been,chosen
+the parole officer confirmed which psychologist the delinquent had 
+   EXPECTED: seen | PREDICTED: seen,been,used,worked
+the parole officer confirmed which delinquent the psychologist had 
+   EXPECTED: seen | PREDICTED: been,treated,seen,worked
+the policeman knew which suspect the detective had 
+   EXPECTED: arrested | PREDICTED: been,arrested,captured,killed
+Teresa knew which parrot the neighbor had 
+   EXPECTED: bought | PREDICTED: .,bought,brought,been
+the art critic identified which model the artist had 
+   EXPECTED: painted | PREDICTED: used,chosen,been,painted
+the farmhand recorded which breeder the goats had 
+   EXPECTED: come from,belonged to | PREDICTED: been,come,crossed,received
 ----------------------------------------------------------------------------
 
 ***
-MODEL: roberta-base
+MODEL: t5-3b
 ***
 
 --
@@ -3657,48 +3557,44 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.9444444444444444 (17/18)
+TRUE COMPLETION in top 5 predictions: 0.8333333333333334 (15/18)
 
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: fish,trout,rainbow,frog,salmon
+   EXPECTED: fish | PREDICTED: fish,small,fresh,large
 A salmon is a
-   EXPECTED: fish | PREDICTED: salmon,fish,whale,trout,bird
+   EXPECTED: fish | PREDICTED: fish,large,small,type
 An ant is an
-   EXPECTED: insect | PREDICTED: ant,insect,animal,organism,individual
+   EXPECTED: insect | PREDICTED: animal,insect,in,example
 A bee is an
-   EXPECTED: insect | PREDICTED: insect,ant,organism,animal,apple
+   EXPECTED: insect | PREDICTED: insect,animal,important,in
 A robin is a
-   EXPECTED: bird | PREDICTED: rob,robber,bird,rabbit,thief
+   EXPECTED: bird | PREDICTED: bird,small,song.
 A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,hawk,butterfly,cat,moth
+   EXPECTED: bird | PREDICTED: bird,small,song.
 An oak is a
-   EXPECTED: tree | PREDICTED: tree,pine,forest,wood,thorn
+   EXPECTED: tree | PREDICTED: tree,strong,good,great
 A pine is a
-   EXPECTED: tree | PREDICTED: tree,pine,forest,mushroom,mountain
+   EXPECTED: tree | PREDICTED: tree,small,wood,plant
 A rose is a
-   EXPECTED: flower | PREDICTED: rose,tree,flower,thorn,garden
+   EXPECTED: flower | PREDICTED: rose.,beautiful,flower
 A daisy is a
-   EXPECTED: flower | PREDICTED: flower,weed,butterfly,rose,bird
+   EXPECTED: flower | PREDICTED: flower,small,type,bloom
 A carrot is a
-   EXPECTED: vegetable | PREDICTED: carrot,tree,vegetable,banana,stick
+   EXPECTED: vegetable | PREDICTED: vegetable,root.,sweet
 A hammer is a
-   EXPECTED: tool | PREDICTED: nail,sword,tool,hammer,weapon
+   EXPECTED: tool | PREDICTED: tool,hand,heavy,small
 A saw is a
-   EXPECTED: tool | PREDICTED: saw,tool,weapon,sword,hammer
-A car is a
-   EXPECTED: vehicle | PREDICTED: car,vehicle,house,machine,person
+   EXPECTED: tool | PREDICTED: tool,machine,hand,power
 A truck is a
-   EXPECTED: vehicle | PREDICTED: truck,car,vehicle,tank,horse
+   EXPECTED: vehicle | PREDICTED: large,vehicle,big,heavy
 A hotel is a
-   EXPECTED: building | PREDICTED: hotel,city,building,house,business
-A house is a
-   EXPECTED: building | PREDICTED: house,lot,garden,building,castle
+   EXPECTED: building | PREDICTED: place,building,type,lodging
 ----------------------------------------------------------------------------
 
 ***
-MODEL: roberta-base
+MODEL: t5-3b
 ***
 
 --
@@ -3706,26 +3602,28 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.5625 (9/16)
+TRUE COMPLETION in top 5 predictions: 0.625 (10/16)
 
 ITEMS PREDICTED CORRECTLY:
 
 With proper equipment, scuba-diving is very
-   EXPECTED: safe | PREDICTED: easy,simple,safe,fun,effective
-Traveling in Baghdad is very
-   EXPECTED: dangerous | PREDICTED: expensive,difficult,dangerous,easy,hard
+   EXPECTED: safe | PREDICTED: safe,easy,simple,enjoyable
 In moderation, drinking red wine is
-   EXPECTED: good | PREDICTED: fine,good,recommended,OK,okay
+   EXPECTED: good | PREDICTED: good,healthy,not,fine
 Drinking tap water in developing countries is very
-   EXPECTED: dangerous | PREDICTED: expensive,difficult,dangerous,risky,common
+   EXPECTED: dangerous | PREDICTED: dangerous,common,important,safe
 Secondhand furniture is very
-   EXPECTED: cheap | PREDICTED: expensive,cheap,popular,common,rare
+   EXPECTED: cheap | PREDICTED: popular,common,affordable,cheap
 Most smokers find that quitting is very
-   EXPECTED: difficult | PREDICTED: easy,difficult,hard,effective,popular
+   EXPECTED: difficult | PREDICTED: easy,difficult,simple,hard
+Bulletproof vests are very
+   EXPECTED: safe | PREDICTED: popular,important,effective,useful,safe
 Terrorist bomb attacks are really
-   EXPECTED: dangerous | PREDICTED: bad,rare,common,scary,dangerous
-Rockets and missiles are very
-   EXPECTED: fast | PREDICTED: powerful,different,dangerous,similar,fast
+   EXPECTED: dangerous | PREDICTED: dangerous,common,bad,terrible,horrible
+Vitamins and proteins are very
+   EXPECTED: good | PREDICTED: important,essential,good,useful,valuable
 A baby bunny's fur is very
-   EXPECTED: soft | PREDICTED: soft,thick,fine,fluffy,long
+   EXPECTED: soft | PREDICTED: soft,fine,short,thin
+Businessman Donald Trump is really
+   EXPECTED: rich | PREDICTED: the,rich,good,not
 ----------------------------------------------------------------------------
