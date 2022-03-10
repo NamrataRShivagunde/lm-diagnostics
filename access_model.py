@@ -109,8 +109,9 @@ def get_predictions(input_sents,modelname,model,tokenizer,k=5,bert=True):
 
         top_inds = torch.argsort(softpred,descending=True)[:k].cpu().numpy()
         top_probs = [softpred[tgt_ind].item() for tgt_ind in top_inds]
-        top_tok_preds = tokenizer.decode(top_inds)
+        top_tok_preds = tokenizer.decode(top_inds).strip()
         top_tok_preds = top_tok_preds.split(' ')
+
     
             # top_tok_preds = []
             # i = 0
