@@ -14,36 +14,36 @@ TRUE COMPLETION in top 5 predictions: 0.9444444444444444 (17/18)
 ITEMS PREDICTED CORRECTLY:
 
 A trout is a
-   EXPECTED: fish | PREDICTED: trout,fish,rainbow,salmon,fly
+   EXPECTED: fish | PREDICTED: fish,trout,rainbow,frog,salmon
 A salmon is a
-   EXPECTED: fish | PREDICTED: salmon,fish,whale,trout,predator
+   EXPECTED: fish | PREDICTED: salmon,fish,whale,trout,bird
 An ant is an
-   EXPECTED: insect | PREDICTED: ant,insect,animal,elephant,apple
+   EXPECTED: insect | PREDICTED: ant,insect,animal,organism,individual
 A bee is an
-   EXPECTED: insect | PREDICTED: insect,ant,animal,apple,organism
+   EXPECTED: insect | PREDICTED: insect,ant,organism,animal,apple
 A robin is a
-   EXPECTED: bird | PREDICTED: rob,bird,robber,thief,Robin
+   EXPECTED: bird | PREDICTED: rob,robber,bird,rabbit,thief
 A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,spider,fly,hawk,mouse
+   EXPECTED: bird | PREDICTED: bird,hawk,butterfly,cat,moth
 An oak is a
-   EXPECTED: tree | PREDICTED: tree,pine,forest,oak,thorn
+   EXPECTED: tree | PREDICTED: tree,pine,forest,wood,thorn
 A pine is a
-   EXPECTED: tree | PREDICTED: pine,tree,forest,wood,mushroom
+   EXPECTED: tree | PREDICTED: tree,pine,forest,mushroom,mountain
 A rose is a
-   EXPECTED: flower | PREDICTED: rose,flower,thorn,tree,friend
+   EXPECTED: flower | PREDICTED: rose,tree,flower,thorn,garden
 A daisy is a
-   EXPECTED: flower | PREDICTED: flower,Daisy,weed,rose,bird
+   EXPECTED: flower | PREDICTED: flower,weed,butterfly,rose,bird
 A carrot is a
-   EXPECTED: vegetable | PREDICTED: carrot,vegetable,tree,pumpkin,lemon
+   EXPECTED: vegetable | PREDICTED: carrot,tree,vegetable,banana,stick
 A hammer is a
-   EXPECTED: tool | PREDICTED: hammer,nail,sword,gun,tool
+   EXPECTED: tool | PREDICTED: nail,sword,tool,hammer,weapon
 A saw is a
-   EXPECTED: tool | PREDICTED: saw,sight,see,tool,gun
+   EXPECTED: tool | PREDICTED: saw,tool,weapon,sword,hammer
 A car is a
-   EXPECTED: vehicle | PREDICTED: car,vehicle,machine,house,boat
+   EXPECTED: vehicle | PREDICTED: car,vehicle,house,machine,person
 A truck is a
-   EXPECTED: vehicle | PREDICTED: truck,car,vehicle,tank,tractor
+   EXPECTED: vehicle | PREDICTED: truck,car,vehicle,tank,horse
 A hotel is a
-   EXPECTED: building | PREDICTED: hotel,building,city,house,motel
+   EXPECTED: building | PREDICTED: hotel,city,building,house,business
 A house is a
-   EXPECTED: building | PREDICTED: house,home,building,city,village
+   EXPECTED: building | PREDICTED: house,lot,garden,building,castle
