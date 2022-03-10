@@ -9,7 +9,7 @@ k = 5
 --
 
 Prediction 'accuracy' (affirmative contexts only):
-TRUE COMPLETION in top 5 predictions: 0.375 (6/16)
+TRUE COMPLETION in top 5 predictions: 0.3125 (5/16)
 
 ITEMS PREDICTED CORRECTLY:
 
@@ -19,8 +19,6 @@ Secondhand furniture is very
    EXPECTED: cheap | PREDICTED: popular,rare,affordable,expensive,cheap
 Most smokers find that quitting is very
    EXPECTED: difficult | PREDICTED: difficult,helpful,easy,beneficial,effective
-Terrorist bomb attacks are really
-   EXPECTED: dangerous | PREDICTED: bad,happening,common,dangerous,deadly
 Vitamins and proteins are very
    EXPECTED: good | PREDICTED: important,essential,beneficial,helpful,good
 A baby bunny's fur is very
