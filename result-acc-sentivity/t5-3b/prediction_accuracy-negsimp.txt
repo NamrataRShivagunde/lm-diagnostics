@@ -22,19 +22,19 @@ An ant is an
 A bee is an
    EXPECTED: insect | PREDICTED: insect,animal,important,in
 A robin is a
-   EXPECTED: bird | PREDICTED: bird,small,song.
+   EXPECTED: bird | PREDICTED: bird,small,song,.
 A sparrow is a
-   EXPECTED: bird | PREDICTED: bird,small,song.
+   EXPECTED: bird | PREDICTED: bird,small,song,.
 An oak is a
    EXPECTED: tree | PREDICTED: tree,strong,good,great
 A pine is a
    EXPECTED: tree | PREDICTED: tree,small,wood,plant
 A rose is a
-   EXPECTED: flower | PREDICTED: rose.,beautiful,flower
+   EXPECTED: flower | PREDICTED: rose,.,beautiful,flower
 A daisy is a
    EXPECTED: flower | PREDICTED: flower,small,type,bloom
 A carrot is a
-   EXPECTED: vegetable | PREDICTED: vegetable,root.,sweet
+   EXPECTED: vegetable | PREDICTED: vegetable,root,.,sweet
 A hammer is a
    EXPECTED: tool | PREDICTED: tool,hand,heavy,small
 A saw is a
